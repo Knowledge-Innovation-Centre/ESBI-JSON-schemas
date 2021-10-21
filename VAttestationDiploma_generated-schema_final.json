@@ -1,0 +1,603 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Verifiable Educational Diploma- VAttestation",
+    "description": "Schema for a Verifiable Educational Diploma-VAttestation",
+    "type": "object",
+    "properties": {
+        "@context": {
+            "description": "Defines semantic context of the Verifiable Educational Diploma",
+            "type": "array",
+            "items": {
+                "type": "string",
+                "format": "uri"
+            }
+        },
+        "learningSpecification": {
+            "description": "Defines an opportunity to realise a given set of learning outcomes via a learning activity and/or assessment",
+            "type": "object",
+            "properties": {
+                "id": {
+                    "description": "Defines unique identifier of the Verifiable Accreditation",
+                    "type": "string",
+                    "format": "uri"
+                },
+                "identifier": {
+                    "description": "Defines an alternative identifier of the learning specification, as assigned to it by the organisation who designed the specification. EPassPending verification?? ",
+                    "type": "string",
+                    "format": "uri"
+                },
+                "learningOpportunityType": {
+                    "description": "Describes the type of learning opportunity",
+                    "type": "string",
+                    "format": "uri"
+                },
+                "title": {
+                    "description": "Defines the title of the learning specification",
+                    "type": "string"
+                },
+                "alternativeLabel": {
+                    "description": "An alternative name of the learning specification",
+                    "type": "string"
+                },
+                "definition": {
+                    "description": "Short and abstract description about the learning specification.",
+                    "type": "string"
+                },
+                "learningOutcomeDescription": {
+                    "description": "The full learning outcome description of the learning specification",
+                    "type": "string"
+                },
+                "additionalNote": {
+                    "description": "An additional free text note about the learning specification.",
+                    "type": "string"
+                },
+                "homePage": {
+                    "description": "The homepage (a public web document) of the learning specification.",
+                    "type": "string",
+                    "format": "uri"
+                },
+                "supplementaryDocument": {
+                    "description": "A public web document containing additional documentation about the learning specification.",
+                    "type": "string",
+                    "format": "uri"
+                },
+                "iSCEDFCode": {
+                    "description": "Thematic Area according to the ISCED-F 2013 Classification.",
+                    "type": "string",
+                    "format": "uri"
+                },
+                "educationSubject": {
+                    "description": "An associated field of education from another semantic framework than the ISCED classification. Association EducationSubjectAssociation??",
+                    "type": "string"
+                },
+                "volumeOfLearning": {
+                    "description": "The estimated number of hours the learner is expected to spend engaged in learning to earn the award. This would include the notional number of hours in class, in group work, in practicals, as well as hours engaged in self-motivated study",
+                    "type": "string"
+                },
+                "eCTSCreditPoints": {
+                    "description": "The credit points assigned to the learning specification, following the ECTS credit system",
+                    "type": "number"
+                },
+                "creditPoints": {
+                    "description": "The credit points assigned to the learning specification, following an alternative educational credit system.",
+                    "type": "number"
+                },
+                "educationLevel": {
+                    "description": "An associated level of education within a semantic framework describing education levels. Association EducationLevelAssociation??",
+                    "type": "string"
+                },
+                "language": {
+                    "description": "The instruction and/or assessment language(s) used",
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "uri"
+                    }
+                },
+                "learningSetting": {
+                    "description": "The type of learning setting (formal, non-formal).",
+                    "type": "string",
+                    "format": "uri"
+                },
+                "maximumDuration": {
+                    "description": "The maximum duration (in months) that a person may use to complete the learning opportunity.",
+                    "type": "string"
+                },
+                "targetGroup": {
+                    "description": "A specific target group or category for which this specification is designed.",
+                    "type": "string",
+                    "format": "uri"
+                },
+                "entryRequirementsNote": {
+                    "description": "The maximum duration (in months) that a person may use to complete the learning opportunity.",
+                    "type": "string"
+                },
+                "learningOutcome": {
+                    "description": "An individual (expected) learning outcome of the learning specification. Association to LearningOutcome??",
+                    "type": "string"
+                },
+                "learningActivitySpecification": {
+                    "description": "Activities which a person can perform to acquire the expected learning outcomes. Association  LearningActivitySpecification??",
+                    "type": "string"
+                },
+                "assessmentSpecification": {
+                    "description": "Assessments a person can undergo to prove the acquisition of the learning outcomes. Association   AssessmentSpecification??",
+                    "type": "string"
+                },
+                "entitlementSpecification": {
+                    "description": "Rights (such as which the person may acquire as a result of acquiring the learning outcomes. Association   EntitlementSpecification??",
+                    "type": "string"
+                },
+                "awardingOpportunity": {
+                    "description": "Refers to an activity related to the awarding of the learning specification, such as the country or region where the qualification is awarded, the awarding body and optionally the awarding period now or in the past. Association    AwardingOpportunity??",
+                    "type": "string"
+                },
+                "hasPart": {
+                    "description": "A learning specification can be composed of other narrower learning specifications which when combined make up this learning specification. Association    LearningSpecification??",
+                    "type": "string"
+                }
+            },
+            "required": [
+                "type",
+                "homepage"
+            ]
+        },
+        "qualification": {
+            "description": "a specification of an assessment and validation process which is obtained when a competent authority determines that an individual has achieved learning outcomes to given standards.",
+            "type": "object",
+            "properties": {
+                "isPartial Qualification": {
+                    "description": "Indicates whether a qualification is a full qualification or part of another qualification",
+                    "type": "boolean"
+                },
+                "EQF Level": {
+                    "description": "The qualification level as specified by the European Qualification Framework.",
+                    "type": "string",
+                    "format": "uri"
+                },
+                "NQF Level": {
+                    "description": "The qualification level as specified by a National Qualification Framework",
+                    "type": "string",
+                    "format": "uri"
+                },
+                "Accreditation": {
+                    "description": "The accreditation of a qualification. Association Accreditation?",
+                    "type": "string"
+                }
+            }
+        },
+        "learningOutcome": {
+            "description": "Defines a statement regarding what a learner knows, understands and is able to do on completion of a learning process, which are defined in terms of knowledge, skills and responsibility and autonomy.",
+            "type": "object",
+            "properties": {
+                "id": {
+                    "description": "Defines a portable and unique identifier of the learning outcome",
+                    "type": "string",
+                    "format": "uri"
+                },
+                "identifier": {
+                    "description": "Defines an alternative identifier of the learning outcome, used by business logic. Association Identifier??",
+                    "type": "string"
+                },
+                "name": {
+                    "description": "Defines A legible, descriptive name for the learning outcome",
+                    "type": "string"
+                },
+                "description1": {
+                    "description": "Defines a free text describing the learning outcome. A detailed learning outcome may include a description of what the student can do as a result of learning, with an indication of the level of achievement, and the conditions or context under which this can be performed (if applicable).",
+                    "type": "string"
+                },
+                "learningOutcomeType": {
+                    "description": "Defines the learning outcome type.",
+                    "type": "string",
+                    "format": "uri"
+                },
+                "reusabilityLevel": {
+                    "description": "Defines the reusability level for the learning outcome",
+                    "type": "string",
+                    "format": "uri"
+                },
+                "relatedSkill": {
+                    "description": " Includes a link to a related skill or the level of a related skill on a skill framework (except ESCO).",
+                    "type": "string",
+                    "format": "uri"
+                },
+                "relatedECOSkill": {
+                    "description": "Includes a link to an ESCO Skill",
+                    "type": "string",
+                    "format": "uri"
+                }
+            },
+            "required": [
+                "id",
+                "name"
+            ]
+        },
+        "learningActivitySpecification": {
+            "description": "The specification of a process which leads to the acquisition of knowledge, skills or responsibility and autonomy.",
+            "type": "object",
+            "properties": {
+                "id": {
+                    "description": "Defines a portable and unique identifier of the learning activity specification",
+                    "type": "string",
+                    "format": "uri"
+                },
+                "identifier": {
+                    "description": "Defines an alternative identifier of the learning outcome, used by business logic. Association Identifier??",
+                    "type": "string"
+                },
+                "title": {
+                    "description": "Defines the title of the learning activity specification",
+                    "type": "string"
+                },
+                "alternativeLabel": {
+                    "description": "Defines an alternative name of the activity specification",
+                    "type": "string"
+                },
+                "description1": {
+                    "description": "Defines a free text description of the learning activity specification.",
+                    "type": "string"
+                },
+                "additionalNote": {
+                    "description": "Defines a free text description of the learning activity specification.",
+                    "type": "string"
+                },
+                "homePage": {
+                    "description": "Includes the Webpage describing the activity specification.",
+                    "type": "string",
+                    "format": "uri"
+                },
+                "supplementaryDocument": {
+                    "description": "Includes A public web document containing additional documentation about the learning activity specification.",
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "uri"
+                    }
+                },
+                "learningActivityType": {
+                    "description": "Defines the type of learning activity",
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "uri"
+                    }
+                },
+                "workload": {
+                    "description": "The expected workload indicated in the estimated number of hours the learner is expected to spend engaged in the activity. This would include the notional number of hours in class, in group work, in practicals, as well as hours engaged in self-motivated study",
+                    "type": "string"
+                },
+                "language": {
+                    "description": "Defines the  instruction language(s) used",
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "uri"
+                    }
+                },
+                "mode": {
+                    "description": "Defines the mode of learning and or assessment",
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "uri"
+                    }
+                },
+                "teaches": {
+                    "description": "Defines the expected learning outcomes this learning activity specification can lead or contribute to. Association to LearningSpecification??",
+                    "type": "string"
+                },
+                "hasPart": {
+                    "description": "A learning activity specification can be composed of smaller learning specifications, which when combined make up this learning specification. Association LearningActivitySpecification??",
+                    "type": "array",
+                    "items": {"type": "string"}
+                },
+                "specialisationOf": {
+                    "description": "An activity specification (e.g. a standard) of which this specification is a specialisation. Association LearningActivitySpecification??",
+                    "type": "array",
+                    "items": {"type": "string"}
+                }
+            },
+            "required": ["id"]
+        },
+        "learningActivity": {
+            "description": "Defines any process which leads to the acquisition of knowledge, skills or responsibility and autonomy.",
+            "type": "object",
+            "properties": {
+                "id": {
+                    "description": "Defines a portable and unique identifier of the learning activity",
+                    "type": "string"
+                },
+                "identifier": {
+                    "description": "Defines an alternative identifier of the learning activity assigned to the assessment by the organisation directing the activity. Association Identifier??",
+                    "type": "string"
+                },
+                "title": {
+                    "description": "Defines the title of the learning activity.",
+                    "type": "string"
+                },
+                "description1": {
+                    "description": "Defines a free text description of the learning activity",
+                    "type": "string"
+                },
+                "additionalNote": {
+                    "description": "Defines more information using a additional free text note about the activity",
+                    "type": "string"
+                },
+                "workload": {
+                    "description": "Defines the actual workload in number of hours the learner has spent engaged in the activity. This would include the number of hours in class, in group work, in practicals, as well as hours engaged in self-motivated study. Workload in Hours",
+                    "type": "string"
+                },
+                "startedAtTime": {
+                    "description": "Defines the date the learner started the activity",
+                    "type": "string",
+                    "format": "date-time"
+                },
+                "endedAtTime": {
+                    "description": "Defines the  date the learner ended the activity",
+                    "type": "string",
+                    "format": "date-time"
+                },
+                "directedBy": {
+                    "description": "Defines the DID of the organisation, or part of an organisation such as department, faculty, which directed the learning activity",
+                    "type": "string"
+                },
+                "location": {
+                    "description": "Defines the  location where the activity took place. Association to Location??",
+                    "type": "string"
+                },
+                "specifiedBy": {
+                    "description": "Defines the  specification of this learning activity. Association to LearningActivitySpecification??",
+                    "type": "string"
+                },
+                "usedLearningOpportunity": {
+                    "description": "Defines when is used or taken opportunity to do this learning activity. Association to LLearningOpportunity??",
+                    "type": "string"
+                },
+                "influenced": {
+                    "description": "Defines how performing this activity contributed to the acquisition of these related learning achievements. Association to Achievement",
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "uri"
+                    }
+                },
+                "hasPart": {
+                    "description": "Defines those smaller units of activity, which when combined make up this activity. Association LearningActivity",
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "uri"
+                    }
+                }
+            },
+            "required": ["id"]
+        },
+        "assessmentSpecification": {
+            "description": "An Assessment Specification is a specification of a process establishing the extent to which a learner has attained particular knowledge, skills and competences against criteria such as learning outcomes or standards of competence.",
+            "type": "object",
+            "properties": {
+                "id": {
+                    "description": "Defines A portable and Unique Identifier of the Assessment Specification",
+                    "type": "string",
+                    "format": "uri"
+                },
+                "identifier": {
+                    "description": "Defines an alternative identifier of the assessment specification, as assigned to it by the organisation who designed the specification. Association Identifier??",
+                    "type": "string"
+                },
+                "title": {
+                    "description": "Defines the title of the assessment specification",
+                    "type": "string"
+                },
+                "alternativeLabel": {
+                    "description": "Defines an alternative name of the assessment specification",
+                    "type": "string"
+                },
+                "description1": {
+                    "description": "Defines free text description of the assessment specification",
+                    "type": "string"
+                },
+                "additionalNote": {
+                    "description": "Defines an additional free text note about the assessment specification.",
+                    "type": "string"
+                },
+                "homepage": {
+                    "description": "Defines the homepage (a public web document) describing the details of the assessment specification",
+                    "type": "string",
+                    "format": "uri"
+                },
+                "supplementaryDocument": {
+                    "description": "Defines the urls for public web document containing additional documentation about the assessment specification",
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "uri"
+                    }
+                },
+                "assessmentType": {
+                    "description": "Defines the type of assessment",
+                    "type": "string",
+                    "format": "uri"
+                },
+                "language": {
+                    "description": "Defines the  language(s) of assessment used",
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "uri"
+                    }
+                },
+                "mode": {
+                    "description": "Defines mode of learning and or assessment",
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "uri"
+                    }
+                },
+                "gradingscheme": {
+                    "description": "A description of the specification of which learning outcomes are or have been proven. Association to ScoringScheme??",
+                    "type": "string"
+                },
+                "proves": {
+                    "description": "Demostrates The learning achievement (and related learning outcomes) this assessment is designed to test. Association to LearningSpecification",
+                    "type": "array",
+                    "items": {"type": "string"}
+                },
+                "hasPart": {
+                    "description": "Defines Assessment Sub-Specifications.A assessment specification can be composed of other narrower assessment specifications which when combined make up this assessment specification. Association to AssessmentSpecification??",
+                    "type": "array",
+                    "items": {"type": "string"}
+                },
+                "specialisationOf": {
+                    "description": "Defines An assessment specification (e.g. a standard) of which this specification is a specialisation. Association toAssessmentSpecification??",
+                    "type": "array",
+                    "items": {"type": "string"}
+                }
+            },
+            "required": ["id"]
+        },
+        "assessment": {
+            "description": "The result of a process establishing the extent to which a learner has attained particular knowledge, skills and competences against criteria such as learning outcomes or standards of competence.",
+            "type": "object",
+            "properties": {
+                "id": {
+                    "description": "Defines a unique and portable identifier of the assessment.",
+                    "type": "string"
+                },
+                "identifier": {
+                    "description": "Defines an alternative identifier assigned to the assessment by the organisation grading the assessment. Association to Identifier??",
+                    "type": "string"
+                },
+                "title": {
+                    "description": "Defines the title of the assessment.",
+                    "type": "string"
+                },
+                 "description1": {
+                    "description": "Includes the description of the assessment",
+                    "type": "string"
+                },
+                 "additionalNote": {
+                    "description": "Defines an additional free text note about the assessment",
+                    "type": "string"
+                },
+                "grade": {
+                    "description": "Defines a resulting grade of the assessment",
+                    "type": "number"
+                },
+                 "shortenedGrading": {
+                    "description": "Defines Indicator of how well the student was graded when compared to other students. Association to ShortenedGrading??",
+                    "type": "string"
+                },
+                 "resultDistribution": {
+                    "description": "Describes a histogram of results achieved by all the students of a particular learning assessment. Association to ResultDistribution??",
+                    "type": "string"
+                },
+                 "issuedDate": {
+                    "description": "Defines the Assessment Date: when the grade was awarded",
+                    "type": "string",
+                    "format":"date-time"
+                },
+                 "idVerification": {
+                    "description": "Defines the method of assessment supervision and id verification",
+                    "type": "string"
+                },
+                "assessedBy": {
+                    "description": "Defines competent body that awarded the grade. Association Agent??",
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                       
+                    }
+                },
+                "specifiedBy": {
+                    "description": "The specification of this assessment. Association AssessmentSpecification??",
+                    "type": "string"
+                },
+                "hasPart": {
+                    "description": "Defines Sub-Assessments; Smaller assessments, which when combined make up and can influence this assessment. Association Assessment??",
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                        
+                    }
+                }
+            },
+            "required": ["id", "title", "grade"]
+        },
+        
+       "Templates properties below?": {
+            "description": "Extends credentialSubject to describe educational use cases",
+            "type": "string"
+        },
+        "id": {
+            "description": "Defines unique identifier of the Verifiable Accreditation",
+            "type": "string"
+        },
+        "typeArray": {
+            "description": "Defines the Verifiable Accreditation type",
+            "type": "array",
+            "items": {"type": "string"}
+        },
+        "propertyName2": {
+            "description": "The propertyName description",
+            "type": "string"
+        },
+        "type2": {
+            "description": "Defines the Verifiable Accreditation type",
+            "type": "array",
+            "items": {"type": "string"}
+        },
+        "propertyObject": {
+            "description": "The propertyObject description",
+            "type": "object",
+            "properties": {
+                "id": {
+                    "description": "Defines unique identifier of the Verifiable Accreditation",
+                    "type": "string"
+                },
+                "propertyName2": {
+                    "description": "The propertyName description",
+                    "type": "string"
+                },
+                "typeArray": {
+                    "description": "Defines the Verifiable Accreditation type",
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "uri"
+                    }
+                },
+                "propertyName3*": {
+                    "description": "The propertyName description",
+                    "type": "string"
+                },
+                "typeArray*": {
+                    "description": "Defines the Verifiable Accreditation type",
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "uri"
+                    }
+                }
+            }
+        },
+        "typeArrayA": {
+            "description": "Defines the Verifiable Accreditation type",
+            "type": "array",
+            "items": {
+                "type": "string",
+                "format": "uri"
+            }
+        },
+        "typeArray*": {
+            "description": "Defines the Verifiable Accreditation type",
+            "type": "array",
+            "items": {
+                "type": "string",
+                "format": "uri"
+            }
+        }
+    }
+}
