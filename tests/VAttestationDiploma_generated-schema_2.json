@@ -1,0 +1,279 @@
+{
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "title": "Verifiable Educational Diploma- VAttestation",
+    "description": "Schema for a Verifiable Educational Diploma-VAttestation",
+    "type": "object",
+    "properties": {
+        "@context": {
+            "description": "Defines semantic context of the Verifiable Educational Diploma",
+            "type": "array",
+            "items": {
+                "type": "string",
+                "format": "uri"
+            }
+        },
+        "learningSpecification": 
+         {
+            "description": "Defines an opportunity to realise a given set of learning outcomes via a learning activity and/or assessment",
+            "type": "object",
+            "properties": {
+                "id": {
+                    "description": "Defines the unique and portable identifier of the Learning Opportunity.",
+                    "type": "string",
+                    "format": "uri"
+                },
+                "identifier": {
+                    "description": "An alternative identifier of the learning specification, as assigned to it by the organisation who designed the specification. EPassPending verification ",
+                    "type": "string",
+                    "format": "uri"
+                },
+                "learningOpportunityType": {
+                    "description": "Describes the type of learning opportunity",
+                    "type": "string",
+                    "format": "uri"
+                },
+                "title": {
+                    "description": "Defines the title of the learning specification",
+                    "type": "string"
+                },
+                "alternativeLabel": {
+                    "description": "An alternative name of the learning specification",
+                    "type": "string"
+                },
+                "definition": {
+                    "description": "Short and abstract description about the learning specification.",
+                    "type": "string"
+                },
+                "additionalNote": {
+                    "description": "An additional free text note about the learning specification.",
+                    "type": "string"
+                },
+                "homePage": {
+                    "description": "The homepage (a public web document) of the learning specification.",
+                    "type": "string",
+                    "format": "uri"
+                },
+                "supplementaryDocument": {
+                    "description": "A public web document containing additional documentation about the learning specification.",
+                    "type": "string",
+                    "format": "uri"
+                },
+                "iSCEDFCode": {
+                    "description": "Thematic Area according to the ISCED-F 2013 Classification.",
+                    "type": "string",
+                    "format": "uri"
+                },
+                "educationSubject": {
+                    "description": "An associated field of education from another semantic framework than the ISCED classification. Association EducationSubjectAssociation??",
+                    "type": "string"
+                },
+                "volumeOfLearning": {
+                    "description": "The estimated number of hours the learner is expected to spend engaged in learning to earn the award. This would include the notional number of hours in class, in group work, in practicals, as well as hours engaged in self-motivated study",
+                    "type": "string"
+                },
+                "eCTSCreditPoints": {
+                    "description": "The credit points assigned to the learning specification, following the ECTS credit system",
+                    "type": "number"
+                },
+                "creditPoints": {
+                    "description": "The credit points assigned to the learning specification, following an alternative educational credit system.",
+                    "type": "number"
+                },
+                "educationLevel": {
+                    "description": "An associated level of education within a semantic framework describing education levels. Association EducationLevelAssociation??",
+                    "type": "string"
+                },
+                "language": {
+                    "description": "The instruction and/or assessment language(s) used",
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "uri"
+                    }
+                },
+             "learningSetting": {
+            "description": "The type of learning setting (formal, non-formal).",
+            "type": "string",
+            "format": "uri"
+        },
+         "maximumDuration": {
+            "description": "The maximum duration (in months) that a person may use to complete the learning opportunity.",
+            "type": "string"
+        },
+         "targetGroup": {
+            "description": "A specific target group or category for which this specification is designed.",
+            "type": "string",
+            "format": "uri"
+        },
+         "entryRequirementsNote": {
+            "description": "The maximum duration (in months) that a person may use to complete the learning opportunity.",
+            "type": "string"
+        },
+        
+         "learningOutcome": {
+            "description": "An individual (expected) learning outcome of the learning specification. ",
+            "type": "object",
+            "properties": {
+           "id":{
+                    "description": "Defines the unique and portable identifier of the learning outcome.",
+                    "type": "string",
+                    "format": "uri"
+                    },
+         "identifier":{  
+      "description": "Defines An alternative identifier of the learning outcome.",
+      "type": "object",
+      "properties": {
+        "schemeID": {
+        "description": "Defines the schema used for describe the learning outcome.",
+          "type": "string",
+          "format": "uri"
+        },
+        "#text": {
+        "description": "Defines Activity ID.",
+          "type": "string"
+        }
+      },
+      "required": [
+        "schemeID",
+        "#text"
+      ]  
+      },
+               "name":{
+                    "description": "Defines the title: A legible, descriptive name for the learning outcome.",
+                    "type": "string"
+                      }, 
+   
+               "description1":{
+                    "description": "Defines A free text describing the learning outcome. A detailed learning outcome may include a description of what the student can do as a result of learning, with an indication of the level of achievement, and the conditions or context under which this can be performed, if applicable.",
+                    "type": "string"
+                    }, 
+                  "learningOutcomeType":{
+                    "description": "Defines the learning outcome type.",
+                    "type": "string",
+                    "format": "uri"
+                    }, 
+                     "reusabilityLevel":{
+                    "description": "Defines the reusability level for this learning outcome.",
+                    "type": "string",
+                    "format": "uri"
+                    },
+                     "relatedSkill":{
+                    "description": "Includes a link to a related skill or the level of a related skill on a skill framework (except ESCO).",
+                    "type": "string",
+                    "format": "uri"
+                    },
+                     "relatedESCOSkill":{
+                    "description": "Includes a link to an ESCO Skill.",
+                    "type": "string",
+                    "format": "uri"
+                    }
+    }
+      "required": [
+      "id",
+      "name"]
+                            }   //       
+            
+            
+       
+ 
+       
+       
+       
+       
+        "learningActivitySpecification": {
+            "description": "Activities which a person can perform to acquire the expected learning outcomes. Association  LearningActivitySpecification??",
+            "type": "string"
+        },
+        "assessmentSpecification": {
+            "description": "Assessments a person can undergo to prove the acquisition of the learning outcomes. Association   AssessmentSpecification??",
+            "type": "string"
+        },
+        "entitlementSpecification": {
+            "description": "Rights (such as which the person may acquire as a result of acquiring the learning outcomes. Association   EntitlementSpecification??",
+            "type": "string"
+        },
+        "awardingOpportunity": {
+            "description": "Refers to an activity related to the awarding of the learning specification, such as the country or region where the qualification is awarded, the awarding body and optionally the awarding period now or in the past. Association    AwardingOpportunity??",
+            "type": "string"
+        },
+        "hasPart": {
+            "description": "A learning specification can be composed of other narrower learning specifications which when combined make up this learning specification. Association    LearningSpecification??",
+            "type": "string"
+        },
+        "required": [
+            "@context",
+            "type",
+            "homepage"
+        ]
+    },
+    "issuanceDate - Quitar": {"type": "string"},
+    "definitions": {
+        "@constring_type": {
+            "type": "array",
+            "minItems": 0,
+            "items": {"type": "string"}
+        },
+        "specifiedBy_type": {
+            "type": "object",
+            "properties": {
+                "id": {"type": "string"},
+                "title": {"type": "string"},
+                "awardingOpportunities": {"type": "null"},
+                "eqfLevel": {"type": "string"}
+            }
+        },
+        "learningAchievement_type": {
+            "type": "object",
+            "properties": {
+                "id": {"type": "string"},
+                "title": {"type": "string"},
+                "specifiedBy": {"$ref": "#/definitions/specifiedBy_type"}
+            }
+        },
+        "credentialSubject_type": {
+            "type": "object",
+            "properties": {
+                "id": {"type": "string"},
+                "currentFamilyName": {"type": "string"},
+                "currentGivenName": {"type": "string"},
+                "dateOfBirth": {"type": "string"},
+                "mailBox": {"type": "string"},
+                "learningAchievement": {"$ref": "#/definitions/learningAchievement_type"}
+            }
+        },
+        "credentialStatus_type": {
+            "type": "object",
+            "properties": {
+                "id": {"type": "string"},
+                "type": {"type": "string"}
+            }
+        },
+        "evidence_type": {
+            "type": "object",
+            "properties": {
+                "id": {"type": "string"},
+                "type": {"$ref": "#/definitions/@constring_type"},
+                "verifier": {"type": "string"},
+                "evidenceDocument": {"$ref": "#/definitions/@constring_type"}
+            }
+        },
+        "verificationMethod_type": {
+            "type": "object",
+            "properties": {
+                "type": {"type": "string"},
+                "CertSerial": {"type": "string"}
+            }
+        },
+        "proof_type": {
+            "type": "object",
+            "properties": {
+                "type": {"type": "string"},
+                "created": {"type": "string"},
+                "proofPurpose": {"type": "string"},
+                "verificationMethod": {"$ref": "#/definitions/verificationMethod_type"},
+                "jws": {"type": "string"},
+                "proofValue": {"type": "string"}
+            }
+        }
+    }
+}
