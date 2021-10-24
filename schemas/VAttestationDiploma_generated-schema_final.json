@@ -1,5 +1,5 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema#",
+"$schema": "http://json-schema.org/draft-07/schema#",
     "title": "EBSI Verifiable Accredidation- education credentialSubject schema",
     "description": "Schema for additional properties on credentialSubject to describe educational use cases-VAccreditation",
     "type": "object",
@@ -12,6 +12,8 @@
                 "format": "uri"
             }
         },
+       
+       
          "credentialSubject ": {
             "description": "Additional properties on credentialSubject to describe educational use cases",
             "type": "object",
@@ -32,6 +34,7 @@
                     "items": {"type": "string"}
                 }
             }
+            
         },
         
         
@@ -381,7 +384,7 @@
                     "type": "string"
                 },
                 "usedLearningOpportunity": {
-                    "description": "Defines when is used or taken opportunity to do this learning activity. Association to LLearningOpportunity??",
+                    "description": "Defines when is used or taken opportunity to do this learning activity. Association to LearningOpportunity??",
                     "type": "string"
                 },
                 "influenced": {
@@ -1006,78 +1009,8 @@
                 "status"
             ]
         },
-       "Templates properties below?": {
-            "description": "Extends credentialSubject to describe educational use cases",
-            "type": "string"
-        },
-        "id": {
-            "description": "Defines unique identifier of the Verifiable Accreditation",
-            "type": "string"
-        },
-        "typeArray": {
-            "description": "Defines the Verifiable Accreditation type",
-            "type": "array",
-            "items": {"type": "string"}
-        },
-        "propertyName2": {
-            "description": "The propertyName description",
-            "type": "string"
-        },
-        "type2": {
-            "description": "Defines the Verifiable Accreditation type",
-            "type": "array",
-            "items": {"type": "string"}
-        },
-        "propertyObject": {
-            "description": "The propertyObject description",
-            "type": "object",
-            "properties": {
-                "id": {
-                    "description": "Defines unique identifier of the Verifiable Accreditation",
-                    "type": "string"
-                },
-                "propertyName2": {
-                    "description": "The propertyName description",
-                    "type": "string"
-                },
-                "typeArray": {
-                    "description": "Defines the Verifiable Accreditation type",
-                    "type": "array",
-                    "items": {
-                        "type": "string",
-                        "format": "uri"
-                    }
-                },
-                "propertyName3*": {
-                    "description": "The propertyName description",
-                    "type": "string"
-                },
-                "typeArray*": {
-                    "description": "Defines the Verifiable Accreditation type",
-                    "type": "array",
-                    "items": {
-                        "type": "string",
-                        "format": "uri"
-                    }
-                }
-            }
-        },
-        "typeArrayA": {
-            "description": "Defines the Verifiable Accreditation type",
-            "type": "array",
-            "items": {
-                "type": "string",
-                "format": "uri"
-            }
-        },
-        "typeArray*": {
-            "description": "Defines the Verifiable Accreditation type",
-            "type": "array",
-            "items": {
-                "type": "string",
-                "format": "uri"
-            },
-            "required": []
-        }
+     "$defs": {
+    
+    }
     }
 }
