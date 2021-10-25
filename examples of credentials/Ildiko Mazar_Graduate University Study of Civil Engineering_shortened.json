@@ -16,7 +16,7 @@
             "id": "urn:epass:org:1",
             "registration": {
                 "spatialID": "HR",
-                "xsi:type": "legalIdentifier",
+                "type": "legalIdentifier",
                 "value": "VATHR-29845096215"
             },
             "prefLabel": "SVEUČILIŠTE U SPLITU",

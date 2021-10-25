@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft/2020-12/schema",
-    "title": "EBSI Verifiable Accredidation- education credentialSubject schema",
+    "title": "EBSI Verifiable Accredidation- Education Diploma credentialSubject schema",
     "description": "Schema for additional properties on credentialSubject to describe educational use cases-VAccreditation",
     "type": "object",
     "properties": {
@@ -44,7 +44,7 @@
                         "format": "uri"
                     },
                     "identifier": {
-                        "description": "Defines an alternative identifier of the learning specification, as assigned to it by the organisation who designed the specification. EPassPending verification?? ",
+                        "description": "Defines an alternative identifier of the learning specification, as assigned to it by the organisation who designed the specification. ",
                         "type": "string",
                         "format": "uri"
                     },
@@ -225,8 +225,9 @@
                         "format": "uri"
                     },
                     "identifier": {
-                        "description": "Defines an alternative identifier of the learning outcome, used by business logic. Association Identifier??",
-                        "type": "string"
+                        "description": "Defines an alternative identifier of the learning outcome, used by business logic. Association Identifier",
+                        "type": "string",
+                        "format": "uri"
                     },
                     "name": {
                         "description": "Defines a legible, descriptive name for the learning outcome",
@@ -272,8 +273,9 @@
                         "format": "uri"
                     },
                     "identifier": {
-                        "description": "Defines an alternative identifier of the learning outcome, used by business logic. Association Identifier??",
-                        "type": "string"
+                        "description": "Defines an alternative identifier of the learning outcome, used by the organization defining the learning actitivty. Association Identifier",
+                        "type": "string",
+                        "format": "uri"
                     },
                     "title": {
                         "description": "Defines the title of the learning activity specification",
@@ -365,7 +367,8 @@
                     },
                     "identifier": {
                         "description": "Defines an alternative identifier of the learning activity assigned to the assessment by the organisation directing the activity. Association Identifier??",
-                        "type": "string"
+                        "type": "string",
+                        "format": "uri"
                     },
                     "title": {
                         "description": "Defines the title of the learning activity.",
@@ -399,8 +402,9 @@
                         "type": "string"
                     },
                     "location": {
-                        "description": "Defines the  location where the activity took place. Association to Location??",
-                        "type": "string"
+                        "description": "Defines the  location where the activity took place. Association to Location",
+                        "type": "string",
+                        "format": "uri"
                     },
                     "specifiedBy": {
                         "description": "Defines the  specification of this learning activity. Association to LearningActivitySpecification",
@@ -442,8 +446,9 @@
                         "format": "uri"
                     },
                     "identifier": {
-                        "description": "Defines an alternative identifier of the assessment specification, as assigned to it by the organisation who designed the specification. Association Identifier??",
-                        "type": "string"
+                        "description": "Defines an alternative identifier of the assessment specification, as assigned to it by the organisation who designed the specification. Association Identifier",
+                        "type": "string",
+                        "format": "uri"
                     },
                     "title": {
                         "description": "Defines the title of the assessment specification",
@@ -533,8 +538,9 @@
                         "format": "uri"
                     },
                     "identifier": {
-                        "description": "Defines an alternative identifier assigned to the assessment by the organisation grading the assessment. Association to Identifier??",
-                        "type": "string"
+                        "description": "Defines an alternative identifier assigned to the assessment by the organisation grading the assessment. Association to Identifier",
+                        "type": "string",
+                        "format": "uri"
                     },
                     "title": {
                         "description": "Defines the title of the assessment.",
@@ -685,8 +691,9 @@
                         "format": "uri"
                     },
                     "identifier": {
-                        "description": "Defines an alternative identifier of the Grading Scheme assigned to it by the organisation administering the scheme. Association to Identifier?",
-                        "type": "string"
+                        "description": "Defines an alternative identifier of the Grading Scheme assigned to it by the organisation administering the scheme. Association to Identifier",
+                        "type": "string",
+                        "format": "uri"
                     },
                     "title": {
                         "description": "Defines the title of the scoring scheme.",
@@ -717,8 +724,9 @@
                         "format": "uri"
                     },
                     "identifier": {
-                        "description": "An alternative identifier assigned to the achievement by the organisation awarding the achievement. Association to Identifier?",
-                        "type": "string"
+                        "description": "An alternative identifier assigned to the achievement by the organisation awarding the achievement. Association to Identifier",
+                        "type": "string",
+                        "format": "uri"
                     },
                     "title": {
                         "description": "The title of the achievement",
@@ -804,8 +812,9 @@
                         "format": "uri"
                     },
                     "identifier": {
-                        "description": "An alternative identifier of the awarding process defined by the organization. Association to Identifier??",
-                        "type": "string"
+                        "description": "An alternative identifier of the awarding process defined by the organization. Association to Identifier",
+                       "type": "string",
+                        "format": "uri"
                     },
                     "description": {
                         "description": "A description of the awarding process to the individual",
@@ -832,8 +841,9 @@
                         "items": {"type": "string"}
                     },
                     "awardingLocation": {
-                        "description": "The location where the awarding activity took place (country/region where the qualification was awarded).. Association Location??",
-                        "type": "string"
+                        "description": "The location where the awarding activity took place (country/region where the qualification was awarded).. Association Location",
+                        "type": "string",
+                        "format": "uri"
                     },
                     "awardingDate": {
                         "description": "The propertyName description",
@@ -857,8 +867,9 @@
                         "format": "uri"
                     },
                     "identifier": {
-                        "description": "An alternative identifier of the awarding opportunity. Association to Identifier??",
-                        "type": "string"
+                        "description": "An alternative identifier of the awarding opportunity. Association to Identifier",
+                        "type": "string",
+                        "format": "uri"
                     },
                     "awardingBody": {
                         "description": "The DID of the awarding body related to this awarding activity (i.e the organisation that issues the qualification) Only in cases of co-awarding/co-graduation, where a qualification is issued to an individual by two or more organisations the cardinality is greater than 1",
@@ -867,7 +878,8 @@
                     },
                     "location": {
                         "description": "Location where the awarding activity takes place (country/region where the qualification is awarded). Association to Location",
-                        "type": "string"
+                        "type": "string",
+                        "format": "uri"
                     },
                     "startedAtTime": {
                         "description": "The date since when the awarding activities take place. If not specified it is undefined (\u201cnot known\u201d)",
@@ -892,8 +904,9 @@
                         "format": "uri"
                     },
                     "identifier": {
-                        "description": " Defines an alternative identifier of the entitlement. Association to Identifier??",
-                        "type": "string"
+                        "description": " Defines an alternative identifier of the entitlement. Association to Identifier",
+                        "type": "string",
+                        "format": "uri"
                     },
                     "title": {
                         "description": "Defines the title of the entitlement.",
@@ -952,8 +965,9 @@
                         "format": "uri"
                     },
                     "identifier": {
-                        "description": "Defines an alternative identifier of the entitlement specification. Association to Identifier??",
-                        "type": "string"
+                        "description": "Defines an alternative identifier of the entitlement specification. Association to Identifier",
+                        "type": "string",
+                        "format": "uri"
                     },
                     "title": {
                         "description": "The title of the entitlement specification",
