@@ -173,7 +173,7 @@
                         "description": "Refers to an activity related to the awarding of the learning specification, such as the country or region where the qualification is awarded, the awarding body and optionally the awarding period now or in the past. Association    AwardingOpportunity",
                         "type": "object",
                         "properties": {
-                            "awardingOpp": {"$ref": "#/$defs/awardingOpportunity"}
+                            "awardingOpp": {"$ref": "#/$defs/awardingOpportunity2"}
                         },
                         "required": ["awardingOpp"]
                     },
@@ -857,7 +857,7 @@
                     "awardingBody"
                 ]
             },
-            "awardingOpportunity": {
+            "awardingOpportunity2": {
                 "description": "An awarding activity represents an activity related to the awarding of a LearningSpecification. It is used to specify the country or region where the LearningSpecification is awarded, the awarding body and optionally the awarding period now or in the past.",
                 "type": "object",
                 "properties": {

@@ -1,0 +1,88 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Schema title",
+    "description": "Description of the schema",
+    "type": "object",
+    "properties": {
+        "Templates properties below?": {
+            "description": "Extends credentialSubject to describe educational use cases",
+            "type": "string"
+        },
+        "id": {
+            "description": "Defines unique identifier of the Verifiable Accreditation",
+            "type": "string"
+        },
+        "typeArray": {
+            "description": "Defines the Verifiable Accreditation type",
+            "type": "array",
+            "items": {"type": "string"}
+        },
+        "propertyName2": {
+            "description": "The propertyName description",
+            "type": "string"
+        },
+        "type2": {
+            "description": "Defines the Verifiable Accreditation type",
+            "type": "array",
+            "items": {"type": "string"}
+        },
+        "propertyObject": {
+            "description": "The propertyObject description",
+            "type": "object",
+            "properties": {
+                "id": {
+                    "description": "Defines unique identifier of the Verifiable Accreditation",
+                    "type": "string"
+                },
+                "propertyName2": {
+                    "description": "The propertyName description",
+                    "type": "string"
+                },
+                "typeArray": {
+                    "description": "Defines the Verifiable Accreditation type",
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "uri"
+                    }
+                },
+                "propertyName3*": {
+                    "description": "The propertyName description- Object with references ",
+                    "type": "object",
+                    "properties": {
+                        "outcome": {"$ref": "#/$defs/positiveInteger"}
+                    },
+                    "required": ["outcome"]
+                },
+                "typeArray*": {
+                    "description": "Defines the Verifiable Accreditation type",
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "uri"
+                    }
+                }
+            }
+        },
+        "typeArrayA": {
+            "description": "Defines the Verifiable Accreditation type",
+            "type": "array",
+            "items": {"$ref": "#/$defs/positiveInteger"}
+        },
+        "typeArray*": {
+            "description": "Defines the Verifiable Accreditation type",
+            "type": "array",
+            "items": {
+                "type": "string",
+                "format": "uri"
+            },
+            "required": []
+        }
+    },
+    "$defs": {
+        "positiveInteger": {
+            "type": "integer",
+            "exclusiveMinimum": 0
+        }
+    }
+}
