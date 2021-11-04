@@ -4,7 +4,7 @@
     "description": "ESBI Accreditation record schema for educational contexts",
     "type": "object",
     "properties": {
-        "credentialSubject": {},
+        "credentialSubject": {"$ref": "/schemas/verifiableDiploma_generated-schema"},
         "id": {
             "description": "Defines a unique identifier of the Verifiable attestation",
             "type": "string",

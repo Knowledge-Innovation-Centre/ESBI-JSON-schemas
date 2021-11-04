@@ -1,0 +1,69 @@
+{
+    "@context":[
+       "https://www.w3.org/2018/credentials/v1",
+       "https://base.uri.europass/contexts/v1"
+    ],
+    "type":[
+       "VerifiableCredential",
+       "VerifiableAttestation",
+       "Europass"
+    ],
+    "id":"urn:uuid:51e42fda-cb0a-4333-b6a6-35cb147e1a88",
+    "issuer":"did:ebsi:EsnW...QEka",
+    "issuanceDate":"2020-11-03T00:00:00Z",
+    "validFrom":"2020-11-03T00:00:00Z",
+    "credentialSubject":{
+       "id":"did:ebsi:Ef3u...KqGH",
+       "familyName":"Mustermann",
+       "firstName":"Max",
+       "personalIdentifier":"ES/DE/01234567",
+       "dateOfBirth":"1982-06-07",
+       "gradingScheme":{
+          "title":"Lower Second-Class Honours"
+       },
+       "learningAchievement":{
+          "title":"MASTERS LAW, ECONOMICS AND MANAGEMENT",
+          "description":"MARKETING AND SALES",
+          "additionalNote":[
+             "DISTRIBUTION MANAGEMENT"
+          ]
+       },
+       "awardingOpportunity":{
+          "awardingBody":{
+             "id":"did:ebsi:EsnW...QEka",
+             "eidasLegalIdentifier":"Unknown",
+             "registration":"0597065J",
+             "preferredName":"Université de Lille",
+             "homepage":"https://www.univ-lille.fr/"
+          },
+          "location":"FRANCE",
+          "startedAtTime":"2015-11-03T00:00:00Z",
+          "endedAtTime":"2020-11-03T00:00:00Z"
+       },
+       "learningSpecification":{
+          "ISCEDFCode":[
+             "7"
+          ],
+          "ECTSCreditPoints":120,
+          "EQFLevel":7,
+          "NQFLevel":[
+             "7"
+          ]
+       }
+    },
+    "credentialStatus":{
+       "id":"https://<uri-to-status>",
+       "type":"TrustedCredentialStatus2021"
+    },
+    "credentialSchema":{
+       "id":"https://<uri-to-schema>",
+       "type":"TrustedJsonSchemaValidator2021"
+    },
+    "proof":{
+       "type":"Ed25519Signature2018",
+       "created":"2021-06-22T14:11:44Z",
+       "proofPurpose":"assertionMethod",
+       "verificationMethod":"did:ebsi:EsnW...QEka#key-1",
+       "jws":"<b64url-header>..<b64url-signature>"
+    }
+ }
