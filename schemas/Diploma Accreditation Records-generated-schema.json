@@ -4,6 +4,14 @@
     "description": "ESBI Accreditation record schema for educational contexts",
     "type": "object",
     "properties": {
+     "@context": {
+            "description": "Defines semantic context of the Education Accreditation Records",
+            "type": "array",
+            "items": {
+                "type": "string",
+                "format": "uri"
+            }
+        },
         "credentialSubject": {"$ref": "/schemas/verifiableDiploma_generated-schema"},
         "id": {
             "description": "Defines a unique identifier of the Verifiable attestation",
