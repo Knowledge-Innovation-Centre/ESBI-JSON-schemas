@@ -12,7 +12,7 @@
                 "format": "uri"
             }
         },
-        "credentialSubject ": {
+        "credentialSubject": {
             "description": "Additional properties on credentialSubject to describe educational use cases",
             "type": "object",
             "properties": {
