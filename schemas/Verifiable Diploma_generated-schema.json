@@ -19,17 +19,18 @@
                 "performedBy": {
                     "description": "A learning activity that a person participated in or attended. Association LearningActivity",
                     "type": "array",
-                    "items": {"$ref": "#/$defs/learningActivity"}
+                     
+                    "items": { "anyOf":{"$ref": "#/$defs/learningActivity"}}
                 },
                 "achieved": {
                     "description": "An achievement of the person. Association LearningAchievement",
                     "type": "array",
-                    "items": {"$ref": "#/$defs/learningAchievement"}
+                    "items": { "anyOf":{"$ref": "#/$defs/learningAchievement"}}
                 },
                 "entitledTo": {
                     "description": "The entitlement of the person. Association Entitlement",
                     "type": "array",
-                    "items": {"$ref": "#/$defs/entitlement"}
+                    "items": { "anyOf":[{"$ref": "#/$defs/entitlement"}]}
                 }
             }
         }

@@ -18,16 +18,7 @@
             "schemeID": "Student identification number",
             "value": 99009900
         },
-        "fullName": "Ildiko Mazar",
-        "givenNames": "Ildiko",
-        "familyName": "Mazar",
-        "dateOfBirth": "1995-03-06",
-        "placeOfBirth": {
-            "id": "urn:epass:location:2",
-            "spatialCode": "Croatia"
-        },
-        "gender": "Female",
-        "citizenshipCountry": "Croatia",
+        
         "achieved": {
             "id": "urn:epass:learningAchievement:1",
             "title": "Master of Science in Civil Engineering",

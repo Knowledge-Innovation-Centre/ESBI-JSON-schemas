@@ -12,7 +12,7 @@
                 "format": "uri"
             }
         },
-        "credentialSubject": {"$ref": "/schemas/verifiableDiploma_generated-schema"},
+        "credentialSubject": {"$ref": "/verifiableDiploma_generated-schema"},
         "id": {
             "description": "Defines a unique identifier of the Verifiable attestation",
             "type": "string",
