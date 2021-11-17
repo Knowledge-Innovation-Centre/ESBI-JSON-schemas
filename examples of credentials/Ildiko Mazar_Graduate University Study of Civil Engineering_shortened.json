@@ -59,20 +59,10 @@
                     "workload": "PT60H",
                     "startedAtTime": "2017-09-04T00:00:00+02:00",
                     "endedAtTime": "2018-01-14T00:00:00+01:00",
-                    "directedBy": {
-                        "id": "urn:epass:org:2",
-                        "registration": 12345678,
-                        "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                        "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                        "homepage": "http://gradst.unist.hr/",
-                        "hasLocation": {
-                            "id": "urn:epass:location:3",
-                            "hasAddress": {"country": "Croatia"}
-                        }
-                    },
+                    "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                   
                     "location": {
-                        "id": "urn:epass:location:4",
-                        "hasAddress": {"country": "Croatia"}
+                        "id": "urn:epass:location:4"
                     },
                     "specifiedBy": {
                         "id": "urn:epass:learningactivityspec:1",
@@ -92,20 +82,9 @@
                     "workload": "PT60H",
                     "startedAtTime": "2017-09-04T00:00:00+02:00",
                     "endedAtTime": "2018-01-14T00:00:00+01:00",
-                    "directedBy": {
-                        "id": "urn:epass:org:2",
-                        "registration": 12345678,
-                        "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                        "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                        "homepage": "http://gradst.unist.hr/",
-                        "hasLocation": {
-                            "id": "urn:epass:location:3",
-                            "hasAddress": {"country": "Croatia"}
-                        }
-                    },
+                   "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                     "location": {
-                        "id": "urn:epass:location:5",
-                        "hasAddress": {"country": "Croatia"}
+                        "id": "urn:epass:location:5"
                     },
                     "specifiedBy": {
                         "id": "urn:epass:learningactivityspec:2",
@@ -125,20 +104,9 @@
                     "workload": "PT45H",
                     "startedAtTime": "2017-09-04T00:00:00+02:00",
                     "endedAtTime": "2018-01-14T00:00:00+01:00",
-                    "directedBy": {
-                        "id": "urn:epass:org:2",
-                        "registration": 12345678,
-                        "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                        "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                        "homepage": "http://gradst.unist.hr/",
-                        "hasLocation": {
-                            "id": "urn:epass:location:3",
-                            "hasAddress": {"country": "Croatia"}
-                        }
-                    },
+                   "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                     "location": {
-                        "id": "urn:epass:location:6",
-                        "hasAddress": {"country": "Croatia"}
+                        "id": "urn:epass:location:6"
                     },
                     "specifiedBy": {
                         "id": "urn:epass:learningactivityspec:3",
@@ -158,20 +126,9 @@
                     "workload": "PT60H",
                     "startedAtTime": "2017-09-04T00:00:00+02:00",
                     "endedAtTime": "2018-01-14T00:00:00+01:00",
-                    "directedBy": {
-                        "id": "urn:epass:org:2",
-                        "registration": 12345678,
-                        "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                        "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                        "homepage": "http://gradst.unist.hr/",
-                        "hasLocation": {
-                            "id": "urn:epass:location:3",
-                            "hasAddress": {"country": "Croatia"}
-                        }
-                    },
+                   "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                     "location": {
-                        "id": "urn:epass:location:7",
-                        "hasAddress": {"country": "Croatia"}
+                        "id": "urn:epass:location:7"
                     },
                     "specifiedBy": {
                         "id": "urn:epass:learningactivityspec:4",
@@ -191,20 +148,9 @@
                     "workload": "PT60H",
                     "startedAtTime": "2017-09-04T00:00:00+02:00",
                     "endedAtTime": "2018-01-14T00:00:00+01:00",
-                    "directedBy": {
-                        "id": "urn:epass:org:2",
-                        "registration": 12345678,
-                        "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                        "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                        "homepage": "http://gradst.unist.hr/",
-                        "hasLocation": {
-                            "id": "urn:epass:location:3",
-                            "hasAddress": {"country": "Croatia"}
-                        }
-                    },
+                   "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                     "location": {
-                        "id": "urn:epass:location:8",
-                        "hasAddress": {"country": "Croatia"}
+                        "id": "urn:epass:location:8"
                     },
                     "specifiedBy": {
                         "id": "urn:epass:learningactivityspec:5",
@@ -224,20 +170,9 @@
                     "workload": "PT75H",
                     "startedAtTime": "2017-09-04T00:00:00+02:00",
                     "endedAtTime": "2018-01-14T00:00:00+01:00",
-                    "directedBy": {
-                        "id": "urn:epass:org:2",
-                        "registration": 12345678,
-                        "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                        "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                        "homepage": "http://gradst.unist.hr/",
-                        "hasLocation": {
-                            "id": "urn:epass:location:3",
-                            "hasAddress": {"country": "Croatia"}
-                        }
-                    },
+                   "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                     "location": {
-                        "id": "urn:epass:location:9",
-                        "hasAddress": {"country": "Croatia"}
+                        "id": "urn:epass:location:9"
                     },
                     "specifiedBy": {
                         "id": "urn:epass:learningactivityspec:6",
@@ -257,20 +192,9 @@
                     "workload": "PT60H",
                     "startedAtTime": "2018-01-15T00:00:00+01:00",
                     "endedAtTime": "2018-06-24T00:00:00+02:00",
-                    "directedBy": {
-                        "id": "urn:epass:org:2",
-                        "registration": 12345678,
-                        "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                        "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                        "homepage": "http://gradst.unist.hr/",
-                        "hasLocation": {
-                            "id": "urn:epass:location:3",
-                            "hasAddress": {"country": "Croatia"}
-                        }
-                    },
+                   "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                     "location": {
-                        "id": "urn:epass:location:10",
-                        "hasAddress": {"country": "Croatia"}
+                        "id": "urn:epass:location:10"
                     },
                     "specifiedBy": {
                         "id": "urn:epass:learningactivityspec:7",
@@ -290,20 +214,10 @@
                     "workload": "PT60H",
                     "startedAtTime": "2018-01-15T00:00:00+01:00",
                     "endedAtTime": "2018-06-24T00:00:00+02:00",
-                    "directedBy": {
-                        "id": "urn:epass:org:2",
-                        "registration": 12345678,
-                        "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                        "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                        "homepage": "http://gradst.unist.hr/",
-                        "hasLocation": {
-                            "id": "urn:epass:location:3",
-                            "hasAddress": {"country": "Croatia"}
-                        }
-                    },
+                   "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                     "location": {
-                        "id": "urn:epass:location:11",
-                        "hasAddress": {"country": "Croatia"}
+                        "id": "urn:epass:location:11"
+                        
                     },
                     "specifiedBy": {
                         "id": "urn:epass:learningactivityspec:8",
@@ -323,20 +237,9 @@
                     "workload": "PT60H",
                     "startedAtTime": "2018-01-15T00:00:00+01:00",
                     "endedAtTime": "2018-06-24T00:00:00+02:00",
-                    "directedBy": {
-                        "id": "urn:epass:org:2",
-                        "registration": 12345678,
-                        "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                        "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                        "homepage": "http://gradst.unist.hr/",
-                        "hasLocation": {
-                            "id": "urn:epass:location:3",
-                            "hasAddress": {"country": "Croatia"}
-                        }
-                    },
+                   "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                     "location": {
-                        "id": "urn:epass:location:12",
-                        "hasAddress": {"country": "Croatia"}
+                        "id": "urn:epass:location:12"
                     },
                     "specifiedBy": {
                         "id": "urn:epass:learningactivityspec:9",
@@ -356,20 +259,9 @@
                     "workload": "PT60H",
                     "startedAtTime": "2018-01-15T00:00:00+01:00",
                     "endedAtTime": "2018-06-24T00:00:00+02:00",
-                    "directedBy": {
-                        "id": "urn:epass:org:2",
-                        "registration": 12345678,
-                        "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                        "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                        "homepage": "http://gradst.unist.hr/",
-                        "hasLocation": {
-                            "id": "urn:epass:location:3",
-                            "hasAddress": {"country": "Croatia"}
-                        }
-                    },
+                   "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                     "location": {
-                        "id": "urn:epass:location:22",
-                        "hasAddress": {"country": "Croatia"}
+                        "id": "urn:epass:location:22"
                     },
                     "specifiedBy": {
                         "id": "urn:epass:learningactivityspec:19",
@@ -389,20 +281,10 @@
                     "workload": "PT60H",
                     "startedAtTime": "2018-01-15T00:00:00+01:00",
                     "endedAtTime": "2018-06-24T00:00:00+02:00",
-                    "directedBy": {
-                        "id": "urn:epass:org:2",
-                        "registration": 12345678,
-                        "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                        "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                        "homepage": "http://gradst.unist.hr/",
-                        "hasLocation": {
-                            "id": "urn:epass:location:3",
-                            "hasAddress": {"country": "Croatia"}
-                        }
-                    },
+                   "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                     "location": {
-                        "id": "urn:epass:location:13",
-                        "hasAddress": {"country": "Croatia"}
+                        "id": "urn:epass:location:13"
+                       
                     },
                     "specifiedBy": {
                         "id": "urn:epass:learningactivityspec:10",
@@ -422,20 +304,9 @@
                     "workload": "PT60H",
                     "startedAtTime": "2018-01-15T00:00:00+01:00",
                     "endedAtTime": "2018-06-24T00:00:00+02:00",
-                    "directedBy": {
-                        "id": "urn:epass:org:2",
-                        "registration": 12345678,
-                        "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                        "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                        "homepage": "http://gradst.unist.hr/",
-                        "hasLocation": {
-                            "id": "urn:epass:location:3",
-                            "hasAddress": {"country": "Croatia"}
-                        }
-                    },
+                   "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                     "location": {
-                        "id": "urn:epass:location:14",
-                        "hasAddress": {"country": "Croatia"}
+                        "id": "urn:epass:location:14"
                     },
                     "specifiedBy": {
                         "id": "urn:epass:learningactivityspec:11",
@@ -455,20 +326,9 @@
                     "workload": "PT60H",
                     "startedAtTime": "2018-09-03T00:00:00+02:00",
                     "endedAtTime": "2019-01-13T00:00:00+01:00",
-                    "directedBy": {
-                        "id": "urn:epass:org:2",
-                        "registration": 12345678,
-                        "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                        "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                        "homepage": "http://gradst.unist.hr/",
-                        "hasLocation": {
-                            "id": "urn:epass:location:3",
-                            "hasAddress": {"country": "Croatia"}
-                        }
-                    },
+                   "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                     "location": {
-                        "id": "urn:epass:location:15",
-                        "hasAddress": {"country": "Croatia"}
+                        "id": "urn:epass:location:15"
                     },
                     "specifiedBy": {
                         "id": "urn:epass:learningactivityspec:12",
@@ -488,20 +348,9 @@
                     "workload": "PT60H",
                     "startedAtTime": "2018-09-03T00:00:00+02:00",
                     "endedAtTime": "2019-01-13T00:00:00+01:00",
-                    "directedBy": {
-                        "id": "urn:epass:org:2",
-                        "registration": 12345678,
-                        "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                        "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                        "homepage": "http://gradst.unist.hr/",
-                        "hasLocation": {
-                            "id": "urn:epass:location:3",
-                            "hasAddress": {"country": "Croatia"}
-                        }
-                    },
+                   "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                     "location": {
-                        "id": "urn:epass:location:16",
-                        "hasAddress": {"country": "Croatia"}
+                        "id": "urn:epass:location:16"
                     },
                     "specifiedBy": {
                         "id": "urn:epass:learningactivityspec:13",
@@ -521,20 +370,9 @@
                     "workload": "PT60H",
                     "startedAtTime": "2018-09-03T00:00:00+02:00",
                     "endedAtTime": "2019-01-13T00:00:00+01:00",
-                    "directedBy": {
-                        "id": "urn:epass:org:2",
-                        "registration": 12345678,
-                        "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                        "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                        "homepage": "http://gradst.unist.hr/",
-                        "hasLocation": {
-                            "id": "urn:epass:location:3",
-                            "hasAddress": {"country": "Croatia"}
-                        }
-                    },
+                   "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                     "location": {
-                        "id": "urn:epass:location:17",
-                        "hasAddress": {"country": "Croatia"}
+                        "id": "urn:epass:location:17"
                     },
                     "specifiedBy": {
                         "id": "urn:epass:learningactivityspec:14",
@@ -554,20 +392,9 @@
                     "workload": "PT60H",
                     "startedAtTime": "2018-09-03T00:00:00+02:00",
                     "endedAtTime": "2019-01-13T00:00:00+01:00",
-                    "directedBy": {
-                        "id": "urn:epass:org:2",
-                        "registration": 12345678,
-                        "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                        "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                        "homepage": "http://gradst.unist.hr/",
-                        "hasLocation": {
-                            "id": "urn:epass:location:3",
-                            "hasAddress": {"country": "Croatia"}
-                        }
-                    },
+                   "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                     "location": {
-                        "id": "urn:epass:location:18",
-                        "hasAddress": {"country": "Croatia"}
+                        "id": "urn:epass:location:18"
                     },
                     "specifiedBy": {
                         "id": "urn:epass:learningactivityspec:15",
@@ -587,20 +414,9 @@
                     "workload": "PT60H",
                     "startedAtTime": "2018-09-03T00:00:00+02:00",
                     "endedAtTime": "2019-01-13T00:00:00+01:00",
-                    "directedBy": {
-                        "id": "urn:epass:org:2",
-                        "registration": 12345678,
-                        "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                        "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                        "homepage": "http://gradst.unist.hr/",
-                        "hasLocation": {
-                            "id": "urn:epass:location:3",
-                            "hasAddress": {"country": "Croatia"}
-                        }
-                    },
+                   "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                     "location": {
-                        "id": "urn:epass:location:19",
-                        "hasAddress": {"country": "Croatia"}
+                        "id": "urn:epass:location:19"
                     },
                     "specifiedBy": {
                         "id": "urn:epass:learningactivityspec:16",
@@ -620,20 +436,9 @@
                     "workload": "PT60H",
                     "startedAtTime": "2018-09-03T00:00:00+02:00",
                     "endedAtTime": "2019-01-13T00:00:00+01:00",
-                    "directedBy": {
-                        "id": "urn:epass:org:2",
-                        "registration": 12345678,
-                        "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                        "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                        "homepage": "http://gradst.unist.hr/",
-                        "hasLocation": {
-                            "id": "urn:epass:location:3",
-                            "hasAddress": {"country": "Croatia"}
-                        }
-                    },
+                   "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                     "location": {
-                        "id": "urn:epass:location:20",
-                        "hasAddress": {"country": "Croatia"}
+                        "id": "urn:epass:location:20"
                     },
                     "specifiedBy": {
                         "id": "urn:epass:learningactivityspec:17",
@@ -653,20 +458,9 @@
                     "workload": "PT360H",
                     "startedAtTime": "2019-01-14T00:00:00+01:00",
                     "endedAtTime": "2019-09-20T00:00:00+02:00",
-                    "directedBy": {
-                        "id": "urn:epass:org:2",
-                        "registration": 12345678,
-                        "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                        "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                        "homepage": "http://gradst.unist.hr/",
-                        "hasLocation": {
-                            "id": "urn:epass:location:3",
-                            "hasAddress": {"country": "Croatia"}
-                        }
-                    },
+                   "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                     "location": {
-                        "id": "urn:epass:location:21",
-                        "hasAddress": {"country": "Croatia"}
+                        "id": "urn:epass:location:21"
                     },
                     "specifiedBy": {
                         "id": "urn:epass:learningactivityspec:18",
@@ -737,20 +531,9 @@
                             "workload": "PT60H",
                             "startedAtTime": "2017-09-04T00:00:00+02:00",
                             "endedAtTime": "2018-01-14T00:00:00+01:00",
-                            "directedBy": {
-                                "id": "urn:epass:org:2",
-                                "registration": 12345678,
-                                "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                                "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                                "homepage": "http://gradst.unist.hr/",
-                                "hasLocation": {
-                                    "id": "urn:epass:location:3",
-                                    "hasAddress": {"country": "Croatia"}
-                                }
-                            },
+                            "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                             "location": {
-                                "id": "urn:epass:location:4",
-                                "hasAddress": {"country": "Croatia"}
+                                "id": "urn:epass:location:4"
                             },
                             "specifiedBy": {
                                 "id": "urn:epass:learningactivityspec:1",
@@ -829,20 +612,9 @@
                             "workload": "PT60H",
                             "startedAtTime": "2017-09-04T00:00:00+02:00",
                             "endedAtTime": "2018-01-14T00:00:00+01:00",
-                            "directedBy": {
-                                "id": "urn:epass:org:2",
-                                "registration": 12345678,
-                                "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                                "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                                "homepage": "http://gradst.unist.hr/",
-                                "hasLocation": {
-                                    "id": "urn:epass:location:3",
-                                    "hasAddress": {"country": "Croatia"}
-                                }
-                            },
+                            "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                             "location": {
-                                "id": "urn:epass:location:5",
-                                "hasAddress": {"country": "Croatia"}
+                                "id": "urn:epass:location:5"
                             },
                             "specifiedBy": {
                                 "id": "urn:epass:learningactivityspec:2",
@@ -921,20 +693,9 @@
                             "workload": "PT45H",
                             "startedAtTime": "2017-09-04T00:00:00+02:00",
                             "endedAtTime": "2018-01-14T00:00:00+01:00",
-                            "directedBy": {
-                                "id": "urn:epass:org:2",
-                                "registration": 12345678,
-                                "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                                "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                                "homepage": "http://gradst.unist.hr/",
-                                "hasLocation": {
-                                    "id": "urn:epass:location:3",
-                                    "hasAddress": {"country": "Croatia"}
-                                }
-                            },
+                            "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                             "location": {
-                                "id": "urn:epass:location:6",
-                                "hasAddress": {"country": "Croatia"}
+                                "id": "urn:epass:location:6"
                             },
                             "specifiedBy": {
                                 "id": "urn:epass:learningactivityspec:3",
@@ -1013,20 +774,9 @@
                             "workload": "PT60H",
                             "startedAtTime": "2017-09-04T00:00:00+02:00",
                             "endedAtTime": "2018-01-14T00:00:00+01:00",
-                            "directedBy": {
-                                "id": "urn:epass:org:2",
-                                "registration": 12345678,
-                                "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                                "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                                "homepage": "http://gradst.unist.hr/",
-                                "hasLocation": {
-                                    "id": "urn:epass:location:3",
-                                    "hasAddress": {"country": "Croatia"}
-                                }
-                            },
+                            "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                             "location": {
-                                "id": "urn:epass:location:7",
-                                "hasAddress": {"country": "Croatia"}
+                                "id": "urn:epass:location:7"
                             },
                             "specifiedBy": {
                                 "id": "urn:epass:learningactivityspec:4",
@@ -1105,20 +855,9 @@
                             "workload": "PT60H",
                             "startedAtTime": "2017-09-04T00:00:00+02:00",
                             "endedAtTime": "2018-01-14T00:00:00+01:00",
-                            "directedBy": {
-                                "id": "urn:epass:org:2",
-                                "registration": 12345678,
-                                "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                                "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                                "homepage": "http://gradst.unist.hr/",
-                                "hasLocation": {
-                                    "id": "urn:epass:location:3",
-                                    "hasAddress": {"country": "Croatia"}
-                                }
-                            },
+                            "directedBy":"did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                             "location": {
-                                "id": "urn:epass:location:8",
-                                "hasAddress": {"country": "Croatia"}
+                                "id": "urn:epass:location:8"
                             },
                             "specifiedBy": {
                                 "id": "urn:epass:learningactivityspec:5",
@@ -1197,20 +936,9 @@
                             "workload": "PT75H",
                             "startedAtTime": "2017-09-04T00:00:00+02:00",
                             "endedAtTime": "2018-01-14T00:00:00+01:00",
-                            "directedBy": {
-                                "id": "urn:epass:org:2",
-                                "registration": 12345678,
-                                "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                                "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                                "homepage": "http://gradst.unist.hr/",
-                                "hasLocation": {
-                                    "id": "urn:epass:location:3",
-                                    "hasAddress": {"country": "Croatia"}
-                                }
-                            },
+                            "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                             "location": {
-                                "id": "urn:epass:location:9",
-                                "hasAddress": {"country": "Croatia"}
+                                "id": "urn:epass:location:9"
                             },
                             "specifiedBy": {
                                 "id": "urn:epass:learningactivityspec:6",
@@ -1289,20 +1017,9 @@
                             "workload": "PT60H",
                             "startedAtTime": "2018-01-15T00:00:00+01:00",
                             "endedAtTime": "2018-06-24T00:00:00+02:00",
-                            "directedBy": {
-                                "id": "urn:epass:org:2",
-                                "registration": 12345678,
-                                "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                                "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                                "homepage": "http://gradst.unist.hr/",
-                                "hasLocation": {
-                                    "id": "urn:epass:location:3",
-                                    "hasAddress": {"country": "Croatia"}
-                                }
-                            },
+                            "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                             "location": {
-                                "id": "urn:epass:location:10",
-                                "hasAddress": {"country": "Croatia"}
+                                "id": "urn:epass:location:10"
                             },
                             "specifiedBy": {
                                 "id": "urn:epass:learningactivityspec:7",
@@ -1381,20 +1098,9 @@
                             "workload": "PT60H",
                             "startedAtTime": "2018-01-15T00:00:00+01:00",
                             "endedAtTime": "2018-06-24T00:00:00+02:00",
-                            "directedBy": {
-                                "id": "urn:epass:org:2",
-                                "registration": 12345678,
-                                "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                                "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                                "homepage": "http://gradst.unist.hr/",
-                                "hasLocation": {
-                                    "id": "urn:epass:location:3",
-                                    "hasAddress": {"country": "Croatia"}
-                                }
-                            },
+                            "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                             "location": {
-                                "id": "urn:epass:location:11",
-                                "hasAddress": {"country": "Croatia"}
+                                "id": "urn:epass:location:11"
                             },
                             "specifiedBy": {
                                 "id": "urn:epass:learningactivityspec:8",
@@ -1473,20 +1179,9 @@
                             "workload": "PT60H",
                             "startedAtTime": "2018-01-15T00:00:00+01:00",
                             "endedAtTime": "2018-06-24T00:00:00+02:00",
-                            "directedBy": {
-                                "id": "urn:epass:org:2",
-                                "registration": 12345678,
-                                "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                                "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                                "homepage": "http://gradst.unist.hr/",
-                                "hasLocation": {
-                                    "id": "urn:epass:location:3",
-                                    "hasAddress": {"country": "Croatia"}
-                                }
-                            },
+                            "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                             "location": {
-                                "id": "urn:epass:location:12",
-                                "hasAddress": {"country": "Croatia"}
+                                "id": "urn:epass:location:12"
                             },
                             "specifiedBy": {
                                 "id": "urn:epass:learningactivityspec:9",
@@ -1565,20 +1260,9 @@
                             "workload": "PT60H",
                             "startedAtTime": "2018-01-15T00:00:00+01:00",
                             "endedAtTime": "2018-06-24T00:00:00+02:00",
-                            "directedBy": {
-                                "id": "urn:epass:org:2",
-                                "registration": 12345678,
-                                "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                                "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                                "homepage": "http://gradst.unist.hr/",
-                                "hasLocation": {
-                                    "id": "urn:epass:location:3",
-                                    "hasAddress": {"country": "Croatia"}
-                                }
-                            },
+                            "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                             "location": {
-                                "id": "urn:epass:location:22",
-                                "hasAddress": {"country": "Croatia"}
+                                "id": "urn:epass:location:22"
                             },
                             "specifiedBy": {
                                 "id": "urn:epass:learningactivityspec:19",
@@ -1657,20 +1341,9 @@
                             "workload": "PT60H",
                             "startedAtTime": "2018-01-15T00:00:00+01:00",
                             "endedAtTime": "2018-06-24T00:00:00+02:00",
-                            "directedBy": {
-                                "id": "urn:epass:org:2",
-                                "registration": 12345678,
-                                "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                                "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                                "homepage": "http://gradst.unist.hr/",
-                                "hasLocation": {
-                                    "id": "urn:epass:location:3",
-                                    "hasAddress": {"country": "Croatia"}
-                                }
-                            },
+                            "directedBy":  "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                             "location": {
-                                "id": "urn:epass:location:13",
-                                "hasAddress": {"country": "Croatia"}
+                                "id": "urn:epass:location:13"
                             },
                             "specifiedBy": {
                                 "id": "urn:epass:learningactivityspec:10",
@@ -1749,20 +1422,9 @@
                             "workload": "PT60H",
                             "startedAtTime": "2018-01-15T00:00:00+01:00",
                             "endedAtTime": "2018-06-24T00:00:00+02:00",
-                            "directedBy": {
-                                "id": "urn:epass:org:2",
-                                "registration": 12345678,
-                                "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                                "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                                "homepage": "http://gradst.unist.hr/",
-                                "hasLocation": {
-                                    "id": "urn:epass:location:3",
-                                    "hasAddress": {"country": "Croatia"}
-                                }
-                            },
+                             "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                             "location": {
-                                "id": "urn:epass:location:14",
-                                "hasAddress": {"country": "Croatia"}
+                                "id": "urn:epass:location:14"
                             },
                             "specifiedBy": {
                                 "id": "urn:epass:learningactivityspec:11",
@@ -1841,20 +1503,9 @@
                             "workload": "PT60H",
                             "startedAtTime": "2018-09-03T00:00:00+02:00",
                             "endedAtTime": "2019-01-13T00:00:00+01:00",
-                            "directedBy": {
-                                "id": "urn:epass:org:2",
-                                "registration": 12345678,
-                                "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                                "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                                "homepage": "http://gradst.unist.hr/",
-                                "hasLocation": {
-                                    "id": "urn:epass:location:3",
-                                    "hasAddress": {"country": "Croatia"}
-                                }
-                            },
+                           "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                             "location": {
-                                "id": "urn:epass:location:15",
-                                "hasAddress": {"country": "Croatia"}
+                                "id": "urn:epass:location:15"
                             },
                             "specifiedBy": {
                                 "id": "urn:epass:learningactivityspec:12",
@@ -1933,20 +1584,9 @@
                             "workload": "PT60H",
                             "startedAtTime": "2018-09-03T00:00:00+02:00",
                             "endedAtTime": "2019-01-13T00:00:00+01:00",
-                            "directedBy": {
-                                "id": "urn:epass:org:2",
-                                "registration": 12345678,
-                                "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                                "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                                "homepage": "http://gradst.unist.hr/",
-                                "hasLocation": {
-                                    "id": "urn:epass:location:3",
-                                    "hasAddress": {"country": "Croatia"}
-                                }
-                            },
+                           "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                             "location": {
-                                "id": "urn:epass:location:16",
-                                "hasAddress": {"country": "Croatia"}
+                                "id": "urn:epass:location:16"
                             },
                             "specifiedBy": {
                                 "id": "urn:epass:learningactivityspec:13",
@@ -2025,20 +1665,9 @@
                             "workload": "PT60H",
                             "startedAtTime": "2018-09-03T00:00:00+02:00",
                             "endedAtTime": "2019-01-13T00:00:00+01:00",
-                            "directedBy": {
-                                "id": "urn:epass:org:2",
-                                "registration": 12345678,
-                                "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                                "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                                "homepage": "http://gradst.unist.hr/",
-                                "hasLocation": {
-                                    "id": "urn:epass:location:3",
-                                    "hasAddress": {"country": "Croatia"}
-                                }
-                            },
+                            "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                             "location": {
-                                "id": "urn:epass:location:17",
-                                "hasAddress": {"country": "Croatia"}
+                                "id": "urn:epass:location:17"
                             },
                             "specifiedBy": {
                                 "id": "urn:epass:learningactivityspec:14",
@@ -2117,20 +1746,9 @@
                             "workload": "PT60H",
                             "startedAtTime": "2018-09-03T00:00:00+02:00",
                             "endedAtTime": "2019-01-13T00:00:00+01:00",
-                            "directedBy": {
-                                "id": "urn:epass:org:2",
-                                "registration": 12345678,
-                                "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                                "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                                "homepage": "http://gradst.unist.hr/",
-                                "hasLocation": {
-                                    "id": "urn:epass:location:3",
-                                    "hasAddress": {"country": "Croatia"}
-                                }
-                            },
+                            "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                             "location": {
-                                "id": "urn:epass:location:18",
-                                "hasAddress": {"country": "Croatia"}
+                                "id": "urn:epass:location:18"
                             },
                             "specifiedBy": {
                                 "id": "urn:epass:learningactivityspec:15",
@@ -2209,20 +1827,9 @@
                             "workload": "PT60H",
                             "startedAtTime": "2018-09-03T00:00:00+02:00",
                             "endedAtTime": "2019-01-13T00:00:00+01:00",
-                            "directedBy": {
-                                "id": "urn:epass:org:2",
-                                "registration": 12345678,
-                                "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                                "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                                "homepage": "http://gradst.unist.hr/",
-                                "hasLocation": {
-                                    "id": "urn:epass:location:3",
-                                    "hasAddress": {"country": "Croatia"}
-                                }
-                            },
+                            "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                             "location": {
-                                "id": "urn:epass:location:19",
-                                "hasAddress": {"country": "Croatia"}
+                                "id": "urn:epass:location:19"
                             },
                             "specifiedBy": {
                                 "id": "urn:epass:learningactivityspec:16",
@@ -2301,20 +1908,9 @@
                             "workload": "PT60H",
                             "startedAtTime": "2018-09-03T00:00:00+02:00",
                             "endedAtTime": "2019-01-13T00:00:00+01:00",
-                            "directedBy": {
-                                "id": "urn:epass:org:2",
-                                "registration": 12345678,
-                                "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                                "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                                "homepage": "http://gradst.unist.hr/",
-                                "hasLocation": {
-                                    "id": "urn:epass:location:3",
-                                    "hasAddress": {"country": "Croatia"}
-                                }
-                            },
+                            "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                             "location": {
-                                "id": "urn:epass:location:20",
-                                "hasAddress": {"country": "Croatia"}
+                                "id": "urn:epass:location:20"
                             },
                             "specifiedBy": {
                                 "id": "urn:epass:learningactivityspec:17",
@@ -2393,20 +1989,9 @@
                             "workload": "PT360H",
                             "startedAtTime": "2019-01-14T00:00:00+01:00",
                             "endedAtTime": "2019-09-20T00:00:00+02:00",
-                            "directedBy": {
-                                "id": "urn:epass:org:2",
-                                "registration": 12345678,
-                                "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                                "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                                "homepage": "http://gradst.unist.hr/",
-                                "hasLocation": {
-                                    "id": "urn:epass:location:3",
-                                    "hasAddress": {"country": "Croatia"}
-                                }
-                            },
+                             "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                             "location": {
-                                "id": "urn:epass:location:21",
-                                "hasAddress": {"country": "Croatia"}
+                                "id": "urn:epass:location:21"
                             },
                             "specifiedBy": {
                                 "id": "urn:epass:learningactivityspec:18",
@@ -2480,7 +2065,7 @@
                 "nqfLevel": "http://data.europa.eu/snb/qdr/c_dcc9aca1"
             }
         },
-        "performedBy": [
+        "performed": [
             {
                 "id": "urn:epass:activity:1",
                 "identifier": {
@@ -2491,20 +2076,9 @@
                 "workload": "PT60H",
                 "startedAtTime": "2017-09-04T00:00:00+02:00",
                 "endedAtTime": "2018-01-14T00:00:00+01:00",
-                "directedBy": {
-                    "id": "urn:epass:org:2",
-                    "registration": 12345678,
-                    "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                    "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                    "homepage": "http://gradst.unist.hr/",
-                    "hasLocation": {
-                        "id": "urn:epass:location:3",
-                        "hasAddress": {"country": "Croatia"}
-                    }
-                },
+                "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                 "location": {
-                    "id": "urn:epass:location:4",
-                    "hasAddress": {"country": "Croatia"}
+                    "id": "urn:epass:location:4"
                 },
                 "specifiedBy": {
                     "id": "urn:epass:learningactivityspec:1",
@@ -2524,20 +2098,9 @@
                 "workload": "PT60H",
                 "startedAtTime": "2017-09-04T00:00:00+02:00",
                 "endedAtTime": "2018-01-14T00:00:00+01:00",
-                "directedBy": {
-                    "id": "urn:epass:org:2",
-                    "registration": 12345678,
-                    "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                    "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                    "homepage": "http://gradst.unist.hr/",
-                    "hasLocation": {
-                        "id": "urn:epass:location:3",
-                        "hasAddress": {"country": "Croatia"}
-                    }
-                },
+                "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                 "location": {
-                    "id": "urn:epass:location:5",
-                    "hasAddress": {"country": "Croatia"}
+                    "id": "urn:epass:location:5"
                 },
                 "specifiedBy": {
                     "id": "urn:epass:learningactivityspec:2",
@@ -2556,21 +2119,9 @@
                 "title": "Dynamics of structures and earthquake engineering",
                 "workload": "PT45H",
                 "startedAtTime": "2017-09-04T00:00:00+02:00",
-                "endedAtTime": "2018-01-14T00:00:00+01:00",
-                "directedBy": {
-                    "id": "urn:epass:org:2",
-                    "registration": 12345678,
-                    "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                    "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                    "homepage": "http://gradst.unist.hr/",
-                    "hasLocation": {
-                        "id": "urn:epass:location:3",
-                        "hasAddress": {"country": "Croatia"}
-                    }
-                },
+                "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                 "location": {
-                    "id": "urn:epass:location:6",
-                    "hasAddress": {"country": "Croatia"}
+                    "id": "urn:epass:location:6"
                 },
                 "specifiedBy": {
                     "id": "urn:epass:learningactivityspec:3",
@@ -2590,20 +2141,9 @@
                 "workload": "PT60H",
                 "startedAtTime": "2017-09-04T00:00:00+02:00",
                 "endedAtTime": "2018-01-14T00:00:00+01:00",
-                "directedBy": {
-                    "id": "urn:epass:org:2",
-                    "registration": 12345678,
-                    "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                    "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                    "homepage": "http://gradst.unist.hr/",
-                    "hasLocation": {
-                        "id": "urn:epass:location:3",
-                        "hasAddress": {"country": "Croatia"}
-                    }
-                },
+                "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                 "location": {
-                    "id": "urn:epass:location:7",
-                    "hasAddress": {"country": "Croatia"}
+                    "id": "urn:epass:location:7"
                 },
                 "specifiedBy": {
                     "id": "urn:epass:learningactivityspec:4",
@@ -2623,20 +2163,9 @@
                 "workload": "PT60H",
                 "startedAtTime": "2017-09-04T00:00:00+02:00",
                 "endedAtTime": "2018-01-14T00:00:00+01:00",
-                "directedBy": {
-                    "id": "urn:epass:org:2",
-                    "registration": 12345678,
-                    "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                    "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                    "homepage": "http://gradst.unist.hr/",
-                    "hasLocation": {
-                        "id": "urn:epass:location:3",
-                        "hasAddress": {"country": "Croatia"}
-                    }
-                },
+                "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                 "location": {
-                    "id": "urn:epass:location:8",
-                    "hasAddress": {"country": "Croatia"}
+                    "id": "urn:epass:location:8"
                 },
                 "specifiedBy": {
                     "id": "urn:epass:learningactivityspec:5",
@@ -2656,20 +2185,9 @@
                 "workload": "PT75H",
                 "startedAtTime": "2017-09-04T00:00:00+02:00",
                 "endedAtTime": "2018-01-14T00:00:00+01:00",
-                "directedBy": {
-                    "id": "urn:epass:org:2",
-                    "registration": 12345678,
-                    "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                    "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                    "homepage": "http://gradst.unist.hr/",
-                    "hasLocation": {
-                        "id": "urn:epass:location:3",
-                        "hasAddress": {"country": "Croatia"}
-                    }
-                },
+                "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                 "location": {
-                    "id": "urn:epass:location:9",
-                    "hasAddress": {"country": "Croatia"}
+                    "id": "urn:epass:location:9"
                 },
                 "specifiedBy": {
                     "id": "urn:epass:learningactivityspec:6",
@@ -2689,20 +2207,9 @@
                 "workload": "PT60H",
                 "startedAtTime": "2018-01-15T00:00:00+01:00",
                 "endedAtTime": "2018-06-24T00:00:00+02:00",
-                "directedBy": {
-                    "id": "urn:epass:org:2",
-                    "registration": 12345678,
-                    "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                    "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                    "homepage": "http://gradst.unist.hr/",
-                    "hasLocation": {
-                        "id": "urn:epass:location:3",
-                        "hasAddress": {"country": "Croatia"}
-                    }
-                },
+                "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                 "location": {
-                    "id": "urn:epass:location:10",
-                    "hasAddress": {"country": "Croatia"}
+                    "id": "urn:epass:location:10"
                 },
                 "specifiedBy": {
                     "id": "urn:epass:learningactivityspec:7",
@@ -2722,20 +2229,9 @@
                 "workload": "PT60H",
                 "startedAtTime": "2018-01-15T00:00:00+01:00",
                 "endedAtTime": "2018-06-24T00:00:00+02:00",
-                "directedBy": {
-                    "id": "urn:epass:org:2",
-                    "registration": 12345678,
-                    "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                    "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                    "homepage": "http://gradst.unist.hr/",
-                    "hasLocation": {
-                        "id": "urn:epass:location:3",
-                        "hasAddress": {"country": "Croatia"}
-                    }
-                },
+                "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                 "location": {
-                    "id": "urn:epass:location:11",
-                    "hasAddress": {"country": "Croatia"}
+                    "id": "urn:epass:location:11"
                 },
                 "specifiedBy": {
                     "id": "urn:epass:learningactivityspec:8",
@@ -2755,20 +2251,9 @@
                 "workload": "PT60H",
                 "startedAtTime": "2018-01-15T00:00:00+01:00",
                 "endedAtTime": "2018-06-24T00:00:00+02:00",
-                "directedBy": {
-                    "id": "urn:epass:org:2",
-                    "registration": 12345678,
-                    "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                    "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                    "homepage": "http://gradst.unist.hr/",
-                    "hasLocation": {
-                        "id": "urn:epass:location:3",
-                        "hasAddress": {"country": "Croatia"}
-                    }
-                },
+                "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                 "location": {
-                    "id": "urn:epass:location:12",
-                    "hasAddress": {"country": "Croatia"}
+                    "id": "urn:epass:location:12"
                 },
                 "specifiedBy": {
                     "id": "urn:epass:learningactivityspec:9",
@@ -2788,20 +2273,9 @@
                 "workload": "PT60H",
                 "startedAtTime": "2018-01-15T00:00:00+01:00",
                 "endedAtTime": "2018-06-24T00:00:00+02:00",
-                "directedBy": {
-                    "id": "urn:epass:org:2",
-                    "registration": 12345678,
-                    "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                    "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                    "homepage": "http://gradst.unist.hr/",
-                    "hasLocation": {
-                        "id": "urn:epass:location:3",
-                        "hasAddress": {"country": "Croatia"}
-                    }
-                },
+                "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                 "location": {
-                    "id": "urn:epass:location:13",
-                    "hasAddress": {"country": "Croatia"}
+                    "id": "urn:epass:location:13"
                 },
                 "specifiedBy": {
                     "id": "urn:epass:learningactivityspec:10",
@@ -2821,20 +2295,9 @@
                 "workload": "PT60H",
                 "startedAtTime": "2018-01-15T00:00:00+01:00",
                 "endedAtTime": "2018-06-24T00:00:00+02:00",
-                "directedBy": {
-                    "id": "urn:epass:org:2",
-                    "registration": 12345678,
-                    "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                    "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                    "homepage": "http://gradst.unist.hr/",
-                    "hasLocation": {
-                        "id": "urn:epass:location:3",
-                        "hasAddress": {"country": "Croatia"}
-                    }
-                },
+                "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                 "location": {
-                    "id": "urn:epass:location:14",
-                    "hasAddress": {"country": "Croatia"}
+                    "id": "urn:epass:location:14"
                 },
                 "specifiedBy": {
                     "id": "urn:epass:learningactivityspec:11",
@@ -2854,20 +2317,9 @@
                 "workload": "PT60H",
                 "startedAtTime": "2018-09-03T00:00:00+02:00",
                 "endedAtTime": "2019-01-13T00:00:00+01:00",
-                "directedBy": {
-                    "id": "urn:epass:org:2",
-                    "registration": 12345678,
-                    "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                    "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                    "homepage": "http://gradst.unist.hr/",
-                    "hasLocation": {
-                        "id": "urn:epass:location:3",
-                        "hasAddress": {"country": "Croatia"}
-                    }
-                },
+                "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                 "location": {
-                    "id": "urn:epass:location:15",
-                    "hasAddress": {"country": "Croatia"}
+                    "id": "urn:epass:location:15"
                 },
                 "specifiedBy": {
                     "id": "urn:epass:learningactivityspec:12",
@@ -2887,20 +2339,9 @@
                 "workload": "PT60H",
                 "startedAtTime": "2018-09-03T00:00:00+02:00",
                 "endedAtTime": "2019-01-13T00:00:00+01:00",
-                "directedBy": {
-                    "id": "urn:epass:org:2",
-                    "registration": 12345678,
-                    "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                    "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                    "homepage": "http://gradst.unist.hr/",
-                    "hasLocation": {
-                        "id": "urn:epass:location:3",
-                        "hasAddress": {"country": "Croatia"}
-                    }
-                },
+                "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                 "location": {
-                    "id": "urn:epass:location:16",
-                    "hasAddress": {"country": "Croatia"}
+                    "id": "urn:epass:location:16"
                 },
                 "specifiedBy": {
                     "id": "urn:epass:learningactivityspec:13",
@@ -2920,20 +2361,9 @@
                 "workload": "PT60H",
                 "startedAtTime": "2018-09-03T00:00:00+02:00",
                 "endedAtTime": "2019-01-13T00:00:00+01:00",
-                "directedBy": {
-                    "id": "urn:epass:org:2",
-                    "registration": 12345678,
-                    "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                    "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                    "homepage": "http://gradst.unist.hr/",
-                    "hasLocation": {
-                        "id": "urn:epass:location:3",
-                        "hasAddress": {"country": "Croatia"}
-                    }
-                },
+               "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                 "location": {
-                    "id": "urn:epass:location:17",
-                    "hasAddress": {"country": "Croatia"}
+                    "id": "urn:epass:location:17"
                 },
                 "specifiedBy": {
                     "id": "urn:epass:learningactivityspec:14",
@@ -2953,20 +2383,9 @@
                 "workload": "PT60H",
                 "startedAtTime": "2018-09-03T00:00:00+02:00",
                 "endedAtTime": "2019-01-13T00:00:00+01:00",
-                "directedBy": {
-                    "id": "urn:epass:org:2",
-                    "registration": 12345678,
-                    "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                    "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                    "homepage": "http://gradst.unist.hr/",
-                    "hasLocation": {
-                        "id": "urn:epass:location:3",
-                        "hasAddress": {"country": "Croatia"}
-                    }
-                },
+                "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                 "location": {
-                    "id": "urn:epass:location:18",
-                    "hasAddress": {"country": "Croatia"}
+                    "id": "urn:epass:location:18"
                 },
                 "specifiedBy": {
                     "id": "urn:epass:learningactivityspec:15",
@@ -2986,20 +2405,9 @@
                 "workload": "PT60H",
                 "startedAtTime": "2018-09-03T00:00:00+02:00",
                 "endedAtTime": "2019-01-13T00:00:00+01:00",
-                "directedBy": {
-                    "id": "urn:epass:org:2",
-                    "registration": 12345678,
-                    "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                    "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                    "homepage": "http://gradst.unist.hr/",
-                    "hasLocation": {
-                        "id": "urn:epass:location:3",
-                        "hasAddress": {"country": "Croatia"}
-                    }
-                },
+               "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                 "location": {
-                    "id": "urn:epass:location:19",
-                    "hasAddress": {"country": "Croatia"}
+                    "id": "urn:epass:location:19"
                 },
                 "specifiedBy": {
                     "id": "urn:epass:learningactivityspec:16",
@@ -3019,20 +2427,9 @@
                 "workload": "PT60H",
                 "startedAtTime": "2018-09-03T00:00:00+02:00",
                 "endedAtTime": "2019-01-13T00:00:00+01:00",
-                "directedBy": {
-                    "id": "urn:epass:org:2",
-                    "registration": 12345678,
-                    "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                    "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                    "homepage": "http://gradst.unist.hr/",
-                    "hasLocation": {
-                        "id": "urn:epass:location:3",
-                        "hasAddress": {"country": "Croatia"}
-                    }
-                },
+                "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                 "location": {
-                    "id": "urn:epass:location:20",
-                    "hasAddress": {"country": "Croatia"}
+                    "id": "urn:epass:location:20"
                 },
                 "specifiedBy": {
                     "id": "urn:epass:learningactivityspec:17",
@@ -3052,20 +2449,9 @@
                 "workload": "PT360H",
                 "startedAtTime": "2019-01-14T00:00:00+01:00",
                 "endedAtTime": "2019-09-20T00:00:00+02:00",
-                "directedBy": {
-                    "id": "urn:epass:org:2",
-                    "registration": 12345678,
-                    "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                    "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                    "homepage": "http://gradst.unist.hr/",
-                    "hasLocation": {
-                        "id": "urn:epass:location:3",
-                        "hasAddress": {"country": "Croatia"}
-                    }
-                },
+                "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                 "location": {
-                    "id": "urn:epass:location:21",
-                    "hasAddress": {"country": "Croatia"}
+                    "id": "urn:epass:location:21"
                 },
                 "specifiedBy": {
                     "id": "urn:epass:learningactivityspec:18",

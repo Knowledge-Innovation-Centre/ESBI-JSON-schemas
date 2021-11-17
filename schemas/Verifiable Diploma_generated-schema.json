@@ -16,26 +16,51 @@
             "description": "Additional properties on credentialSubject to describe educational use cases",
             "type": "object",
             "properties": {
-                "performedBy": {
+                "performed": {
                     "description": "A learning activity that a person participated in or attended. Association LearningActivity",
                     "type": "array",
-                     
-                    "items": { "anyOf":{"$ref": "#/$defs/learningActivity"}}
+                    "items": {
+                        "anyOf": {"$ref": "#/$defs/learningActivity"}
+                    }
                 },
                 "achieved": {
                     "description": "An achievement of the person. Association LearningAchievement",
                     "type": "array",
-                    "items": { "anyOf":{"$ref": "#/$defs/learningAchievement"}}
+                    "items": {
+                        "anyOf": {"$ref": "#/$defs/learningAchievement"}
+                    }
                 },
                 "entitledTo": {
                     "description": "The entitlement of the person. Association Entitlement",
                     "type": "array",
-                    "items": { "anyOf":[{"$ref": "#/$defs/entitlement"}]}
+                    "items": {
+                        "anyOf": [
+                            {"$ref": "#/$defs/entitlement"}
+                        ]
+                    }
                 }
             }
         }
     },
     "$defs": {
+        "identifier1": {
+            "description": "Defines an alternative Identifier object ",
+            "type": "object",
+            "properties": {
+                "schemaID": {
+                    "description": "Defines the schema used to define alternative identification",
+                    "type": "string"
+                },
+                "value": {
+                    "description": "Define the alternative identification value",
+                    "type": "string"
+                }
+            },
+            "required": [
+                "schemaID",
+                "value"
+            ]
+        },
         "learningSpecification": {
             "description": "Defines an opportunity to realise a given set of learning outcomes via a learning activity and/or assessment",
             "type": "object",
@@ -47,13 +72,18 @@
                 },
                 "identifier": {
                     "description": "Defines an alternative identifier of the learning specification, as assigned to it by the organisation who designed the specification. ",
-                    "type": "string",
-                    "format": "uri"
+                    "type": "array",
+                    "items": {
+                        "anyOf": {"$ref": "#/$defs/identifier1"}
+                    }
                 },
                 "learningOpportunityType": {
                     "description": "Describes the type of learning opportunity",
-                    "type": "string",
-                    "format": "uri"
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "uri"
+                    }
                 },
                 "title": {
                     "description": "Defines the title of the learning specification",
@@ -61,7 +91,8 @@
                 },
                 "alternativeLabel": {
                     "description": "An alternative name of the learning specification",
-                    "type": "string"
+                    "type": "array",
+                    "items": {"type": "string"}
                 },
                 "definition": {
                     "description": "Short and abstract description about the learning specification.",
@@ -91,12 +122,16 @@
                 },
                 "iSCEDFCode": {
                     "description": "Thematic Area according to the ISCED-F 2013 Classification.",
-                    "type": "string",
-                    "format": "uri"
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "uri"
+                    }
                 },
                 "educationSubject": {
                     "description": "An associated field of education from another semantic framework than the ISCED classification. Association EducationSubject??",
-                    "type": "string"
+                    "type": "array",
+                    "items": {"type": "string"}
                 },
                 "volumeOfLearning": {
                     "description": "The estimated number of hours the learner is expected to spend engaged in learning to earn the award. This would include the notional number of hours in class, in group work, in practicals, as well as hours engaged in self-motivated study",
@@ -112,7 +147,8 @@
                 },
                 "educationLevel": {
                     "description": "An associated level of education within a semantic framework describing education levels. Association EducationLevel??",
-                    "type": "string"
+                    "type": "array",
+                    "items": {"type": "string"}
                 },
                 "language": {
                     "description": "The instruction and/or assessment language(s) used",
@@ -133,8 +169,11 @@
                 },
                 "targetGroup": {
                     "description": "A specific target group or category for which this specification is designed.",
-                    "type": "string",
-                    "format": "uri"
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "uri"
+                    }
                 },
                 "entryRequirementsNote": {
                     "description": "The maximum duration (in months) that a person may use to complete the learning opportunity.",
@@ -142,11 +181,8 @@
                 },
                 "learningOutcome": {
                     "description": "An individual (expected) learning outcome of the learning specification. Association to LearningOutcome",
-                    "type": "object",
-                    "properties": {
-                        "outcome": {"$ref": "#/$defs/learningOutcome"}
-                    },
-                    "required": ["outcome"]
+                    "type": "array",
+                    "items": {"$ref": "#/$defs/learningOutcome"}
                 },
                 "learningActivitySpecification": {
                     "type": "object",
@@ -157,27 +193,18 @@
                 },
                 "assessmentSpecification": {
                     "description": "Assessments a person can undergo to prove the acquisition of the learning outcomes. Association   AssessmentSpecification",
-                    "type": "object",
-                    "properties": {
-                        "assessmentSpec": {"$ref": "#/$defs/assessmentSpecification"}
-                    },
-                    "required": ["assessmentSpec"]
+                    "type": "array",
+                    "items": {"$ref": "#/$defs/assessmentSpecification"}
                 },
                 "entitlementSpecification": {
                     "description": "Rights (such as which the person may acquire as a result of acquiring the learning outcomes. Association   EntitlementSpecification",
-                    "type": "object",
-                    "properties": {
-                        "entitlementSpec": {"$ref": "#/$defs/entitlementSpecification"}
-                    },
-                    "required": ["entitlementSpec"]
+                    "type": "array",
+                    "items": {"$ref": "#/$defs/entitlementSpecification"}
                 },
                 "awardingOpportunity": {
                     "description": "Refers to an activity related to the awarding of the learning specification, such as the country or region where the qualification is awarded, the awarding body and optionally the awarding period now or in the past. Association    AwardingOpportunity",
-                    "type": "object",
-                    "properties": {
-                        "awardingOpp": {"$ref": "#/$defs/awardingOpportunity2"}
-                    },
-                    "required": ["awardingOpp"]
+                    "type": "array",
+                    "items": {"$ref": "#/$defs/awardingOpportunity2"}
                 },
                 "hasPart": {
                     "description": "A learning specification can be composed of other narrower learning specifications which when combined make up this learning specification. Association LearningSpecification",
@@ -188,10 +215,7 @@
                     "required": ["learningSpec"]
                 }
             },
-            "required": [
-                "type",
-                "homepage"
-            ]
+            "required": ["id"]
         },
         "qualification": {
             "description": "a specification of an assessment and validation process which is obtained when a competent authority determines that an individual has achieved learning outcomes to given standards.",
@@ -201,19 +225,20 @@
                     "description": "Indicates whether a qualification is a full qualification or part of another qualification",
                     "type": "boolean"
                 },
-                "EQF Level": {
+                "eqflLevel": {
                     "description": "The qualification level as specified by the European Qualification Framework.",
                     "type": "string",
                     "format": "uri"
                 },
-                "NQF Level": {
+                "nqflLevel": {
                     "description": "The qualification level as specified by a National Qualification Framework",
                     "type": "string",
                     "format": "uri"
                 },
-                "Accreditation": {
+                "hasAccreditation": {
                     "description": "The accreditation of a qualification. Association Accreditation?",
-                    "type": "string"
+                    "type": "array",
+                    "items": {"type": "string"}
                 }
             }
         },
@@ -228,8 +253,10 @@
                 },
                 "identifier": {
                     "description": "Defines an alternative identifier of the learning outcome, used by business logic. Association Identifier",
-                    "type": "string",
-                    "format": "uri"
+                    "type": "array",
+                    "items": {
+                        "anyOf": {"$ref": "#/$defs/identifier1"}
+                    }
                 },
                 "name": {
                     "description": "Defines a legible, descriptive name for the learning outcome",
@@ -251,13 +278,19 @@
                 },
                 "relatedSkill": {
                     "description": " Includes a link to a related skill or the level of a related skill on a skill framework (except ESCO).",
-                    "type": "string",
-                    "format": "uri"
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "uri"
+                    }
                 },
                 "relatedECOSkill": {
                     "description": "Includes a link to an ESCO Skill",
-                    "type": "string",
-                    "format": "uri"
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "uri"
+                    }
                 }
             },
             "required": [
@@ -276,8 +309,10 @@
                 },
                 "identifier": {
                     "description": "Defines an alternative identifier of the learning outcome, used by the organization defining the learning actitivty. Association Identifier",
-                    "type": "string",
-                    "format": "uri"
+                    "type": "array",
+                    "items": {
+                        "anyOf": {"$ref": "#/$defs/identifier1"}
+                    }
                 },
                 "title": {
                     "description": "Defines the title of the learning activity specification",
@@ -285,7 +320,8 @@
                 },
                 "alternativeLabel": {
                     "description": "Defines an alternative name of the activity specification",
-                    "type": "string"
+                    "type": "array",
+                    "items": {"type": "string"}
                 },
                 "description1": {
                     "description": "Defines a free text description of the learning activity specification.",
@@ -339,21 +375,24 @@
                 },
                 "teaches": {
                     "description": "Defines the expected learning outcomes this learning activity specification can lead or contribute to. Association to LearningSpecification",
-                    "type": "object",
-                    "properties": {
-                        "learningSpec": {"$ref": "#/$defs/learningSpecification"}
-                    },
-                    "required": ["learningSpec"]
+                    "type": "array",
+                    "items": {
+                        "anyOf": {"$ref": "#/$defs/learningSpecification"}
+                    }
                 },
                 "hasPart": {
                     "description": "A learning activity specification can be composed of smaller learning specifications, which when combined make up this learning specification. Association LearningActivitySpecification",
                     "type": "array",
-                    "items": {"$ref": "#/$defs/learningActivitySpecification"}
+                    "items": {
+                        "anyOf": {"$ref": "#/$defs/learningActivitySpecification"}
+                    }
                 },
                 "specialisationOf": {
                     "description": "An activity specification (e.g. a standard) of which this specification is a specialisation. Association LearningActivitySpecification",
                     "type": "array",
-                    "items": {"$ref": "#/$defs/learningActivitySpecification"}
+                    "items": {
+                        "anyOf": {"$ref": "#/$defs/learningActivitySpecification"}
+                    }
                 }
             },
             "required": ["id"]
@@ -369,8 +408,10 @@
                 },
                 "identifier": {
                     "description": "Defines an alternative identifier of the learning activity assigned to the assessment by the organisation directing the activity. Association Identifier??",
-                    "type": "string",
-                    "format": "uri"
+                    "type": "array",
+                    "items": {
+                        "anyOf": {"$ref": "#/$defs/identifier1"}
+                    }
                 },
                 "title": {
                     "description": "Defines the title of the learning activity.",
@@ -405,8 +446,11 @@
                 },
                 "location": {
                     "description": "Defines the  location where the activity took place. Association to Location",
-                    "type": "string",
-                    "format": "uri"
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "uri"
+                    }
                 },
                 "specifiedBy": {
                     "description": "Defines the  specification of this learning activity. Association to LearningActivitySpecification",
@@ -447,8 +491,10 @@
                 },
                 "identifier": {
                     "description": "Defines an alternative identifier of the assessment specification, as assigned to it by the organisation who designed the specification. Association Identifier",
-                    "type": "string",
-                    "format": "uri"
+                    "type": "array",
+                    "items": {
+                        "anyOf": {"$ref": "#/$defs/identifier1"}
+                    }
                 },
                 "title": {
                     "description": "Defines the title of the assessment specification",
@@ -456,7 +502,8 @@
                 },
                 "alternativeLabel": {
                     "description": "Defines an alternative name of the assessment specification",
-                    "type": "string"
+                    "type": "array",
+                    "items": {"type": "string"}
                 },
                 "description1": {
                     "description": "Defines free text description of the assessment specification",
@@ -469,8 +516,11 @@
                 },
                 "homepage": {
                     "description": "Defines the homepage (a public web document) describing the details of the assessment specification",
-                    "type": "string",
-                    "format": "uri"
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "uri"
+                    }
                 },
                 "supplementaryDocument": {
                     "description": "Defines the urls for public web document containing additional documentation about the assessment specification",
@@ -482,9 +532,10 @@
                 },
                 "assessmentType": {
                     "description": "Defines the type of assessment",
-                    "type": "string",
+                   "type": "array",
+            "items": { "type": "string",
                     "format": "uri"
-                },
+                }},
                 "language": {
                     "description": "Defines the  language(s) of assessment used",
                     "type": "array",
@@ -507,11 +558,10 @@
                 },
                 "proves": {
                     "description": "Demostrates The learning achievement (and related learning outcomes) this assessment is designed to test. Association to LearningSpecification",
-                    "type": "object",
-                    "properties": {
-                        "learningSpec": {"$ref": "#/$defs/learningSpecification"}
-                    },
-                    "required": ["learningSpec"]
+                    "type": "array",
+                   "items":  {
+                       "$ref": "#/$defs/learningSpecification"}
+                    
                 },
                 "hasPart": {
                     "description": "Defines Assessment Sub-Specifications.A assessment specification can be composed of other narrower assessment specifications which when combined make up this assessment specification. Association to AssessmentSpecification",
@@ -537,8 +587,10 @@
                 },
                 "identifier": {
                     "description": "Defines an alternative identifier assigned to the assessment by the organisation grading the assessment. Association to Identifier",
-                    "type": "string",
-                    "format": "uri"
+                    "type": "array",
+                    "items": {
+                        "anyOf": {"$ref": "#/$defs/identifier1"}
+                    }
                 },
                 "title": {
                     "description": "Defines the title of the assessment.",
@@ -636,11 +688,11 @@
             "properties": {
                 "category": {
                     "description": "Describes a single range within the histogram. Association resultCategory",
-                    "type": "object",
-                    "properties": {
-                        "resultCategorySpec": {"$ref": "#/$defs/resultCategory"}
-                    },
-                    "required": ["resultCategorySpec"]
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/$defs/resultCategory"
+                    }
+                  
                 },
                 "description1": {
                     "description": " Includes a free text description of the histogram",
@@ -673,7 +725,7 @@
                     "type": "number"
                 }
             },
-            "required": ["label"]
+            "required": ["label", "count" ]
         },
         "gradingScheme": {
             "description": "Defines a set of criteria that measures varying levels of achievement.",
@@ -686,8 +738,10 @@
                 },
                 "identifier": {
                     "description": "Defines an alternative identifier of the Grading Scheme assigned to it by the organisation administering the scheme. Association to Identifier",
-                    "type": "string",
-                    "format": "uri"
+                    "type": "array",
+                    "items": {
+                        "anyOf": {"$ref": "#/$defs/identifier1"}
+                    }
                 },
                 "title": {
                     "description": "Defines the title of the scoring scheme.",
@@ -719,8 +773,10 @@
                 },
                 "identifier": {
                     "description": "An alternative identifier assigned to the achievement by the organisation awarding the achievement. Association to Identifier",
-                    "type": "string",
-                    "format": "uri"
+                    "type": "array",
+                    "items": {
+                        "anyOf": {"$ref": "#/$defs/identifier1"}
+                    }
                 },
                 "title": {
                     "description": "The title of the achievement",
@@ -747,8 +803,12 @@
                 },
                 "wasAwardedBy": {
                     "description": "The awarding details of this achievement. Association AwardingProcess ",
-                    "type": "array",
-                    "items": {"$ref": "#/$defs/awardingProcess"}
+                    "type": "object",
+                    "properties": {
+                        "awardedBy":  {"$ref": "#/$defs/awardingProcess"}
+                    },
+                    "required": ["awardedBy"]
+                    
                 },
                 "hasPart": {
                     "description": "Define smaller units of achievement, which when combined make up this achievement. Association learningAchievement ",
@@ -767,11 +827,10 @@
                 },
                 "associatedLearningOpportunity": {
                     "description": "Defines The learning opportunity that was taken to obtain the awarded LearningSpecification. Association LearningOpportunity??",
-                    "type": "array",
-                    "items": {
+                    
                         "type": "string",
                         "format": "uri"
-                    }
+                   
                 }
             },
             "required": [
@@ -805,10 +864,12 @@
                 },
                 "identifier": {
                     "description": "An alternative identifier of the awarding process defined by the organization. Association to Identifier",
-                    "type": "string",
-                    "format": "uri"
+                    "type": "array",
+                    "items": {
+                        "anyOf": {"$ref": "#/$defs/identifier1"}
+                    }
                 },
-                "description": {
+                "description1": {
                     "description": "A description of the awarding process to the individual",
                     "type": "string"
                 },
@@ -834,9 +895,10 @@
                 },
                 "awardingLocation": {
                     "description": "The location where the awarding activity took place (country/region where the qualification was awarded).. Association Location",
-                    "type": "string",
+                   "type": "array",
+                    "items": { "type": "string",
                     "format": "uri"
-                },
+                }},
                 "awardingDate": {
                     "description": "The propertyName description",
                     "type": "string",
@@ -860,8 +922,10 @@
                 },
                 "identifier": {
                     "description": "An alternative identifier of the awarding opportunity. Association to Identifier",
-                    "type": "string",
-                    "format": "uri"
+                    "type": "array",
+                    "items": {
+                        "anyOf": {"$ref": "#/$defs/identifier1"}
+                    }
                 },
                 "awardingBody": {
                     "description": "The DID of the awarding body related to this awarding activity (i.e the organisation that issues the qualification) Only in cases of co-awarding/co-graduation, where a qualification is issued to an individual by two or more organisations the cardinality is greater than 1",
@@ -897,8 +961,10 @@
                 },
                 "identifier": {
                     "description": " Defines an alternative identifier of the entitlement. Association to Identifier",
-                    "type": "string",
-                    "format": "uri"
+                    "type": "array",
+                    "items": {
+                        "anyOf": {"$ref": "#/$defs/identifier1"}
+                    }
                 },
                 "title": {
                     "description": "Defines the title of the entitlement.",
@@ -958,8 +1024,10 @@
                 },
                 "identifier": {
                     "description": "Defines an alternative identifier of the entitlement specification. Association to Identifier",
-                    "type": "string",
-                    "format": "uri"
+                    "type": "array",
+                    "items": {
+                        "anyOf": {"$ref": "#/$defs/identifier1"}
+                    }
                 },
                 "title": {
                     "description": "The title of the entitlement specification",
@@ -968,10 +1036,7 @@
                 "alternativeLabel": {
                     "description": "Defines An alternative name of the entitlement specification ",
                     "type": "array",
-                    "items": {
-                        "type": "string",
-                        "format": "uri"
-                    }
+                    "items": {"type": "string"}
                 },
                 "description1": {
                     "description": "A free text description of the entitlement specification",
@@ -988,8 +1053,9 @@
                 },
                 "homePage": {
                     "description": "The homepage (a public web document) of the entitlement specification.",
-                    "type": "string",
-                    "format": "uri"
+                    "type": "array",
+                    "items":{ "type": "string",
+                    "format": "uri"}
                 },
                 "supplementaryDocument": {
                     "description": "Defines a public web document containing additional documentation about the entitlement specification",
@@ -1050,7 +1116,7 @@
             },
             "required": [
                 "id",
-                "title",
+                
                 "entitlementType",
                 "status"
             ]
