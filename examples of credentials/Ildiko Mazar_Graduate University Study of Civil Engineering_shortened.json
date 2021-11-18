@@ -18,33 +18,21 @@
             "schemeID": "Student identification number",
             "value": 99009900
         },
-        
         "achieved": {
             "id": "urn:epass:learningAchievement:1",
             "title": "Master of Science in Civil Engineering",
             "wasDerivedFrom": {
                 "id": "urn:epass:assessment:1",
-                "pk": "53aa704d-92f6-49b5-8ab0-792ede0f4add",
-                "title": "Overall Diploma Assessment",
+                 "title": "Overall Diploma Assessment",
                 "grade": "excellent (5)",
-                "assessedBy": {
-                    "id": "urn:epass:org:2",
-                    "registration": 12345678,
-                    "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                    "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                    "homepage": "http://gradst.unist.hr/",
-                    "hasLocation": {
-                        "id": "urn:epass:location:3",
-                        "hasAddress": {"country": "Croatia"}
-                    }
-                },
+                "assessedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                 "specifiedBy": {
                     "id": "urn:epass:asssessmentspec:1",
                     "title": "Overall Diploma Assessment",
                     "gradingScheme": {
                         "id": "urn:epass:scoringschemespec:1",
                         "title": "General grading scheme in Croatia",
-                        "description": "The Croatian national grading scheme consists of five grades with numerical equivalents: izvrstan \u2013 5 (outstanding); vrlo dobar \u2013 4 (very good); dobar \u2013 3 (good); dovoljan \u2013 2 (sufficient); nedovoljan \u2013 1 (insufficient - fail). The minimum passing grade is dovoljan \u2013 2."
+                        "description1": "The Croatian national grading scheme consists of five grades with numerical equivalents: izvrstan \u2013 5 (outstanding); vrlo dobar \u2013 4 (very good); dobar \u2013 3 (good); dovoljan \u2013 2 (sufficient); nedovoljan \u2013 1 (insufficient - fail). The minimum passing grade is dovoljan \u2013 2."
                     }
                 }
             },
@@ -60,10 +48,7 @@
                     "startedAtTime": "2017-09-04T00:00:00+02:00",
                     "endedAtTime": "2018-01-14T00:00:00+01:00",
                     "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                   
-                    "location": {
-                        "id": "urn:epass:location:4"
-                    },
+                    "location": "urn:epass:location:4",
                     "specifiedBy": {
                         "id": "urn:epass:learningactivityspec:1",
                         "title": "Applied mathematics",
@@ -82,10 +67,8 @@
                     "workload": "PT60H",
                     "startedAtTime": "2017-09-04T00:00:00+02:00",
                     "endedAtTime": "2018-01-14T00:00:00+01:00",
-                   "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                    "location": {
-                        "id": "urn:epass:location:5"
-                    },
+                    "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                    "location":  "urn:epass:location:5",
                     "specifiedBy": {
                         "id": "urn:epass:learningactivityspec:2",
                         "title": "Concrete structures I",
@@ -104,10 +87,8 @@
                     "workload": "PT45H",
                     "startedAtTime": "2017-09-04T00:00:00+02:00",
                     "endedAtTime": "2018-01-14T00:00:00+01:00",
-                   "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                    "location": {
-                        "id": "urn:epass:location:6"
-                    },
+                    "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                    "location":  "urn:epass:location:6",
                     "specifiedBy": {
                         "id": "urn:epass:learningactivityspec:3",
                         "title": "Dynamics of structures and earthquake engineering",
@@ -126,10 +107,8 @@
                     "workload": "PT60H",
                     "startedAtTime": "2017-09-04T00:00:00+02:00",
                     "endedAtTime": "2018-01-14T00:00:00+01:00",
-                   "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                    "location": {
-                        "id": "urn:epass:location:7"
-                    },
+                    "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                    "location": "urn:epass:location:7",
                     "specifiedBy": {
                         "id": "urn:epass:learningactivityspec:4",
                         "title": "Geotechnical engineering",
@@ -148,10 +127,8 @@
                     "workload": "PT60H",
                     "startedAtTime": "2017-09-04T00:00:00+02:00",
                     "endedAtTime": "2018-01-14T00:00:00+01:00",
-                   "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                    "location": {
-                        "id": "urn:epass:location:8"
-                    },
+                    "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                    "location":  "urn:epass:location:8",
                     "specifiedBy": {
                         "id": "urn:epass:learningactivityspec:5",
                         "title": "Stability of structures",
@@ -170,10 +147,8 @@
                     "workload": "PT75H",
                     "startedAtTime": "2017-09-04T00:00:00+02:00",
                     "endedAtTime": "2018-01-14T00:00:00+01:00",
-                   "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                    "location": {
-                        "id": "urn:epass:location:9"
-                    },
+                    "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                    "location":  "urn:epass:location:9",
                     "specifiedBy": {
                         "id": "urn:epass:learningactivityspec:6",
                         "title": "Metal structures I",
@@ -192,10 +167,8 @@
                     "workload": "PT60H",
                     "startedAtTime": "2018-01-15T00:00:00+01:00",
                     "endedAtTime": "2018-06-24T00:00:00+02:00",
-                   "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                    "location": {
-                        "id": "urn:epass:location:10"
-                    },
+                    "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                    "location":  "urn:epass:location:10",
                     "specifiedBy": {
                         "id": "urn:epass:learningactivityspec:7",
                         "title": "Masonry structures",
@@ -214,11 +187,8 @@
                     "workload": "PT60H",
                     "startedAtTime": "2018-01-15T00:00:00+01:00",
                     "endedAtTime": "2018-06-24T00:00:00+02:00",
-                   "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                    "location": {
-                        "id": "urn:epass:location:11"
-                        
-                    },
+                    "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                    "location":  "urn:epass:location:11",
                     "specifiedBy": {
                         "id": "urn:epass:learningactivityspec:8",
                         "title": "Prestressed concrete",
@@ -237,10 +207,8 @@
                     "workload": "PT60H",
                     "startedAtTime": "2018-01-15T00:00:00+01:00",
                     "endedAtTime": "2018-06-24T00:00:00+02:00",
-                   "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                    "location": {
-                        "id": "urn:epass:location:12"
-                    },
+                    "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                    "location":  "urn:epass:location:12",
                     "specifiedBy": {
                         "id": "urn:epass:learningactivityspec:9",
                         "title": "Concrete structures II",
@@ -259,10 +227,8 @@
                     "workload": "PT60H",
                     "startedAtTime": "2018-01-15T00:00:00+01:00",
                     "endedAtTime": "2018-06-24T00:00:00+02:00",
-                   "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                    "location": {
-                        "id": "urn:epass:location:22"
-                    },
+                    "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                    "location":  "urn:epass:location:22",
                     "specifiedBy": {
                         "id": "urn:epass:learningactivityspec:19",
                         "title": "Metal structures II",
@@ -281,11 +247,8 @@
                     "workload": "PT60H",
                     "startedAtTime": "2018-01-15T00:00:00+01:00",
                     "endedAtTime": "2018-06-24T00:00:00+02:00",
-                   "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                    "location": {
-                        "id": "urn:epass:location:13"
-                       
-                    },
+                    "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                    "location":  "urn:epass:location:13",
                     "specifiedBy": {
                         "id": "urn:epass:learningactivityspec:10",
                         "title": "Structure reliability",
@@ -304,10 +267,8 @@
                     "workload": "PT60H",
                     "startedAtTime": "2018-01-15T00:00:00+01:00",
                     "endedAtTime": "2018-06-24T00:00:00+02:00",
-                   "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                    "location": {
-                        "id": "urn:epass:location:14"
-                    },
+                    "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                    "location":  "urn:epass:location:14",
                     "specifiedBy": {
                         "id": "urn:epass:learningactivityspec:11",
                         "title": "Composite structures",
@@ -326,10 +287,8 @@
                     "workload": "PT60H",
                     "startedAtTime": "2018-09-03T00:00:00+02:00",
                     "endedAtTime": "2019-01-13T00:00:00+01:00",
-                   "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                    "location": {
-                        "id": "urn:epass:location:15"
-                    },
+                    "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                    "location":  "urn:epass:location:15",
                     "specifiedBy": {
                         "id": "urn:epass:learningactivityspec:12",
                         "title": "Construction of concrete structures",
@@ -348,10 +307,8 @@
                     "workload": "PT60H",
                     "startedAtTime": "2018-09-03T00:00:00+02:00",
                     "endedAtTime": "2019-01-13T00:00:00+01:00",
-                   "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                    "location": {
-                        "id": "urn:epass:location:16"
-                    },
+                    "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                    "location":  "urn:epass:location:16",
                     "specifiedBy": {
                         "id": "urn:epass:learningactivityspec:13",
                         "title": "Housing installations",
@@ -370,10 +327,8 @@
                     "workload": "PT60H",
                     "startedAtTime": "2018-09-03T00:00:00+02:00",
                     "endedAtTime": "2019-01-13T00:00:00+01:00",
-                   "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                    "location": {
-                        "id": "urn:epass:location:17"
-                    },
+                    "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                    "location":  "urn:epass:location:17",
                     "specifiedBy": {
                         "id": "urn:epass:learningactivityspec:14",
                         "title": "Numerical modelling of concrete structures",
@@ -392,10 +347,8 @@
                     "workload": "PT60H",
                     "startedAtTime": "2018-09-03T00:00:00+02:00",
                     "endedAtTime": "2019-01-13T00:00:00+01:00",
-                   "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                    "location": {
-                        "id": "urn:epass:location:18"
-                    },
+                    "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                    "location":  "urn:epass:location:18",
                     "specifiedBy": {
                         "id": "urn:epass:learningactivityspec:15",
                         "title": "Business and investments in civil engineering",
@@ -414,10 +367,8 @@
                     "workload": "PT60H",
                     "startedAtTime": "2018-09-03T00:00:00+02:00",
                     "endedAtTime": "2019-01-13T00:00:00+01:00",
-                   "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                    "location": {
-                        "id": "urn:epass:location:19"
-                    },
+                    "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                    "location":  "urn:epass:location:19",
                     "specifiedBy": {
                         "id": "urn:epass:learningactivityspec:16",
                         "title": "Concrete bridges",
@@ -436,10 +387,8 @@
                     "workload": "PT60H",
                     "startedAtTime": "2018-09-03T00:00:00+02:00",
                     "endedAtTime": "2019-01-13T00:00:00+01:00",
-                   "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                    "location": {
-                        "id": "urn:epass:location:20"
-                    },
+                    "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                    "location": "urn:epass:location:20",
                     "specifiedBy": {
                         "id": "urn:epass:learningactivityspec:17",
                         "title": "Metal bridges",
@@ -458,10 +407,8 @@
                     "workload": "PT360H",
                     "startedAtTime": "2019-01-14T00:00:00+01:00",
                     "endedAtTime": "2019-09-20T00:00:00+02:00",
-                   "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                    "location": {
-                        "id": "urn:epass:location:21"
-                    },
+                    "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                    "location":  "urn:epass:location:21",
                     "specifiedBy": {
                         "id": "urn:epass:learningactivityspec:18",
                         "title": "Diploma work",
@@ -473,18 +420,8 @@
             ],
             "wasAwardedBy": {
                 "id": "urn:epass:awardingProcess:1",
-                "awardingBody": {
-                    "id": "urn:epass:org:2",
-                    "registration": 12345678,
-                    "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                    "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                    "homepage": "http://gradst.unist.hr/",
-                    "hasLocation": {
-                        "id": "urn:epass:location:3",
-                        "hasAddress": {"country": "Croatia"}
-                    }
-                },
-                "date": "2019-09-20T00:00:00+02:00"
+                "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                "awardingDate": "2019-09-20T00:00:00+02:00"
             },
             "hasPart": {
                 "learningAchievement": [
@@ -497,27 +434,16 @@
                         "title": "Applied mathematics",
                         "wasDerivedFrom": {
                             "id": "urn:epass:assessment:2",
-                            "pk": "41acd7bf-1d6d-491f-ac69-140bde99dd21",
                             "title": "Applied mathematics",
                             "grade": "good (3)",
-                            "assessedBy": {
-                                "id": "urn:epass:org:2",
-                                "registration": 12345678,
-                                "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                                "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                                "homepage": "http://gradst.unist.hr/",
-                                "hasLocation": {
-                                    "id": "urn:epass:location:3",
-                                    "hasAddress": {"country": "Croatia"}
-                                }
-                            },
+                            "assessedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                             "specifiedBy": {
                                 "id": "urn:epass:asssessmentspec:2",
                                 "title": "Applied mathematics",
                                 "gradingScheme": {
                                     "id": "urn:epass:scoringschemespec:2",
                                     "title": "General grading scheme in Croatia",
-                                    "description": "The Croatian national grading scheme consists of five grades with numerical equivalents: izvrstan \u2013 5 (outstanding); vrlo dobar \u2013 4 (very good); dobar \u2013 3 (good); dovoljan \u2013 2 (sufficient); nedovoljan \u2013 1 (insufficient - fail). The minimum passing grade is dovoljan \u2013 2."
+                                    "description1": "The Croatian national grading scheme consists of five grades with numerical equivalents: izvrstan \u2013 5 (outstanding); vrlo dobar \u2013 4 (very good); dobar \u2013 3 (good); dovoljan \u2013 2 (sufficient); nedovoljan \u2013 1 (insufficient - fail). The minimum passing grade is dovoljan \u2013 2."
                                 }
                             }
                         },
@@ -532,9 +458,7 @@
                             "startedAtTime": "2017-09-04T00:00:00+02:00",
                             "endedAtTime": "2018-01-14T00:00:00+01:00",
                             "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                            "location": {
-                                "id": "urn:epass:location:4"
-                            },
+                            "location":  "urn:epass:location:4",
                             "specifiedBy": {
                                 "id": "urn:epass:learningactivityspec:1",
                                 "title": "Applied mathematics",
@@ -545,18 +469,8 @@
                         },
                         "wasAwardedBy": {
                             "id": "urn:epass:awardingProcess:2",
-                            "awardingBody": {
-                                "id": "urn:epass:org:2",
-                                "registration": 12345678,
-                                "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                                "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                                "homepage": "http://gradst.unist.hr/",
-                                "hasLocation": {
-                                    "id": "urn:epass:location:3",
-                                    "hasAddress": {"country": "Croatia"}
-                                }
-                            },
-                            "date": "2019-09-20T00:00:00+02:00"
+                            "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                            "awardingDate": "2019-09-20T00:00:00+02:00"
                         },
                         "specifiedBy": {
                             "id": "urn:epass:qualification:1",
@@ -578,27 +492,16 @@
                         "title": "Concrete structures I",
                         "wasDerivedFrom": {
                             "id": "urn:epass:assessment:3",
-                            "pk": "7f64d554-c29c-406d-b545-ecc80ebe4f55",
                             "title": "Concrete structures I",
                             "grade": "excellent (5)",
-                            "assessedBy": {
-                                "id": "urn:epass:org:2",
-                                "registration": 12345678,
-                                "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                                "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                                "homepage": "http://gradst.unist.hr/",
-                                "hasLocation": {
-                                    "id": "urn:epass:location:3",
-                                    "hasAddress": {"country": "Croatia"}
-                                }
-                            },
+                            "assessedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                             "specifiedBy": {
                                 "id": "urn:epass:asssessmentspec:3",
                                 "title": "Concrete structures I",
                                 "gradingScheme": {
                                     "id": "urn:epass:scoringschemespec:3",
                                     "title": "General grading scheme in Croatia",
-                                    "description": "The Croatian national grading scheme consists of five grades with numerical equivalents: izvrstan \u2013 5 (outstanding); vrlo dobar \u2013 4 (very good); dobar \u2013 3 (good); dovoljan \u2013 2 (sufficient); nedovoljan \u2013 1 (insufficient - fail). The minimum passing grade is dovoljan \u2013 2."
+                                    "description1": "The Croatian national grading scheme consists of five grades with numerical equivalents: izvrstan \u2013 5 (outstanding); vrlo dobar \u2013 4 (very good); dobar \u2013 3 (good); dovoljan \u2013 2 (sufficient); nedovoljan \u2013 1 (insufficient - fail). The minimum passing grade is dovoljan \u2013 2."
                                 }
                             }
                         },
@@ -613,9 +516,7 @@
                             "startedAtTime": "2017-09-04T00:00:00+02:00",
                             "endedAtTime": "2018-01-14T00:00:00+01:00",
                             "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                            "location": {
-                                "id": "urn:epass:location:5"
-                            },
+                            "location": "urn:epass:location:5",
                             "specifiedBy": {
                                 "id": "urn:epass:learningactivityspec:2",
                                 "title": "Concrete structures I",
@@ -626,18 +527,8 @@
                         },
                         "wasAwardedBy": {
                             "id": "urn:epass:awardingProcess:3",
-                            "awardingBody": {
-                                "id": "urn:epass:org:2",
-                                "registration": 12345678,
-                                "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                                "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                                "homepage": "http://gradst.unist.hr/",
-                                "hasLocation": {
-                                    "id": "urn:epass:location:3",
-                                    "hasAddress": {"country": "Croatia"}
-                                }
-                            },
-                            "date": "2019-09-20T00:00:00+02:00"
+                              "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                "awardingDate": "2019-09-20T00:00:00+02:00"
                         },
                         "specifiedBy": {
                             "id": "urn:epass:qualification:2",
@@ -659,27 +550,16 @@
                         "title": "Dynamics of structures and earthquake engineering",
                         "wasDerivedFrom": {
                             "id": "urn:epass:assessment:4",
-                            "pk": "80eee213-7737-4b73-98c1-d2e32c929dd5",
                             "title": "Dynamics of structures and earthquake engineering",
                             "grade": "good (3)",
-                            "assessedBy": {
-                                "id": "urn:epass:org:2",
-                                "registration": 12345678,
-                                "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                                "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                                "homepage": "http://gradst.unist.hr/",
-                                "hasLocation": {
-                                    "id": "urn:epass:location:3",
-                                    "hasAddress": {"country": "Croatia"}
-                                }
-                            },
+                            "assessedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                             "specifiedBy": {
                                 "id": "urn:epass:asssessmentspec:4",
                                 "title": "Dynamics of structures and earthquake engineering",
                                 "gradingScheme": {
                                     "id": "urn:epass:scoringschemespec:4",
                                     "title": "General grading scheme in Croatia",
-                                    "description": "The Croatian national grading scheme consists of five grades with numerical equivalents: izvrstan \u2013 5 (outstanding); vrlo dobar \u2013 4 (very good); dobar \u2013 3 (good); dovoljan \u2013 2 (sufficient); nedovoljan \u2013 1 (insufficient - fail). The minimum passing grade is dovoljan \u2013 2."
+                                    "description1": "The Croatian national grading scheme consists of five grades with numerical equivalents: izvrstan \u2013 5 (outstanding); vrlo dobar \u2013 4 (very good); dobar \u2013 3 (good); dovoljan \u2013 2 (sufficient); nedovoljan \u2013 1 (insufficient - fail). The minimum passing grade is dovoljan \u2013 2."
                                 }
                             }
                         },
@@ -694,9 +574,7 @@
                             "startedAtTime": "2017-09-04T00:00:00+02:00",
                             "endedAtTime": "2018-01-14T00:00:00+01:00",
                             "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                            "location": {
-                                "id": "urn:epass:location:6"
-                            },
+                            "location":  "urn:epass:location:6",
                             "specifiedBy": {
                                 "id": "urn:epass:learningactivityspec:3",
                                 "title": "Dynamics of structures and earthquake engineering",
@@ -707,18 +585,8 @@
                         },
                         "wasAwardedBy": {
                             "id": "urn:epass:awardingProcess:4",
-                            "awardingBody": {
-                                "id": "urn:epass:org:2",
-                                "registration": 12345678,
-                                "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                                "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                                "homepage": "http://gradst.unist.hr/",
-                                "hasLocation": {
-                                    "id": "urn:epass:location:3",
-                                    "hasAddress": {"country": "Croatia"}
-                                }
-                            },
-                            "date": "2019-09-20T00:00:00+02:00"
+                           "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                "awardingDate": "2019-09-20T00:00:00+02:00"
                         },
                         "specifiedBy": {
                             "id": "urn:epass:qualification:3",
@@ -740,27 +608,16 @@
                         "title": "Geotechnical engineering",
                         "wasDerivedFrom": {
                             "id": "urn:epass:assessment:5",
-                            "pk": "76267d78-7027-4a59-b4c1-485448c2c579",
-                            "title": "Geotechnical engineering",
+                           "title": "Geotechnical engineering",
                             "grade": "good (3)",
-                            "assessedBy": {
-                                "id": "urn:epass:org:2",
-                                "registration": 12345678,
-                                "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                                "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                                "homepage": "http://gradst.unist.hr/",
-                                "hasLocation": {
-                                    "id": "urn:epass:location:3",
-                                    "hasAddress": {"country": "Croatia"}
-                                }
-                            },
+                            "assessedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                             "specifiedBy": {
                                 "id": "urn:epass:asssessmentspec:5",
                                 "title": "Geotechnical engineering",
                                 "gradingScheme": {
                                     "id": "urn:epass:scoringschemespec:5",
                                     "title": "General grading scheme in Croatia",
-                                    "description": "The Croatian national grading scheme consists of five grades with numerical equivalents: izvrstan \u2013 5 (outstanding); vrlo dobar \u2013 4 (very good); dobar \u2013 3 (good); dovoljan \u2013 2 (sufficient); nedovoljan \u2013 1 (insufficient - fail). The minimum passing grade is dovoljan \u2013 2."
+                                    "description1": "The Croatian national grading scheme consists of five grades with numerical equivalents: izvrstan \u2013 5 (outstanding); vrlo dobar \u2013 4 (very good); dobar \u2013 3 (good); dovoljan \u2013 2 (sufficient); nedovoljan \u2013 1 (insufficient - fail). The minimum passing grade is dovoljan \u2013 2."
                                 }
                             }
                         },
@@ -775,9 +632,7 @@
                             "startedAtTime": "2017-09-04T00:00:00+02:00",
                             "endedAtTime": "2018-01-14T00:00:00+01:00",
                             "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                            "location": {
-                                "id": "urn:epass:location:7"
-                            },
+                            "location": "urn:epass:location:7",
                             "specifiedBy": {
                                 "id": "urn:epass:learningactivityspec:4",
                                 "title": "Geotechnical engineering",
@@ -788,18 +643,8 @@
                         },
                         "wasAwardedBy": {
                             "id": "urn:epass:awardingProcess:5",
-                            "awardingBody": {
-                                "id": "urn:epass:org:2",
-                                "registration": 12345678,
-                                "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                                "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                                "homepage": "http://gradst.unist.hr/",
-                                "hasLocation": {
-                                    "id": "urn:epass:location:3",
-                                    "hasAddress": {"country": "Croatia"}
-                                }
-                            },
-                            "date": "2019-09-20T00:00:00+02:00"
+                              "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                "awardingDate": "2019-09-20T00:00:00+02:00"
                         },
                         "specifiedBy": {
                             "id": "urn:epass:qualification:4",
@@ -821,27 +666,16 @@
                         "title": "Stability of structures",
                         "wasDerivedFrom": {
                             "id": "urn:epass:assessment:6",
-                            "pk": "08b6c79f-8d9e-4253-8cda-9f38194d12c3",
-                            "title": "Stability of structures",
+                           "title": "Stability of structures",
                             "grade": "excellent (5)",
-                            "assessedBy": {
-                                "id": "urn:epass:org:2",
-                                "registration": 12345678,
-                                "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                                "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                                "homepage": "http://gradst.unist.hr/",
-                                "hasLocation": {
-                                    "id": "urn:epass:location:3",
-                                    "hasAddress": {"country": "Croatia"}
-                                }
-                            },
+                            "assessedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                             "specifiedBy": {
                                 "id": "urn:epass:asssessmentspec:6",
                                 "title": "Stability of structures",
                                 "gradingScheme": {
                                     "id": "urn:epass:scoringschemespec:6",
                                     "title": "General grading scheme in Croatia",
-                                    "description": "The Croatian national grading scheme consists of five grades with numerical equivalents: izvrstan \u2013 5 (outstanding); vrlo dobar \u2013 4 (very good); dobar \u2013 3 (good); dovoljan \u2013 2 (sufficient); nedovoljan \u2013 1 (insufficient - fail). The minimum passing grade is dovoljan \u2013 2."
+                                    "description1": "The Croatian national grading scheme consists of five grades with numerical equivalents: izvrstan \u2013 5 (outstanding); vrlo dobar \u2013 4 (very good); dobar \u2013 3 (good); dovoljan \u2013 2 (sufficient); nedovoljan \u2013 1 (insufficient - fail). The minimum passing grade is dovoljan \u2013 2."
                                 }
                             }
                         },
@@ -855,10 +689,8 @@
                             "workload": "PT60H",
                             "startedAtTime": "2017-09-04T00:00:00+02:00",
                             "endedAtTime": "2018-01-14T00:00:00+01:00",
-                            "directedBy":"did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                            "location": {
-                                "id": "urn:epass:location:8"
-                            },
+                            "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                            "location":  "urn:epass:location:8",
                             "specifiedBy": {
                                 "id": "urn:epass:learningactivityspec:5",
                                 "title": "Stability of structures",
@@ -869,18 +701,8 @@
                         },
                         "wasAwardedBy": {
                             "id": "urn:epass:awardingProcess:6",
-                            "awardingBody": {
-                                "id": "urn:epass:org:2",
-                                "registration": 12345678,
-                                "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                                "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                                "homepage": "http://gradst.unist.hr/",
-                                "hasLocation": {
-                                    "id": "urn:epass:location:3",
-                                    "hasAddress": {"country": "Croatia"}
-                                }
-                            },
-                            "date": "2019-09-20T00:00:00+02:00"
+                              "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                "awardingDate": "2019-09-20T00:00:00+02:00"
                         },
                         "specifiedBy": {
                             "id": "urn:epass:qualification:5",
@@ -902,27 +724,16 @@
                         "title": "Metal structures I",
                         "wasDerivedFrom": {
                             "id": "urn:epass:assessment:7",
-                            "pk": "59c00601-1e15-438c-b2d3-b16e84211000",
-                            "title": "Metal structures I",
+                          "title": "Metal structures I",
                             "grade": "very good (4)",
-                            "assessedBy": {
-                                "id": "urn:epass:org:2",
-                                "registration": 12345678,
-                                "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                                "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                                "homepage": "http://gradst.unist.hr/",
-                                "hasLocation": {
-                                    "id": "urn:epass:location:3",
-                                    "hasAddress": {"country": "Croatia"}
-                                }
-                            },
+                            "assessedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                             "specifiedBy": {
                                 "id": "urn:epass:asssessmentspec:7",
                                 "title": "Metal structures I",
                                 "gradingScheme": {
                                     "id": "urn:epass:scoringschemespec:7",
                                     "title": "General grading scheme in Croatia",
-                                    "description": "The Croatian national grading scheme consists of five grades with numerical equivalents: izvrstan \u2013 5 (outstanding); vrlo dobar \u2013 4 (very good); dobar \u2013 3 (good); dovoljan \u2013 2 (sufficient); nedovoljan \u2013 1 (insufficient - fail). The minimum passing grade is dovoljan \u2013 2."
+                                    "description1": "The Croatian national grading scheme consists of five grades with numerical equivalents: izvrstan \u2013 5 (outstanding); vrlo dobar \u2013 4 (very good); dobar \u2013 3 (good); dovoljan \u2013 2 (sufficient); nedovoljan \u2013 1 (insufficient - fail). The minimum passing grade is dovoljan \u2013 2."
                                 }
                             }
                         },
@@ -937,9 +748,7 @@
                             "startedAtTime": "2017-09-04T00:00:00+02:00",
                             "endedAtTime": "2018-01-14T00:00:00+01:00",
                             "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                            "location": {
-                                "id": "urn:epass:location:9"
-                            },
+                            "location":  "urn:epass:location:9",
                             "specifiedBy": {
                                 "id": "urn:epass:learningactivityspec:6",
                                 "title": "Metal structures I",
@@ -950,18 +759,8 @@
                         },
                         "wasAwardedBy": {
                             "id": "urn:epass:awardingProcess:7",
-                            "awardingBody": {
-                                "id": "urn:epass:org:2",
-                                "registration": 12345678,
-                                "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                                "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                                "homepage": "http://gradst.unist.hr/",
-                                "hasLocation": {
-                                    "id": "urn:epass:location:3",
-                                    "hasAddress": {"country": "Croatia"}
-                                }
-                            },
-                            "date": "2019-09-20T00:00:00+02:00"
+                              "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                "awardingDate": "2019-09-20T00:00:00+02:00"
                         },
                         "specifiedBy": {
                             "id": "urn:epass:qualification:6",
@@ -983,27 +782,16 @@
                         "title": "Masonry structures",
                         "wasDerivedFrom": {
                             "id": "urn:epass:assessment:8",
-                            "pk": "b0d811b5-ba5e-4259-925a-599f28a454bb",
-                            "title": "Masonry structures",
+                           "title": "Masonry structures",
                             "grade": "excellent (5)",
-                            "assessedBy": {
-                                "id": "urn:epass:org:2",
-                                "registration": 12345678,
-                                "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                                "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                                "homepage": "http://gradst.unist.hr/",
-                                "hasLocation": {
-                                    "id": "urn:epass:location:3",
-                                    "hasAddress": {"country": "Croatia"}
-                                }
-                            },
+                            "assessedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                             "specifiedBy": {
                                 "id": "urn:epass:asssessmentspec:8",
                                 "title": "Masonry structures",
                                 "gradingScheme": {
                                     "id": "urn:epass:scoringschemespec:8",
                                     "title": "General grading scheme in Croatia",
-                                    "description": "The Croatian national grading scheme consists of five grades with numerical equivalents: izvrstan \u2013 5 (outstanding); vrlo dobar \u2013 4 (very good); dobar \u2013 3 (good); dovoljan \u2013 2 (sufficient); nedovoljan \u2013 1 (insufficient - fail). The minimum passing grade is dovoljan \u2013 2."
+                                    "description1": "The Croatian national grading scheme consists of five grades with numerical equivalents: izvrstan \u2013 5 (outstanding); vrlo dobar \u2013 4 (very good); dobar \u2013 3 (good); dovoljan \u2013 2 (sufficient); nedovoljan \u2013 1 (insufficient - fail). The minimum passing grade is dovoljan \u2013 2."
                                 }
                             }
                         },
@@ -1018,9 +806,7 @@
                             "startedAtTime": "2018-01-15T00:00:00+01:00",
                             "endedAtTime": "2018-06-24T00:00:00+02:00",
                             "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                            "location": {
-                                "id": "urn:epass:location:10"
-                            },
+                            "location":  "urn:epass:location:10",
                             "specifiedBy": {
                                 "id": "urn:epass:learningactivityspec:7",
                                 "title": "Masonry structures",
@@ -1031,18 +817,8 @@
                         },
                         "wasAwardedBy": {
                             "id": "urn:epass:awardingProcess:8",
-                            "awardingBody": {
-                                "id": "urn:epass:org:2",
-                                "registration": 12345678,
-                                "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                                "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                                "homepage": "http://gradst.unist.hr/",
-                                "hasLocation": {
-                                    "id": "urn:epass:location:3",
-                                    "hasAddress": {"country": "Croatia"}
-                                }
-                            },
-                            "date": "2019-09-20T00:00:00+02:00"
+                              "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                "awardingDate": "2019-09-20T00:00:00+02:00"
                         },
                         "specifiedBy": {
                             "id": "urn:epass:qualification:7",
@@ -1064,27 +840,16 @@
                         "title": "Prestressed concrete",
                         "wasDerivedFrom": {
                             "id": "urn:epass:assessment:9",
-                            "pk": "4d59194b-3504-4993-a0d6-0c888ca1283f",
-                            "title": "Prestressed concrete",
+                           "title": "Prestressed concrete",
                             "grade": "excellent (5)",
-                            "assessedBy": {
-                                "id": "urn:epass:org:2",
-                                "registration": 12345678,
-                                "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                                "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                                "homepage": "http://gradst.unist.hr/",
-                                "hasLocation": {
-                                    "id": "urn:epass:location:3",
-                                    "hasAddress": {"country": "Croatia"}
-                                }
-                            },
+                            "assessedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                             "specifiedBy": {
                                 "id": "urn:epass:asssessmentspec:9",
                                 "title": "Prestressed concrete",
                                 "gradingScheme": {
                                     "id": "urn:epass:scoringschemespec:9",
                                     "title": "General grading scheme in Croatia",
-                                    "description": "The Croatian national grading scheme consists of five grades with numerical equivalents: izvrstan \u2013 5 (outstanding); vrlo dobar \u2013 4 (very good); dobar \u2013 3 (good); dovoljan \u2013 2 (sufficient); nedovoljan \u2013 1 (insufficient - fail). The minimum passing grade is dovoljan \u2013 2."
+                                    "description1": "The Croatian national grading scheme consists of five grades with numerical equivalents: izvrstan \u2013 5 (outstanding); vrlo dobar \u2013 4 (very good); dobar \u2013 3 (good); dovoljan \u2013 2 (sufficient); nedovoljan \u2013 1 (insufficient - fail). The minimum passing grade is dovoljan \u2013 2."
                                 }
                             }
                         },
@@ -1099,9 +864,7 @@
                             "startedAtTime": "2018-01-15T00:00:00+01:00",
                             "endedAtTime": "2018-06-24T00:00:00+02:00",
                             "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                            "location": {
-                                "id": "urn:epass:location:11"
-                            },
+                            "location": "urn:epass:location:11",
                             "specifiedBy": {
                                 "id": "urn:epass:learningactivityspec:8",
                                 "title": "Prestressed concrete",
@@ -1112,18 +875,8 @@
                         },
                         "wasAwardedBy": {
                             "id": "urn:epass:awardingProcess:9",
-                            "awardingBody": {
-                                "id": "urn:epass:org:2",
-                                "registration": 12345678,
-                                "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                                "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                                "homepage": "http://gradst.unist.hr/",
-                                "hasLocation": {
-                                    "id": "urn:epass:location:3",
-                                    "hasAddress": {"country": "Croatia"}
-                                }
-                            },
-                            "date": "2019-09-20T00:00:00+02:00"
+                             "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                "awardingDate": "2019-09-20T00:00:00+02:00"
                         },
                         "specifiedBy": {
                             "id": "urn:epass:qualification:8",
@@ -1145,27 +898,16 @@
                         "title": "Concrete structures II",
                         "wasDerivedFrom": {
                             "id": "urn:epass:assessment:10",
-                            "pk": "7b0c9f5f-35af-4c9b-93ba-93d7a4feca40",
-                            "title": "Concrete structures II",
+                           "title": "Concrete structures II",
                             "grade": "very good (4)",
-                            "assessedBy": {
-                                "id": "urn:epass:org:2",
-                                "registration": 12345678,
-                                "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                                "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                                "homepage": "http://gradst.unist.hr/",
-                                "hasLocation": {
-                                    "id": "urn:epass:location:3",
-                                    "hasAddress": {"country": "Croatia"}
-                                }
-                            },
+                            "assessedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                             "specifiedBy": {
                                 "id": "urn:epass:asssessmentspec:10",
                                 "title": "Concrete structures II",
                                 "gradingScheme": {
                                     "id": "urn:epass:scoringschemespec:10",
                                     "title": "General grading scheme in Croatia",
-                                    "description": "The Croatian national grading scheme consists of five grades with numerical equivalents: izvrstan \u2013 5 (outstanding); vrlo dobar \u2013 4 (very good); dobar \u2013 3 (good); dovoljan \u2013 2 (sufficient); nedovoljan \u2013 1 (insufficient - fail). The minimum passing grade is dovoljan \u2013 2."
+                                    "description1": "The Croatian national grading scheme consists of five grades with numerical equivalents: izvrstan \u2013 5 (outstanding); vrlo dobar \u2013 4 (very good); dobar \u2013 3 (good); dovoljan \u2013 2 (sufficient); nedovoljan \u2013 1 (insufficient - fail). The minimum passing grade is dovoljan \u2013 2."
                                 }
                             }
                         },
@@ -1180,9 +922,7 @@
                             "startedAtTime": "2018-01-15T00:00:00+01:00",
                             "endedAtTime": "2018-06-24T00:00:00+02:00",
                             "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                            "location": {
-                                "id": "urn:epass:location:12"
-                            },
+                            "location":  "urn:epass:location:12",
                             "specifiedBy": {
                                 "id": "urn:epass:learningactivityspec:9",
                                 "title": "Concrete structures II",
@@ -1193,18 +933,8 @@
                         },
                         "wasAwardedBy": {
                             "id": "urn:epass:awardingProcess:10",
-                            "awardingBody": {
-                                "id": "urn:epass:org:2",
-                                "registration": 12345678,
-                                "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                                "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                                "homepage": "http://gradst.unist.hr/",
-                                "hasLocation": {
-                                    "id": "urn:epass:location:3",
-                                    "hasAddress": {"country": "Croatia"}
-                                }
-                            },
-                            "date": "2019-09-20T00:00:00+02:00"
+                            "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                "awardingDate": "2019-09-20T00:00:00+02:00"
                         },
                         "specifiedBy": {
                             "id": "urn:epass:qualification:9",
@@ -1226,27 +956,16 @@
                         "title": "Metal structures II",
                         "wasDerivedFrom": {
                             "id": "urn:epass:assessment:11",
-                            "pk": "e216262c-c92c-43c5-b8f8-07fc4adce032",
                             "title": "Metal structures II",
                             "grade": "excellent (5)",
-                            "assessedBy": {
-                                "id": "urn:epass:org:2",
-                                "registration": 12345678,
-                                "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                                "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                                "homepage": "http://gradst.unist.hr/",
-                                "hasLocation": {
-                                    "id": "urn:epass:location:3",
-                                    "hasAddress": {"country": "Croatia"}
-                                }
-                            },
+                            "assessedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                             "specifiedBy": {
                                 "id": "urn:epass:asssessmentspec:11",
                                 "title": "Metal structures II",
                                 "gradingScheme": {
                                     "id": "urn:epass:scoringschemespec:11",
                                     "title": "General grading scheme in Croatia",
-                                    "description": "The Croatian national grading scheme consists of five grades with numerical equivalents: izvrstan \u2013 5 (outstanding); vrlo dobar \u2013 4 (very good); dobar \u2013 3 (good); dovoljan \u2013 2 (sufficient); nedovoljan \u2013 1 (insufficient - fail). The minimum passing grade is dovoljan \u2013 2."
+                                    "description1": "The Croatian national grading scheme consists of five grades with numerical equivalents: izvrstan \u2013 5 (outstanding); vrlo dobar \u2013 4 (very good); dobar \u2013 3 (good); dovoljan \u2013 2 (sufficient); nedovoljan \u2013 1 (insufficient - fail). The minimum passing grade is dovoljan \u2013 2."
                                 }
                             }
                         },
@@ -1261,9 +980,7 @@
                             "startedAtTime": "2018-01-15T00:00:00+01:00",
                             "endedAtTime": "2018-06-24T00:00:00+02:00",
                             "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                            "location": {
-                                "id": "urn:epass:location:22"
-                            },
+                            "location":  "urn:epass:location:22",
                             "specifiedBy": {
                                 "id": "urn:epass:learningactivityspec:19",
                                 "title": "Metal structures II",
@@ -1274,18 +991,8 @@
                         },
                         "wasAwardedBy": {
                             "id": "urn:epass:awardingProcess:11",
-                            "awardingBody": {
-                                "id": "urn:epass:org:2",
-                                "registration": 12345678,
-                                "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                                "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                                "homepage": "http://gradst.unist.hr/",
-                                "hasLocation": {
-                                    "id": "urn:epass:location:3",
-                                    "hasAddress": {"country": "Croatia"}
-                                }
-                            },
-                            "date": "2019-09-20T00:00:00+02:00"
+                             "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                "awardingDate": "2019-09-20T00:00:00+02:00"
                         },
                         "specifiedBy": {
                             "id": "urn:epass:qualification:10",
@@ -1307,27 +1014,16 @@
                         "title": "Structure reliability",
                         "wasDerivedFrom": {
                             "id": "urn:epass:assessment:12",
-                            "pk": "41d96fc5-7556-44c7-9f08-55f09bb8cff2",
-                            "title": "Structure reliability",
+                           "title": "Structure reliability",
                             "grade": "very good (4)",
-                            "assessedBy": {
-                                "id": "urn:epass:org:2",
-                                "registration": 12345678,
-                                "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                                "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                                "homepage": "http://gradst.unist.hr/",
-                                "hasLocation": {
-                                    "id": "urn:epass:location:3",
-                                    "hasAddress": {"country": "Croatia"}
-                                }
-                            },
+                            "assessedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                             "specifiedBy": {
                                 "id": "urn:epass:asssessmentspec:12",
                                 "title": "Structure reliability",
                                 "gradingScheme": {
                                     "id": "urn:epass:scoringschemespec:12",
                                     "title": "General grading scheme in Croatia",
-                                    "description": "The Croatian national grading scheme consists of five grades with numerical equivalents: izvrstan \u2013 5 (outstanding); vrlo dobar \u2013 4 (very good); dobar \u2013 3 (good); dovoljan \u2013 2 (sufficient); nedovoljan \u2013 1 (insufficient - fail). The minimum passing grade is dovoljan \u2013 2."
+                                    "description1": "The Croatian national grading scheme consists of five grades with numerical equivalents: izvrstan \u2013 5 (outstanding); vrlo dobar \u2013 4 (very good); dobar \u2013 3 (good); dovoljan \u2013 2 (sufficient); nedovoljan \u2013 1 (insufficient - fail). The minimum passing grade is dovoljan \u2013 2."
                                 }
                             }
                         },
@@ -1341,10 +1037,8 @@
                             "workload": "PT60H",
                             "startedAtTime": "2018-01-15T00:00:00+01:00",
                             "endedAtTime": "2018-06-24T00:00:00+02:00",
-                            "directedBy":  "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                            "location": {
-                                "id": "urn:epass:location:13"
-                            },
+                            "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                            "location": "urn:epass:location:13",
                             "specifiedBy": {
                                 "id": "urn:epass:learningactivityspec:10",
                                 "title": "Structure reliability",
@@ -1354,19 +1048,8 @@
                             }
                         },
                         "wasAwardedBy": {
-                            "id": "urn:epass:awardingProcess:12",
-                            "awardingBody": {
-                                "id": "urn:epass:org:2",
-                                "registration": 12345678,
-                                "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                                "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                                "homepage": "http://gradst.unist.hr/",
-                                "hasLocation": {
-                                    "id": "urn:epass:location:3",
-                                    "hasAddress": {"country": "Croatia"}
-                                }
-                            },
-                            "date": "2019-09-20T00:00:00+02:00"
+                             "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                "awardingDate": "2019-09-20T00:00:00+02:00"
                         },
                         "specifiedBy": {
                             "id": "urn:epass:qualification:11",
@@ -1388,27 +1071,16 @@
                         "title": "Composite structures",
                         "wasDerivedFrom": {
                             "id": "urn:epass:assessment:13",
-                            "pk": "804c5bcf-1ecd-4d02-bcfd-e65cfdfb8453",
-                            "title": "Composite structures",
+                           "title": "Composite structures",
                             "grade": "excellent (5)",
-                            "assessedBy": {
-                                "id": "urn:epass:org:2",
-                                "registration": 12345678,
-                                "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                                "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                                "homepage": "http://gradst.unist.hr/",
-                                "hasLocation": {
-                                    "id": "urn:epass:location:3",
-                                    "hasAddress": {"country": "Croatia"}
-                                }
-                            },
+                            "assessedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                             "specifiedBy": {
                                 "id": "urn:epass:asssessmentspec:13",
                                 "title": "Composite structures",
                                 "gradingScheme": {
                                     "id": "urn:epass:scoringschemespec:13",
                                     "title": "General grading scheme in Croatia",
-                                    "description": "The Croatian national grading scheme consists of five grades with numerical equivalents: izvrstan \u2013 5 (outstanding); vrlo dobar \u2013 4 (very good); dobar \u2013 3 (good); dovoljan \u2013 2 (sufficient); nedovoljan \u2013 1 (insufficient - fail). The minimum passing grade is dovoljan \u2013 2."
+                                    "description1": "The Croatian national grading scheme consists of five grades with numerical equivalents: izvrstan \u2013 5 (outstanding); vrlo dobar \u2013 4 (very good); dobar \u2013 3 (good); dovoljan \u2013 2 (sufficient); nedovoljan \u2013 1 (insufficient - fail). The minimum passing grade is dovoljan \u2013 2."
                                 }
                             }
                         },
@@ -1422,10 +1094,8 @@
                             "workload": "PT60H",
                             "startedAtTime": "2018-01-15T00:00:00+01:00",
                             "endedAtTime": "2018-06-24T00:00:00+02:00",
-                             "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                            "location": {
-                                "id": "urn:epass:location:14"
-                            },
+                            "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                            "location":  "urn:epass:location:14",
                             "specifiedBy": {
                                 "id": "urn:epass:learningactivityspec:11",
                                 "title": "Composite structures",
@@ -1436,18 +1106,8 @@
                         },
                         "wasAwardedBy": {
                             "id": "urn:epass:awardingProcess:13",
-                            "awardingBody": {
-                                "id": "urn:epass:org:2",
-                                "registration": 12345678,
-                                "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                                "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                                "homepage": "http://gradst.unist.hr/",
-                                "hasLocation": {
-                                    "id": "urn:epass:location:3",
-                                    "hasAddress": {"country": "Croatia"}
-                                }
-                            },
-                            "date": "2019-09-20T00:00:00+02:00"
+                             "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                "awardingDate": "2019-09-20T00:00:00+02:00"
                         },
                         "specifiedBy": {
                             "id": "urn:epass:qualification:12",
@@ -1469,27 +1129,16 @@
                         "title": "Construction of concrete structures",
                         "wasDerivedFrom": {
                             "id": "urn:epass:assessment:14",
-                            "pk": "9532000f-fb59-4c82-b482-e3e17fcf06c8",
-                            "title": "Construction of concrete structures",
+                           "title": "Construction of concrete structures",
                             "grade": "excellent (5)",
-                            "assessedBy": {
-                                "id": "urn:epass:org:2",
-                                "registration": 12345678,
-                                "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                                "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                                "homepage": "http://gradst.unist.hr/",
-                                "hasLocation": {
-                                    "id": "urn:epass:location:3",
-                                    "hasAddress": {"country": "Croatia"}
-                                }
-                            },
+                            "assessedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                             "specifiedBy": {
                                 "id": "urn:epass:asssessmentspec:14",
                                 "title": "Construction of concrete structures",
                                 "gradingScheme": {
                                     "id": "urn:epass:scoringschemespec:14",
                                     "title": "General grading scheme in Croatia",
-                                    "description": "The Croatian national grading scheme consists of five grades with numerical equivalents: izvrstan \u2013 5 (outstanding); vrlo dobar \u2013 4 (very good); dobar \u2013 3 (good); dovoljan \u2013 2 (sufficient); nedovoljan \u2013 1 (insufficient - fail). The minimum passing grade is dovoljan \u2013 2."
+                                    "description1": "The Croatian national grading scheme consists of five grades with numerical equivalents: izvrstan \u2013 5 (outstanding); vrlo dobar \u2013 4 (very good); dobar \u2013 3 (good); dovoljan \u2013 2 (sufficient); nedovoljan \u2013 1 (insufficient - fail). The minimum passing grade is dovoljan \u2013 2."
                                 }
                             }
                         },
@@ -1503,10 +1152,8 @@
                             "workload": "PT60H",
                             "startedAtTime": "2018-09-03T00:00:00+02:00",
                             "endedAtTime": "2019-01-13T00:00:00+01:00",
-                           "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                            "location": {
-                                "id": "urn:epass:location:15"
-                            },
+                            "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                            "location": "urn:epass:location:15",
                             "specifiedBy": {
                                 "id": "urn:epass:learningactivityspec:12",
                                 "title": "Construction of concrete structures",
@@ -1517,18 +1164,8 @@
                         },
                         "wasAwardedBy": {
                             "id": "urn:epass:awardingProcess:14",
-                            "awardingBody": {
-                                "id": "urn:epass:org:2",
-                                "registration": 12345678,
-                                "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                                "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                                "homepage": "http://gradst.unist.hr/",
-                                "hasLocation": {
-                                    "id": "urn:epass:location:3",
-                                    "hasAddress": {"country": "Croatia"}
-                                }
-                            },
-                            "date": "2019-09-20T00:00:00+02:00"
+                              "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                "awardingDate": "2019-09-20T00:00:00+02:00"
                         },
                         "specifiedBy": {
                             "id": "urn:epass:qualification:13",
@@ -1550,27 +1187,16 @@
                         "title": "Housing installations",
                         "wasDerivedFrom": {
                             "id": "urn:epass:assessment:15",
-                            "pk": "92c595ef-dbb6-4e1a-898b-3fd827b3604e",
-                            "title": "Housing installations",
+                           "title": "Housing installations",
                             "grade": "very good (4)",
-                            "assessedBy": {
-                                "id": "urn:epass:org:2",
-                                "registration": 12345678,
-                                "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                                "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                                "homepage": "http://gradst.unist.hr/",
-                                "hasLocation": {
-                                    "id": "urn:epass:location:3",
-                                    "hasAddress": {"country": "Croatia"}
-                                }
-                            },
+                            "assessedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                             "specifiedBy": {
                                 "id": "urn:epass:asssessmentspec:15",
                                 "title": "Housing installations",
                                 "gradingScheme": {
                                     "id": "urn:epass:scoringschemespec:15",
                                     "title": "General grading scheme in Croatia",
-                                    "description": "The Croatian national grading scheme consists of five grades with numerical equivalents: izvrstan \u2013 5 (outstanding); vrlo dobar \u2013 4 (very good); dobar \u2013 3 (good); dovoljan \u2013 2 (sufficient); nedovoljan \u2013 1 (insufficient - fail). The minimum passing grade is dovoljan \u2013 2."
+                                    "description1": "The Croatian national grading scheme consists of five grades with numerical equivalents: izvrstan \u2013 5 (outstanding); vrlo dobar \u2013 4 (very good); dobar \u2013 3 (good); dovoljan \u2013 2 (sufficient); nedovoljan \u2013 1 (insufficient - fail). The minimum passing grade is dovoljan \u2013 2."
                                 }
                             }
                         },
@@ -1584,10 +1210,8 @@
                             "workload": "PT60H",
                             "startedAtTime": "2018-09-03T00:00:00+02:00",
                             "endedAtTime": "2019-01-13T00:00:00+01:00",
-                           "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                            "location": {
-                                "id": "urn:epass:location:16"
-                            },
+                            "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                            "location":  "urn:epass:location:16",
                             "specifiedBy": {
                                 "id": "urn:epass:learningactivityspec:13",
                                 "title": "Housing installations",
@@ -1598,18 +1222,8 @@
                         },
                         "wasAwardedBy": {
                             "id": "urn:epass:awardingProcess:15",
-                            "awardingBody": {
-                                "id": "urn:epass:org:2",
-                                "registration": 12345678,
-                                "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                                "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                                "homepage": "http://gradst.unist.hr/",
-                                "hasLocation": {
-                                    "id": "urn:epass:location:3",
-                                    "hasAddress": {"country": "Croatia"}
-                                }
-                            },
-                            "date": "2019-09-20T00:00:00+02:00"
+                             "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                "awardingDate": "2019-09-20T00:00:00+02:00"
                         },
                         "specifiedBy": {
                             "id": "urn:epass:qualification:14",
@@ -1631,27 +1245,16 @@
                         "title": "Numerical modelling of concrete structures",
                         "wasDerivedFrom": {
                             "id": "urn:epass:assessment:16",
-                            "pk": "722e8031-bd65-4e45-989c-ffcd51529f17",
-                            "title": "Numerical modelling of concrete structures",
+                           "title": "Numerical modelling of concrete structures",
                             "grade": "excellent (5)",
-                            "assessedBy": {
-                                "id": "urn:epass:org:2",
-                                "registration": 12345678,
-                                "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                                "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                                "homepage": "http://gradst.unist.hr/",
-                                "hasLocation": {
-                                    "id": "urn:epass:location:3",
-                                    "hasAddress": {"country": "Croatia"}
-                                }
-                            },
+                            "assessedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                             "specifiedBy": {
                                 "id": "urn:epass:asssessmentspec:16",
                                 "title": "Numerical modelling of concrete structures",
                                 "gradingScheme": {
                                     "id": "urn:epass:scoringschemespec:16",
                                     "title": "General grading scheme in Croatia",
-                                    "description": "The Croatian national grading scheme consists of five grades with numerical equivalents: izvrstan \u2013 5 (outstanding); vrlo dobar \u2013 4 (very good); dobar \u2013 3 (good); dovoljan \u2013 2 (sufficient); nedovoljan \u2013 1 (insufficient - fail). The minimum passing grade is dovoljan \u2013 2."
+                                    "description1": "The Croatian national grading scheme consists of five grades with numerical equivalents: izvrstan \u2013 5 (outstanding); vrlo dobar \u2013 4 (very good); dobar \u2013 3 (good); dovoljan \u2013 2 (sufficient); nedovoljan \u2013 1 (insufficient - fail). The minimum passing grade is dovoljan \u2013 2."
                                 }
                             }
                         },
@@ -1666,9 +1269,7 @@
                             "startedAtTime": "2018-09-03T00:00:00+02:00",
                             "endedAtTime": "2019-01-13T00:00:00+01:00",
                             "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                            "location": {
-                                "id": "urn:epass:location:17"
-                            },
+                            "location":  "urn:epass:location:17",
                             "specifiedBy": {
                                 "id": "urn:epass:learningactivityspec:14",
                                 "title": "Numerical modelling of concrete structures",
@@ -1679,18 +1280,8 @@
                         },
                         "wasAwardedBy": {
                             "id": "urn:epass:awardingProcess:16",
-                            "awardingBody": {
-                                "id": "urn:epass:org:2",
-                                "registration": 12345678,
-                                "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                                "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                                "homepage": "http://gradst.unist.hr/",
-                                "hasLocation": {
-                                    "id": "urn:epass:location:3",
-                                    "hasAddress": {"country": "Croatia"}
-                                }
-                            },
-                            "date": "2019-09-20T00:00:00+02:00"
+                             "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                "awardingDate": "2019-09-20T00:00:00+02:00"
                         },
                         "specifiedBy": {
                             "id": "urn:epass:qualification:15",
@@ -1712,27 +1303,16 @@
                         "title": "Business and investments in civil engineering",
                         "wasDerivedFrom": {
                             "id": "urn:epass:assessment:17",
-                            "pk": "c2f606f3-5853-4a34-9b25-d6d929a1e019",
-                            "title": "Business and investments in civil engineering",
+                           "title": "Business and investments in civil engineering",
                             "grade": "excellent (5)",
-                            "assessedBy": {
-                                "id": "urn:epass:org:2",
-                                "registration": 12345678,
-                                "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                                "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                                "homepage": "http://gradst.unist.hr/",
-                                "hasLocation": {
-                                    "id": "urn:epass:location:3",
-                                    "hasAddress": {"country": "Croatia"}
-                                }
-                            },
+                            "assessedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                             "specifiedBy": {
                                 "id": "urn:epass:asssessmentspec:17",
                                 "title": "Business and investments in civil engineering",
                                 "gradingScheme": {
                                     "id": "urn:epass:scoringschemespec:17",
                                     "title": "General grading scheme in Croatia",
-                                    "description": "The Croatian national grading scheme consists of five grades with numerical equivalents: izvrstan \u2013 5 (outstanding); vrlo dobar \u2013 4 (very good); dobar \u2013 3 (good); dovoljan \u2013 2 (sufficient); nedovoljan \u2013 1 (insufficient - fail). The minimum passing grade is dovoljan \u2013 2."
+                                    "description1": "The Croatian national grading scheme consists of five grades with numerical equivalents: izvrstan \u2013 5 (outstanding); vrlo dobar \u2013 4 (very good); dobar \u2013 3 (good); dovoljan \u2013 2 (sufficient); nedovoljan \u2013 1 (insufficient - fail). The minimum passing grade is dovoljan \u2013 2."
                                 }
                             }
                         },
@@ -1747,9 +1327,7 @@
                             "startedAtTime": "2018-09-03T00:00:00+02:00",
                             "endedAtTime": "2019-01-13T00:00:00+01:00",
                             "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                            "location": {
-                                "id": "urn:epass:location:18"
-                            },
+                            "location":  "urn:epass:location:18",
                             "specifiedBy": {
                                 "id": "urn:epass:learningactivityspec:15",
                                 "title": "Business and investments in civil engineering",
@@ -1760,18 +1338,8 @@
                         },
                         "wasAwardedBy": {
                             "id": "urn:epass:awardingProcess:17",
-                            "awardingBody": {
-                                "id": "urn:epass:org:2",
-                                "registration": 12345678,
-                                "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                                "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                                "homepage": "http://gradst.unist.hr/",
-                                "hasLocation": {
-                                    "id": "urn:epass:location:3",
-                                    "hasAddress": {"country": "Croatia"}
-                                }
-                            },
-                            "date": "2019-09-20T00:00:00+02:00"
+                             "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                "awardingDate": "2019-09-20T00:00:00+02:00"
                         },
                         "specifiedBy": {
                             "id": "urn:epass:qualification:16",
@@ -1793,27 +1361,16 @@
                         "title": "Concrete bridges",
                         "wasDerivedFrom": {
                             "id": "urn:epass:assessment:18",
-                            "pk": "5cf8e5bc-700f-4286-a340-c463f730a83a",
-                            "title": "Concrete bridges",
+                           "title": "Concrete bridges",
                             "grade": "very good (4)",
-                            "assessedBy": {
-                                "id": "urn:epass:org:2",
-                                "registration": 12345678,
-                                "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                                "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                                "homepage": "http://gradst.unist.hr/",
-                                "hasLocation": {
-                                    "id": "urn:epass:location:3",
-                                    "hasAddress": {"country": "Croatia"}
-                                }
-                            },
+                            "assessedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                             "specifiedBy": {
                                 "id": "urn:epass:asssessmentspec:18",
                                 "title": "Concrete bridges",
                                 "gradingScheme": {
                                     "id": "urn:epass:scoringschemespec:18",
                                     "title": "General grading scheme in Croatia",
-                                    "description": "The Croatian national grading scheme consists of five grades with numerical equivalents: izvrstan \u2013 5 (outstanding); vrlo dobar \u2013 4 (very good); dobar \u2013 3 (good); dovoljan \u2013 2 (sufficient); nedovoljan \u2013 1 (insufficient - fail). The minimum passing grade is dovoljan \u2013 2."
+                                    "description1": "The Croatian national grading scheme consists of five grades with numerical equivalents: izvrstan \u2013 5 (outstanding); vrlo dobar \u2013 4 (very good); dobar \u2013 3 (good); dovoljan \u2013 2 (sufficient); nedovoljan \u2013 1 (insufficient - fail). The minimum passing grade is dovoljan \u2013 2."
                                 }
                             }
                         },
@@ -1828,9 +1385,7 @@
                             "startedAtTime": "2018-09-03T00:00:00+02:00",
                             "endedAtTime": "2019-01-13T00:00:00+01:00",
                             "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                            "location": {
-                                "id": "urn:epass:location:19"
-                            },
+                            "location":  "urn:epass:location:19",
                             "specifiedBy": {
                                 "id": "urn:epass:learningactivityspec:16",
                                 "title": "Concrete bridges",
@@ -1841,18 +1396,8 @@
                         },
                         "wasAwardedBy": {
                             "id": "urn:epass:awardingProcess:18",
-                            "awardingBody": {
-                                "id": "urn:epass:org:2",
-                                "registration": 12345678,
-                                "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                                "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                                "homepage": "http://gradst.unist.hr/",
-                                "hasLocation": {
-                                    "id": "urn:epass:location:3",
-                                    "hasAddress": {"country": "Croatia"}
-                                }
-                            },
-                            "date": "2019-09-20T00:00:00+02:00"
+                              "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                "awardingDate": "2019-09-20T00:00:00+02:00"
                         },
                         "specifiedBy": {
                             "id": "urn:epass:qualification:17",
@@ -1874,27 +1419,16 @@
                         "title": "Metal bridges",
                         "wasDerivedFrom": {
                             "id": "urn:epass:assessment:19",
-                            "pk": "16c8c87d-97bf-4410-a6bc-b3365b462642",
-                            "title": "Metal bridges",
+                           "title": "Metal bridges",
                             "grade": "excellent (5)",
-                            "assessedBy": {
-                                "id": "urn:epass:org:2",
-                                "registration": 12345678,
-                                "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                                "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                                "homepage": "http://gradst.unist.hr/",
-                                "hasLocation": {
-                                    "id": "urn:epass:location:3",
-                                    "hasAddress": {"country": "Croatia"}
-                                }
-                            },
+                            "assessedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                             "specifiedBy": {
                                 "id": "urn:epass:asssessmentspec:19",
                                 "title": "Metal bridges",
                                 "gradingScheme": {
                                     "id": "urn:epass:scoringschemespec:19",
                                     "title": "General grading scheme in Croatia",
-                                    "description": "The Croatian national grading scheme consists of five grades with numerical equivalents: izvrstan \u2013 5 (outstanding); vrlo dobar \u2013 4 (very good); dobar \u2013 3 (good); dovoljan \u2013 2 (sufficient); nedovoljan \u2013 1 (insufficient - fail). The minimum passing grade is dovoljan \u2013 2."
+                                    "description1": "The Croatian national grading scheme consists of five grades with numerical equivalents: izvrstan \u2013 5 (outstanding); vrlo dobar \u2013 4 (very good); dobar \u2013 3 (good); dovoljan \u2013 2 (sufficient); nedovoljan \u2013 1 (insufficient - fail). The minimum passing grade is dovoljan \u2013 2."
                                 }
                             }
                         },
@@ -1909,9 +1443,7 @@
                             "startedAtTime": "2018-09-03T00:00:00+02:00",
                             "endedAtTime": "2019-01-13T00:00:00+01:00",
                             "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                            "location": {
-                                "id": "urn:epass:location:20"
-                            },
+                            "location": "urn:epass:location:20",
                             "specifiedBy": {
                                 "id": "urn:epass:learningactivityspec:17",
                                 "title": "Metal bridges",
@@ -1922,18 +1454,8 @@
                         },
                         "wasAwardedBy": {
                             "id": "urn:epass:awardingProcess:19",
-                            "awardingBody": {
-                                "id": "urn:epass:org:2",
-                                "registration": 12345678,
-                                "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                                "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                                "homepage": "http://gradst.unist.hr/",
-                                "hasLocation": {
-                                    "id": "urn:epass:location:3",
-                                    "hasAddress": {"country": "Croatia"}
-                                }
-                            },
-                            "date": "2019-09-20T00:00:00+02:00"
+                             "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                "awardingDate": "2019-09-20T00:00:00+02:00"
                         },
                         "specifiedBy": {
                             "id": "urn:epass:qualification:18",
@@ -1955,27 +1477,16 @@
                         "title": "Diploma work",
                         "wasDerivedFrom": {
                             "id": "urn:epass:assessment:20",
-                            "pk": "21f48f1d-ae54-4817-8677-46e5795ebd54",
-                            "title": "Diploma work",
+                           "title": "Diploma work",
                             "grade": "excellent (5)",
-                            "assessedBy": {
-                                "id": "urn:epass:org:2",
-                                "registration": 12345678,
-                                "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                                "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                                "homepage": "http://gradst.unist.hr/",
-                                "hasLocation": {
-                                    "id": "urn:epass:location:3",
-                                    "hasAddress": {"country": "Croatia"}
-                                }
-                            },
+                            "assessedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                             "specifiedBy": {
                                 "id": "urn:epass:asssessmentspec:20",
                                 "title": "Diploma work",
                                 "gradingScheme": {
                                     "id": "urn:epass:scoringschemespec:20",
                                     "title": "General grading scheme in Croatia",
-                                    "description": "The Croatian national grading scheme consists of five grades with numerical equivalents: izvrstan \u2013 5 (outstanding); vrlo dobar \u2013 4 (very good); dobar \u2013 3 (good); dovoljan \u2013 2 (sufficient); nedovoljan \u2013 1 (insufficient - fail). The minimum passing grade is dovoljan \u2013 2."
+                                    "description1": "The Croatian national grading scheme consists of five grades with numerical equivalents: izvrstan \u2013 5 (outstanding); vrlo dobar \u2013 4 (very good); dobar \u2013 3 (good); dovoljan \u2013 2 (sufficient); nedovoljan \u2013 1 (insufficient - fail). The minimum passing grade is dovoljan \u2013 2."
                                 }
                             }
                         },
@@ -1989,10 +1500,8 @@
                             "workload": "PT360H",
                             "startedAtTime": "2019-01-14T00:00:00+01:00",
                             "endedAtTime": "2019-09-20T00:00:00+02:00",
-                             "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                            "location": {
-                                "id": "urn:epass:location:21"
-                            },
+                            "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                            "location":  "urn:epass:location:21",
                             "specifiedBy": {
                                 "id": "urn:epass:learningactivityspec:18",
                                 "title": "Diploma work",
@@ -2003,18 +1512,8 @@
                         },
                         "wasAwardedBy": {
                             "id": "urn:epass:awardingProcess:20",
-                            "awardingBody": {
-                                "id": "urn:epass:org:2",
-                                "registration": 12345678,
-                                "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                                "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                                "homepage": "http://gradst.unist.hr/",
-                                "hasLocation": {
-                                    "id": "urn:epass:location:3",
-                                    "hasAddress": {"country": "Croatia"}
-                                }
-                            },
-                            "date": "2019-09-20T00:00:00+02:00"
+                              "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                "awardingDate": "2019-09-20T00:00:00+02:00"
                         },
                         "specifiedBy": {
                             "id": "urn:epass:qualification:19",
@@ -2032,24 +1531,14 @@
             "entitlesTo": {
                 "id": "urn:epass:entitlement:1",
                 "title": "Postgraduate doctoral study",
-                "description": "Competences the student acquires after the completion of Graduate university study are sufficient conditions for attending the programme of Postgraduate doctoral study at the Faculty of Civil Engineering, Architecture and Geodesy in Split, as well as for attending the same or similar programmes and Postgraduate specialist studies at other faculties of Civil Engineering in Croatia. The acquired learning outcomes enable the student to attend other postgraduate study programmes in the field of technical sciences. ",
+                "description1": "Competences the student acquires after the completion of Graduate university study are sufficient conditions for attending the programme of Postgraduate doctoral study at the Faculty of Civil Engineering, Architecture and Geodesy in Split, as well as for attending the same or similar programmes and Postgraduate specialist studies at other faculties of Civil Engineering in Croatia. The acquired learning outcomes enable the student to attend other postgraduate study programmes in the field of technical sciences. ",
                 "issuedDate": "2019-09-20",
                 "specifiedBy": {
                     "id": "urn:epass:entitlementspec:1",
                     "title": "Postgraduate doctoral study",
                     "type": "http://data.europa.eu/snb/entitlement/64aad92881",
                     "status": "http://data.europa.eu/snb/entitlement-status/5b8d6b34fb",
-                    "limitOrganization": {
-                        "id": "urn:epass:org:2",
-                        "registration": 12345678,
-                        "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                        "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                        "homepage": "http://gradst.unist.hr/",
-                        "hasLocation": {
-                            "id": "urn:epass:location:3",
-                            "hasAddress": {"country": "Croatia"}
-                        }
-                    },
+                    "limitOrganisation": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                     "limitJurisdiction": {"uri": "http://publications.europa.eu/resource/authority/country/HRV"}
                 }
             },
@@ -2077,9 +1566,7 @@
                 "startedAtTime": "2017-09-04T00:00:00+02:00",
                 "endedAtTime": "2018-01-14T00:00:00+01:00",
                 "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                "location": {
-                    "id": "urn:epass:location:4"
-                },
+                "location":  "urn:epass:location:4",
                 "specifiedBy": {
                     "id": "urn:epass:learningactivityspec:1",
                     "title": "Applied mathematics",
@@ -2099,9 +1586,7 @@
                 "startedAtTime": "2017-09-04T00:00:00+02:00",
                 "endedAtTime": "2018-01-14T00:00:00+01:00",
                 "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                "location": {
-                    "id": "urn:epass:location:5"
-                },
+                "location":  "urn:epass:location:5",
                 "specifiedBy": {
                     "id": "urn:epass:learningactivityspec:2",
                     "title": "Concrete structures I",
@@ -2120,9 +1605,7 @@
                 "workload": "PT45H",
                 "startedAtTime": "2017-09-04T00:00:00+02:00",
                 "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                "location": {
-                    "id": "urn:epass:location:6"
-                },
+                "location":  "urn:epass:location:6",
                 "specifiedBy": {
                     "id": "urn:epass:learningactivityspec:3",
                     "title": "Dynamics of structures and earthquake engineering",
@@ -2142,9 +1625,7 @@
                 "startedAtTime": "2017-09-04T00:00:00+02:00",
                 "endedAtTime": "2018-01-14T00:00:00+01:00",
                 "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                "location": {
-                    "id": "urn:epass:location:7"
-                },
+                "location": "urn:epass:location:7",
                 "specifiedBy": {
                     "id": "urn:epass:learningactivityspec:4",
                     "title": "Geotechnical engineering",
@@ -2164,9 +1645,7 @@
                 "startedAtTime": "2017-09-04T00:00:00+02:00",
                 "endedAtTime": "2018-01-14T00:00:00+01:00",
                 "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                "location": {
-                    "id": "urn:epass:location:8"
-                },
+                "location": "urn:epass:location:8",
                 "specifiedBy": {
                     "id": "urn:epass:learningactivityspec:5",
                     "title": "Stability of structures",
@@ -2186,9 +1665,7 @@
                 "startedAtTime": "2017-09-04T00:00:00+02:00",
                 "endedAtTime": "2018-01-14T00:00:00+01:00",
                 "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                "location": {
-                    "id": "urn:epass:location:9"
-                },
+                "location": "urn:epass:location:9",
                 "specifiedBy": {
                     "id": "urn:epass:learningactivityspec:6",
                     "title": "Metal structures I",
@@ -2208,9 +1685,7 @@
                 "startedAtTime": "2018-01-15T00:00:00+01:00",
                 "endedAtTime": "2018-06-24T00:00:00+02:00",
                 "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                "location": {
-                    "id": "urn:epass:location:10"
-                },
+                "location":  "urn:epass:location:10",
                 "specifiedBy": {
                     "id": "urn:epass:learningactivityspec:7",
                     "title": "Masonry structures",
@@ -2230,9 +1705,7 @@
                 "startedAtTime": "2018-01-15T00:00:00+01:00",
                 "endedAtTime": "2018-06-24T00:00:00+02:00",
                 "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                "location": {
-                    "id": "urn:epass:location:11"
-                },
+                "location":  "urn:epass:location:11",
                 "specifiedBy": {
                     "id": "urn:epass:learningactivityspec:8",
                     "title": "Prestressed concrete",
@@ -2252,9 +1725,7 @@
                 "startedAtTime": "2018-01-15T00:00:00+01:00",
                 "endedAtTime": "2018-06-24T00:00:00+02:00",
                 "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                "location": {
-                    "id": "urn:epass:location:12"
-                },
+                "location":  "urn:epass:location:12",
                 "specifiedBy": {
                     "id": "urn:epass:learningactivityspec:9",
                     "title": "Concrete structures II",
@@ -2274,9 +1745,7 @@
                 "startedAtTime": "2018-01-15T00:00:00+01:00",
                 "endedAtTime": "2018-06-24T00:00:00+02:00",
                 "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                "location": {
-                    "id": "urn:epass:location:13"
-                },
+                "location":  "urn:epass:location:13",
                 "specifiedBy": {
                     "id": "urn:epass:learningactivityspec:10",
                     "title": "Structure reliability",
@@ -2296,9 +1765,7 @@
                 "startedAtTime": "2018-01-15T00:00:00+01:00",
                 "endedAtTime": "2018-06-24T00:00:00+02:00",
                 "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                "location": {
-                    "id": "urn:epass:location:14"
-                },
+                "location":  "urn:epass:location:14",
                 "specifiedBy": {
                     "id": "urn:epass:learningactivityspec:11",
                     "title": "Composite structures",
@@ -2318,9 +1785,7 @@
                 "startedAtTime": "2018-09-03T00:00:00+02:00",
                 "endedAtTime": "2019-01-13T00:00:00+01:00",
                 "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                "location": {
-                    "id": "urn:epass:location:15"
-                },
+                "location":  "urn:epass:location:15",
                 "specifiedBy": {
                     "id": "urn:epass:learningactivityspec:12",
                     "title": "Construction of concrete structures",
@@ -2340,9 +1805,7 @@
                 "startedAtTime": "2018-09-03T00:00:00+02:00",
                 "endedAtTime": "2019-01-13T00:00:00+01:00",
                 "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                "location": {
-                    "id": "urn:epass:location:16"
-                },
+                "location":  "urn:epass:location:16",
                 "specifiedBy": {
                     "id": "urn:epass:learningactivityspec:13",
                     "title": "Housing installations",
@@ -2361,10 +1824,8 @@
                 "workload": "PT60H",
                 "startedAtTime": "2018-09-03T00:00:00+02:00",
                 "endedAtTime": "2019-01-13T00:00:00+01:00",
-               "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                "location": {
-                    "id": "urn:epass:location:17"
-                },
+                "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                "location":  "urn:epass:location:17",
                 "specifiedBy": {
                     "id": "urn:epass:learningactivityspec:14",
                     "title": "Numerical modelling of concrete structures",
@@ -2384,9 +1845,7 @@
                 "startedAtTime": "2018-09-03T00:00:00+02:00",
                 "endedAtTime": "2019-01-13T00:00:00+01:00",
                 "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                "location": {
-                    "id": "urn:epass:location:18"
-                },
+                "location":  "urn:epass:location:18",
                 "specifiedBy": {
                     "id": "urn:epass:learningactivityspec:15",
                     "title": "Business and investments in civil engineering",
@@ -2405,10 +1864,8 @@
                 "workload": "PT60H",
                 "startedAtTime": "2018-09-03T00:00:00+02:00",
                 "endedAtTime": "2019-01-13T00:00:00+01:00",
-               "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                "location": {
-                    "id": "urn:epass:location:19"
-                },
+                "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                "location": "urn:epass:location:19",
                 "specifiedBy": {
                     "id": "urn:epass:learningactivityspec:16",
                     "title": "Concrete bridges",
@@ -2428,9 +1885,7 @@
                 "startedAtTime": "2018-09-03T00:00:00+02:00",
                 "endedAtTime": "2019-01-13T00:00:00+01:00",
                 "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                "location": {
-                    "id": "urn:epass:location:20"
-                },
+                "location":  "urn:epass:location:20",
                 "specifiedBy": {
                     "id": "urn:epass:learningactivityspec:17",
                     "title": "Metal bridges",
@@ -2450,9 +1905,7 @@
                 "startedAtTime": "2019-01-14T00:00:00+01:00",
                 "endedAtTime": "2019-09-20T00:00:00+02:00",
                 "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                "location": {
-                    "id": "urn:epass:location:21"
-                },
+                "location":  "urn:epass:location:21",
                 "specifiedBy": {
                     "id": "urn:epass:learningactivityspec:18",
                     "title": "Diploma work",
@@ -2465,24 +1918,14 @@
         "entitledTo": {
             "id": "urn:epass:entitlement:1",
             "title": "Postgraduate doctoral study",
-            "description": "Competences the student acquires after the completion of Graduate university study are sufficient conditions for attending the programme of Postgraduate doctoral study at the Faculty of Civil Engineering, Architecture and Geodesy in Split, as well as for attending the same or similar programmes and Postgraduate specialist studies at other faculties of Civil Engineering in Croatia. The acquired learning outcomes enable the student to attend other postgraduate study programmes in the field of technical sciences. ",
+            "description1": "Competences the student acquires after the completion of Graduate university study are sufficient conditions for attending the programme of Postgraduate doctoral study at the Faculty of Civil Engineering, Architecture and Geodesy in Split, as well as for attending the same or similar programmes and Postgraduate specialist studies at other faculties of Civil Engineering in Croatia. The acquired learning outcomes enable the student to attend other postgraduate study programmes in the field of technical sciences. ",
             "issuedDate": "2019-09-20",
             "specifiedBy": {
                 "id": "urn:epass:entitlementspec:1",
                 "title": "Postgraduate doctoral study",
                 "type": "http://data.europa.eu/snb/entitlement/64aad92881",
                 "status": "http://data.europa.eu/snb/entitlement-status/5b8d6b34fb",
-                "limitOrganization": {
-                    "id": "urn:epass:org:2",
-                    "registration": 12345678,
-                    "prefLabel": "Fakultet Gradevinarstva, Architekture i Geodezije",
-                    "altLabel": "Faculty of Civil Engineering, Architecture and Geodesy",
-                    "homepage": "http://gradst.unist.hr/",
-                    "hasLocation": {
-                        "id": "urn:epass:location:3",
-                        "hasAddress": {"country": "Croatia"}
-                    }
-                },
+                "limitOrganisation": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                 "limitJurisdiction": {"uri": "http://publications.europa.eu/resource/authority/country/HRV"}
             }
         }

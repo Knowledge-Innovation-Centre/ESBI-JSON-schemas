@@ -186,10 +186,8 @@
                 },
                 "learningActivitySpecification": {
                     "type": "object",
-                    "properties": {
-                        "learningActivitySpec": {"$ref": "#/$defs/learningActivitySpecification"}
-                    },
-                    "required": ["learningActivitySpec"]
+                    "$ref": "#/$defs/learningActivitySpecification"
+                    }
                 },
                 "assessmentSpecification": {
                     "description": "Assessments a person can undergo to prove the acquisition of the learning outcomes. Association   AssessmentSpecification",
@@ -209,11 +207,8 @@
                 "hasPart": {
                     "description": "A learning specification can be composed of other narrower learning specifications which when combined make up this learning specification. Association LearningSpecification",
                     "type": "object",
-                    "properties": {
-                        "learningSpec": {"$ref": "#"}
-                    },
-                    "required": ["learningSpec"]
-                }
+                    "$ref": "#"
+                   
             },
             "required": ["id"]
         },
@@ -455,10 +450,8 @@
                 "specifiedBy": {
                     "description": "Defines the  specification of this learning activity. Association to LearningActivitySpecification",
                     "type": "object",
-                    "properties": {
-                        "learningActivitySpec": {"$ref": "#/$defs/learningActivitySpecification"}
-                    },
-                    "required": ["learningActivitySpec"]
+                    "$ref": "#/$defs/learningActivitySpecification"
+                   
                 },
                 "usedLearningOpportunity": {
                     "description": "Defines when is used or taken opportunity to do this learning activity. Association to LearningOpportunity??",
@@ -614,19 +607,13 @@
                 "shortenedGrading": {
                     "description": "Defines Indicator of how well the student was graded when compared to other students. Association to ShortenedGrading",
                     "type": "object",
-                    "properties": {
-                        "shortenedGradingSpec": {"$ref": "#/$defs/shortenedGrading"}
-                    },
-                    "required": ["shortenedGradingSpec"]
-                },
+                    "$ref": "#/$defs/shortenedGrading"
+                   },
                 "resultDistribution": {
                     "description": "Describes a histogram of results achieved by all the students of a particular learning assessment. Association to ResultDistribution",
                     "type": "object",
-                    "properties": {
-                        "resultDistributionSpec": {"$ref": "#/$defs/resultDistribution"}
+                    "$ref": "#/$defs/resultDistribution"
                     },
-                    "required": ["resultDistributionSpec"]
-                },
                 "issuedDate": {
                     "description": "Defines the Assessment Date: when the grade was awarded",
                     "type": "string",
@@ -644,11 +631,8 @@
                 "specifiedBy": {
                     "description": "The specification of this assessment. Association AssessmentSpecification??",
                     "type": "object",
-                    "properties": {
-                        "assessmentSpec": {"$ref": "#/$defs/assessmentSpecification"}
+                    "$ref": "#/$defs/assessmentSpecification"
                     },
-                    "required": ["assessmentSpec"]
-                },
                 "hasPart": {
                     "description": "Defines Sub-Assessments; Smaller assessments, which when combined make up and can influence this assessment. Association Assessment??",
                     "type": "array",
@@ -806,12 +790,8 @@
                 "wasAwardedBy": {
                     "description": "The awarding details of this achievement. Association AwardingProcess ",
                     "type": "object",
-                    "properties": {
-                        "awardedBy":  {"$ref": "#/$defs/awardingProcess"}
+                    "$ref": "#/$defs/awardingProcess"
                     },
-                    "required": ["awardedBy"]
-                    
-                },
                 "hasPart": {
                     "description": "Define smaller units of achievement, which when combined make up this achievement. Association learningAchievement ",
                     "type": "array",
@@ -847,11 +827,8 @@
                 "specifiedBy": {
                     "description": "Defines the details of the awarded qualification. Association to Qualification",
                     "type": "object",
-                    "properties": {
-                        "qualificationAwardedSpec": {"$ref": "#/$defs/qualification"}
-                    },
-                    "required": ["qualificationAwardedSpec"]
-                }
+                    "$ref": "#/$defs/qualification"
+                    }
             },
             "required": ["specifiedBy"]
         },
@@ -994,11 +971,8 @@
                 "specifiedBy": {
                     "description": "Defines a learning achievement which gave rise to the entitlement. Association EntitlementSpecification??",
                     "type": "object",
-                    "properties": {
-                        "entitlementSpec": {"$ref": "#/$defs/entitlementSpecification"}
-                    },
-                    "required": ["entitlementSpec"]
-                },
+                    "$ref": "#/$defs/entitlementSpecification"
+                   },
                 "wasDerivedFrom": {
                     "description": "Defines the learning achievement (and related learning outcomes) which gave rise to this entitlement. Association LearningAchievement",
                     "type": "array",
@@ -1101,11 +1075,8 @@
                 "mayResultFrom": {
                     "description": "Defines the learning specification may influence the Entitlement specification. Association LearningSpecification",
                     "type": "object",
-                    "properties": {
-                        "learningActivitySpec": {"$ref": "#/$defs/learningActivitySpecification"}
+                    "$ref": "#/$defs/learningActivitySpecification"
                     },
-                    "required": ["learningActivitySpec"]
-                },
                 "hasPart": {
                     "description": "Defines smaller entitlement specifications, which when combined make up this entitlement specification. Association EntitlementSpecification",
                     "type": "array",
