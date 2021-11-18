@@ -553,8 +553,10 @@
                     }
                 },
                 "gradingscheme": {
-                    "description": "A description of the specification of which learning outcomes are or have been proven. Association to ScoringScheme??",
-                    "type": "string"
+                    "description": "A description of the specification of which learning outcomes are or have been proven. Association to ScoringScheme/GradingScheme",
+                     "type": "object",
+                     "$ref": "#/$defs/gradingscheme"
+                                      
                 },
                 "proves": {
                     "description": "Demostrates The learning achievement (and related learning outcomes) this assessment is designed to test. Association to LearningSpecification",
@@ -907,7 +909,7 @@
             },
             "required": [
                 "id",
-                "learningAchievement",
+              
                 "awardingBody"
             ]
         },
@@ -1083,7 +1085,8 @@
                 "limitJurisidiction": {
                     "description": "Defines the jurisdiction for which the entitlement is valid (the region or country).",
                     "type": "array",
-                    "items": {"type": "string"}
+                    "items": {"type": "string",
+                    "format": "uri"}
                 },
                 "limitOccupation": {
                     "description": "Defines a related Occupation: The An ESCO Occupation or Occupational class which the individual may access through the entitlement. Association EscoOccupationAssociation??",
