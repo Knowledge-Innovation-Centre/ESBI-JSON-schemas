@@ -59,9 +59,9 @@
                         "specifiedBy": {
                             "id": "urn:epass:learningactivityspec:1",
                             "title": "Applied mathematics",
-                            "type": "http://data.europa.eu/snb/learning-activity/fd33e234ae",
+                            "learningActivityType": ["http://data.europa.eu/snb/learning-activity/fd33e234ae"],
                             "workload": "PT60H",
-                           "language": [ "http://publications.europa.eu/resource/authority/language/HRV"]
+                            "language": ["http://publications.europa.eu/resource/authority/language/HRV"]
                         }
                     },
                     {
@@ -81,9 +81,9 @@
                         "specifiedBy": {
                             "id": "urn:epass:learningactivityspec:2",
                             "title": "Concrete structures I",
-                            "type": "http://data.europa.eu/snb/learning-activity/fd33e234ae",
+                            "learningActivityType": ["http://data.europa.eu/snb/learning-activity/fd33e234ae"],
                             "workload": "PT60H",
-                           "language": [ "http://publications.europa.eu/resource/authority/language/HRV"]
+                            "language": ["http://publications.europa.eu/resource/authority/language/HRV"]
                         }
                     },
                     {
@@ -103,7 +103,7 @@
                         "specifiedBy": {
                             "id": "urn:epass:learningactivityspec:3",
                             "title": "Dynamics of structures and earthquake engineering",
-                            "type": "http://data.europa.eu/snb/learning-activity/fd33e234ae",
+                            "learningActivityType": ["http://data.europa.eu/snb/learning-activity/fd33e234ae"],
                             "workload": "PT45H",
                             "language": ["http://publications.europa.eu/resource/authority/language/HRV"]
                         }
@@ -125,7 +125,7 @@
                         "specifiedBy": {
                             "id": "urn:epass:learningactivityspec:4",
                             "title": "Geotechnical engineering",
-                            "type": "http://data.europa.eu/snb/learning-activity/fd33e234ae",
+                            "learningActivityType": ["http://data.europa.eu/snb/learning-activity/fd33e234ae"],
                             "workload": "PT60H",
                             "language": ["http://publications.europa.eu/resource/authority/language/HRV"]
                         }
@@ -147,7 +147,7 @@
                         "specifiedBy": {
                             "id": "urn:epass:learningactivityspec:5",
                             "title": "Stability of structures",
-                            "type": "http://data.europa.eu/snb/learning-activity/fd33e234ae",
+                            "learningActivityType": ["http://data.europa.eu/snb/learning-activity/fd33e234ae"],
                             "workload": "PT60H",
                             "language": ["http://publications.europa.eu/resource/authority/language/HRV"]
                         }
@@ -169,7 +169,7 @@
                         "specifiedBy": {
                             "id": "urn:epass:learningactivityspec:6",
                             "title": "Metal structures I",
-                            "type": "http://data.europa.eu/snb/learning-activity/fd33e234ae",
+                            "learningActivityType": ["http://data.europa.eu/snb/learning-activity/fd33e234ae"],
                             "workload": "PT75H",
                             "language": ["http://publications.europa.eu/resource/authority/language/HRV"]
                         }
@@ -191,7 +191,7 @@
                         "specifiedBy": {
                             "id": "urn:epass:learningactivityspec:7",
                             "title": "Masonry structures",
-                            "type": "http://data.europa.eu/snb/learning-activity/fd33e234ae",
+                            "learningActivityType": ["http://data.europa.eu/snb/learning-activity/fd33e234ae"],
                             "workload": "PT60H",
                             "language": ["http://publications.europa.eu/resource/authority/language/HRV"]
                         }
@@ -213,9 +213,9 @@
                         "specifiedBy": {
                             "id": "urn:epass:learningactivityspec:8",
                             "title": "Prestressed concrete",
-                            "type": "http://data.europa.eu/snb/learning-activity/fd33e234ae",
+                            "learningActivityType": ["http://data.europa.eu/snb/learning-activity/fd33e234ae"],
                             "workload": "PT60H",
-                            "language": [ "http://publications.europa.eu/resource/authority/language/HRV"]
+                            "language": ["http://publications.europa.eu/resource/authority/language/HRV"]
                         }
                     },
                     {
@@ -235,9 +235,9 @@
                         "specifiedBy": {
                             "id": "urn:epass:learningactivityspec:9",
                             "title": "Concrete structures II",
-                            "type": "http://data.europa.eu/snb/learning-activity/fd33e234ae",
+                            "learningActivityType": ["http://data.europa.eu/snb/learning-activity/fd33e234ae"],
                             "workload": "PT60H",
-                            "language": [ "http://publications.europa.eu/resource/authority/language/HRV"]
+                            "language": ["http://publications.europa.eu/resource/authority/language/HRV"]
                         }
                     },
                     {
@@ -257,9 +257,9 @@
                         "specifiedBy": {
                             "id": "urn:epass:learningactivityspec:19",
                             "title": "Metal structures II",
-                            "type": "http://data.europa.eu/snb/learning-activity/fd33e234ae",
+                            "learningActivityType": ["http://data.europa.eu/snb/learning-activity/fd33e234ae"],
                             "workload": "PT60H",
-                            "language": [ "http://publications.europa.eu/resource/authority/language/HRV"]
+                            "language": ["http://publications.europa.eu/resource/authority/language/HRV"]
                         }
                     },
                     {
@@ -279,9 +279,9 @@
                         "specifiedBy": {
                             "id": "urn:epass:learningactivityspec:10",
                             "title": "Structure reliability",
-                            "type": "http://data.europa.eu/snb/learning-activity/fd33e234ae",
+                            "learningActivityType": ["http://data.europa.eu/snb/learning-activity/fd33e234ae"],
                             "workload": "PT60H",
-                            "language": [ "http://publications.europa.eu/resource/authority/language/HRV"]
+                            "language": ["http://publications.europa.eu/resource/authority/language/HRV"]
                         }
                     },
                     {
@@ -301,9 +301,9 @@
                         "specifiedBy": {
                             "id": "urn:epass:learningactivityspec:11",
                             "title": "Composite structures",
-                            "type": "http://data.europa.eu/snb/learning-activity/fd33e234ae",
+                            "learningActivityType": ["http://data.europa.eu/snb/learning-activity/fd33e234ae"],
                             "workload": "PT60H",
-                            "language": [ "http://publications.europa.eu/resource/authority/language/HRV"]
+                            "language": ["http://publications.europa.eu/resource/authority/language/HRV"]
                         }
                     },
                     {
@@ -323,9 +323,9 @@
                         "specifiedBy": {
                             "id": "urn:epass:learningactivityspec:12",
                             "title": "Construction of concrete structures",
-                            "type": "http://data.europa.eu/snb/learning-activity/fd33e234ae",
+                            "learningActivityType": ["http://data.europa.eu/snb/learning-activity/fd33e234ae"],
                             "workload": "PT60H",
-                            "language": [ "http://publications.europa.eu/resource/authority/language/HRV"]
+                            "language": ["http://publications.europa.eu/resource/authority/language/HRV"]
                         }
                     },
                     {
@@ -345,9 +345,9 @@
                         "specifiedBy": {
                             "id": "urn:epass:learningactivityspec:13",
                             "title": "Housing installations",
-                            "type": "http://data.europa.eu/snb/learning-activity/fd33e234ae",
+                            "learningActivityType": ["http://data.europa.eu/snb/learning-activity/fd33e234ae"],
                             "workload": "PT60H",
-                            "language": [ "http://publications.europa.eu/resource/authority/language/HRV"]
+                            "language": ["http://publications.europa.eu/resource/authority/language/HRV"]
                         }
                     },
                     {
@@ -367,9 +367,9 @@
                         "specifiedBy": {
                             "id": "urn:epass:learningactivityspec:14",
                             "title": "Numerical modelling of concrete structures",
-                            "type": "http://data.europa.eu/snb/learning-activity/fd33e234ae",
+                            "learningActivityType": ["http://data.europa.eu/snb/learning-activity/fd33e234ae"],
                             "workload": "PT60H",
-                            "language": [ "http://publications.europa.eu/resource/authority/language/HRV"]
+                            "language": ["http://publications.europa.eu/resource/authority/language/HRV"]
                         }
                     },
                     {
@@ -389,9 +389,9 @@
                         "specifiedBy": {
                             "id": "urn:epass:learningactivityspec:15",
                             "title": "Business and investments in civil engineering",
-                            "type": "http://data.europa.eu/snb/learning-activity/fd33e234ae",
+                            "learningActivityType": ["http://data.europa.eu/snb/learning-activity/fd33e234ae"],
                             "workload": "PT60H",
-                            "language": [ "http://publications.europa.eu/resource/authority/language/HRV"]
+                            "language": ["http://publications.europa.eu/resource/authority/language/HRV"]
                         }
                     },
                     {
@@ -411,9 +411,9 @@
                         "specifiedBy": {
                             "id": "urn:epass:learningactivityspec:16",
                             "title": "Concrete bridges",
-                            "type": "http://data.europa.eu/snb/learning-activity/fd33e234ae",
+                            "learningActivityType": ["http://data.europa.eu/snb/learning-activity/fd33e234ae"],
                             "workload": "PT60H",
-                            "language": [ "http://publications.europa.eu/resource/authority/language/HRV"]
+                            "language": ["http://publications.europa.eu/resource/authority/language/HRV"]
                         }
                     },
                     {
@@ -433,9 +433,9 @@
                         "specifiedBy": {
                             "id": "urn:epass:learningactivityspec:17",
                             "title": "Metal bridges",
-                            "type": "http://data.europa.eu/snb/learning-activity/fd33e234ae",
+                            "learningActivityType": ["http://data.europa.eu/snb/learning-activity/fd33e234ae"],
                             "workload": "PT60H",
-                            "language": [ "http://publications.europa.eu/resource/authority/language/HRV"]
+                            "language": ["http://publications.europa.eu/resource/authority/language/HRV"]
                         }
                     },
                     {
@@ -455,9 +455,9 @@
                         "specifiedBy": {
                             "id": "urn:epass:learningactivityspec:18",
                             "title": "Diploma work",
-                            "type": "http://data.europa.eu/snb/learning-activity/fd33e234ae",
+                            "learningActivityType": ["http://data.europa.eu/snb/learning-activity/fd33e234ae"],
                             "workload": "PT360H",
-                            "language": [ "http://publications.europa.eu/resource/authority/language/HRV"]
+                            "language": ["http://publications.europa.eu/resource/authority/language/HRV"]
                         }
                     }
                 ],
@@ -511,9 +511,9 @@
                                 "specifiedBy": {
                                     "id": "urn:epass:learningactivityspec:1",
                                     "title": "Applied mathematics",
-                                    "type": "http://data.europa.eu/snb/learning-activity/fd33e234ae",
+                                    "learningActivityType": ["http://data.europa.eu/snb/learning-activity/fd33e234ae"],
                                     "workload": "PT60H",
-                                    "language": [ "http://publications.europa.eu/resource/authority/language/HRV"]
+                                    "language": ["http://publications.europa.eu/resource/authority/language/HRV"]
                                 }
                             },
                             "wasAwardedBy": {
@@ -575,9 +575,9 @@
                                 "specifiedBy": {
                                     "id": "urn:epass:learningactivityspec:2",
                                     "title": "Concrete structures I",
-                                    "type": "http://data.europa.eu/snb/learning-activity/fd33e234ae",
+                                    "learningActivityType": ["http://data.europa.eu/snb/learning-activity/fd33e234ae"],
                                     "workload": "PT60H",
-                                    "language": [ "http://publications.europa.eu/resource/authority/language/HRV"]
+                                    "language": ["http://publications.europa.eu/resource/authority/language/HRV"]
                                 }
                             },
                             "wasAwardedBy": {
@@ -639,9 +639,9 @@
                                 "specifiedBy": {
                                     "id": "urn:epass:learningactivityspec:3",
                                     "title": "Dynamics of structures and earthquake engineering",
-                                    "type": "http://data.europa.eu/snb/learning-activity/fd33e234ae",
+                                    "learningActivityType": ["http://data.europa.eu/snb/learning-activity/fd33e234ae"],
                                     "workload": "PT45H",
-                                    "language": [ "http://publications.europa.eu/resource/authority/language/HRV"]
+                                    "language": ["http://publications.europa.eu/resource/authority/language/HRV"]
                                 }
                             },
                             "wasAwardedBy": {
@@ -703,9 +703,9 @@
                                 "specifiedBy": {
                                     "id": "urn:epass:learningactivityspec:4",
                                     "title": "Geotechnical engineering",
-                                    "type": "http://data.europa.eu/snb/learning-activity/fd33e234ae",
+                                    "learningActivityType": ["http://data.europa.eu/snb/learning-activity/fd33e234ae"],
                                     "workload": "PT60H",
-                                    "language": [ "http://publications.europa.eu/resource/authority/language/HRV"]
+                                    "language": ["http://publications.europa.eu/resource/authority/language/HRV"]
                                 }
                             },
                             "wasAwardedBy": {
@@ -767,9 +767,9 @@
                                 "specifiedBy": {
                                     "id": "urn:epass:learningactivityspec:5",
                                     "title": "Stability of structures",
-                                    "type": "http://data.europa.eu/snb/learning-activity/fd33e234ae",
+                                    "learningActivityType": ["http://data.europa.eu/snb/learning-activity/fd33e234ae"],
                                     "workload": "PT60H",
-                                    "language": [ "http://publications.europa.eu/resource/authority/language/HRV"]
+                                    "language": ["http://publications.europa.eu/resource/authority/language/HRV"]
                                 }
                             },
                             "wasAwardedBy": {
@@ -831,9 +831,9 @@
                                 "specifiedBy": {
                                     "id": "urn:epass:learningactivityspec:6",
                                     "title": "Metal structures I",
-                                    "type": "http://data.europa.eu/snb/learning-activity/fd33e234ae",
+                                    "learningActivityType": ["http://data.europa.eu/snb/learning-activity/fd33e234ae"],
                                     "workload": "PT75H",
-                                    "language": [ "http://publications.europa.eu/resource/authority/language/HRV"]
+                                    "language": ["http://publications.europa.eu/resource/authority/language/HRV"]
                                 }
                             },
                             "wasAwardedBy": {
@@ -895,9 +895,9 @@
                                 "specifiedBy": {
                                     "id": "urn:epass:learningactivityspec:7",
                                     "title": "Masonry structures",
-                                    "type": "http://data.europa.eu/snb/learning-activity/fd33e234ae",
+                                    "learningActivityType": ["http://data.europa.eu/snb/learning-activity/fd33e234ae"],
                                     "workload": "PT60H",
-                                    "language": [ "http://publications.europa.eu/resource/authority/language/HRV"]
+                                    "language": ["http://publications.europa.eu/resource/authority/language/HRV"]
                                 }
                             },
                             "wasAwardedBy": {
@@ -959,9 +959,9 @@
                                 "specifiedBy": {
                                     "id": "urn:epass:learningactivityspec:8",
                                     "title": "Prestressed concrete",
-                                    "type": "http://data.europa.eu/snb/learning-activity/fd33e234ae",
+                                    "learningActivityType": ["http://data.europa.eu/snb/learning-activity/fd33e234ae"],
                                     "workload": "PT60H",
-                                    "language": [ "http://publications.europa.eu/resource/authority/language/HRV"]
+                                    "language": ["http://publications.europa.eu/resource/authority/language/HRV"]
                                 }
                             },
                             "wasAwardedBy": {
@@ -1023,9 +1023,9 @@
                                 "specifiedBy": {
                                     "id": "urn:epass:learningactivityspec:9",
                                     "title": "Concrete structures II",
-                                    "type": "http://data.europa.eu/snb/learning-activity/fd33e234ae",
+                                    "learningActivityType": ["http://data.europa.eu/snb/learning-activity/fd33e234ae"],
                                     "workload": "PT60H",
-                                    "language": [ "http://publications.europa.eu/resource/authority/language/HRV"]
+                                    "language": ["http://publications.europa.eu/resource/authority/language/HRV"]
                                 }
                             },
                             "wasAwardedBy": {
@@ -1087,9 +1087,9 @@
                                 "specifiedBy": {
                                     "id": "urn:epass:learningactivityspec:19",
                                     "title": "Metal structures II",
-                                    "type": "http://data.europa.eu/snb/learning-activity/fd33e234ae",
+                                    "learningActivityType": ["http://data.europa.eu/snb/learning-activity/fd33e234ae"],
                                     "workload": "PT60H",
-                                    "language": [ "http://publications.europa.eu/resource/authority/language/HRV"]
+                                    "language": ["http://publications.europa.eu/resource/authority/language/HRV"]
                                 }
                             },
                             "wasAwardedBy": {
@@ -1151,9 +1151,9 @@
                                 "specifiedBy": {
                                     "id": "urn:epass:learningactivityspec:10",
                                     "title": "Structure reliability",
-                                    "type": "http://data.europa.eu/snb/learning-activity/fd33e234ae",
+                                    "learningActivityType": ["http://data.europa.eu/snb/learning-activity/fd33e234ae"],
                                     "workload": "PT60H",
-                                    "language": [ "http://publications.europa.eu/resource/authority/language/HRV"]
+                                    "language": ["http://publications.europa.eu/resource/authority/language/HRV"]
                                 }
                             },
                             "wasAwardedBy": {
@@ -1214,9 +1214,9 @@
                                 "specifiedBy": {
                                     "id": "urn:epass:learningactivityspec:11",
                                     "title": "Composite structures",
-                                    "type": "http://data.europa.eu/snb/learning-activity/fd33e234ae",
+                                    "learningActivityType": ["http://data.europa.eu/snb/learning-activity/fd33e234ae"],
                                     "workload": "PT60H",
-                                    "language": [ "http://publications.europa.eu/resource/authority/language/HRV"]
+                                    "language": ["http://publications.europa.eu/resource/authority/language/HRV"]
                                 }
                             },
                             "wasAwardedBy": {
@@ -1278,9 +1278,9 @@
                                 "specifiedBy": {
                                     "id": "urn:epass:learningactivityspec:12",
                                     "title": "Construction of concrete structures",
-                                    "type": "http://data.europa.eu/snb/learning-activity/fd33e234ae",
+                                    "learningActivityType": ["http://data.europa.eu/snb/learning-activity/fd33e234ae"],
                                     "workload": "PT60H",
-                                    "language": [ "http://publications.europa.eu/resource/authority/language/HRV"]
+                                    "language": ["http://publications.europa.eu/resource/authority/language/HRV"]
                                 }
                             },
                             "wasAwardedBy": {
@@ -1342,9 +1342,9 @@
                                 "specifiedBy": {
                                     "id": "urn:epass:learningactivityspec:13",
                                     "title": "Housing installations",
-                                    "type": "http://data.europa.eu/snb/learning-activity/fd33e234ae",
+                                    "learningActivityType": ["http://data.europa.eu/snb/learning-activity/fd33e234ae"],
                                     "workload": "PT60H",
-                                    "language": [ "http://publications.europa.eu/resource/authority/language/HRV"]
+                                    "language": ["http://publications.europa.eu/resource/authority/language/HRV"]
                                 }
                             },
                             "wasAwardedBy": {
@@ -1406,9 +1406,9 @@
                                 "specifiedBy": {
                                     "id": "urn:epass:learningactivityspec:14",
                                     "title": "Numerical modelling of concrete structures",
-                                    "type": "http://data.europa.eu/snb/learning-activity/fd33e234ae",
+                                    "learningActivityType": ["http://data.europa.eu/snb/learning-activity/fd33e234ae"],
                                     "workload": "PT60H",
-                                    "language": [ "http://publications.europa.eu/resource/authority/language/HRV"]
+                                    "language": ["http://publications.europa.eu/resource/authority/language/HRV"]
                                 }
                             },
                             "wasAwardedBy": {
@@ -1470,9 +1470,9 @@
                                 "specifiedBy": {
                                     "id": "urn:epass:learningactivityspec:15",
                                     "title": "Business and investments in civil engineering",
-                                    "type": "http://data.europa.eu/snb/learning-activity/fd33e234ae",
+                                    "learningActivityType": ["http://data.europa.eu/snb/learning-activity/fd33e234ae"],
                                     "workload": "PT60H",
-                                    "language": [ "http://publications.europa.eu/resource/authority/language/HRV"]
+                                    "language": ["http://publications.europa.eu/resource/authority/language/HRV"]
                                 }
                             },
                             "wasAwardedBy": {
@@ -1534,9 +1534,9 @@
                                 "specifiedBy": {
                                     "id": "urn:epass:learningactivityspec:16",
                                     "title": "Concrete bridges",
-                                    "type": "http://data.europa.eu/snb/learning-activity/fd33e234ae",
+                                    "learningActivityType": ["http://data.europa.eu/snb/learning-activity/fd33e234ae"],
                                     "workload": "PT60H",
-                                    "language": [ "http://publications.europa.eu/resource/authority/language/HRV"]
+                                    "language": ["http://publications.europa.eu/resource/authority/language/HRV"]
                                 }
                             },
                             "wasAwardedBy": {
@@ -1598,9 +1598,9 @@
                                 "specifiedBy": {
                                     "id": "urn:epass:learningactivityspec:17",
                                     "title": "Metal bridges",
-                                    "type": "http://data.europa.eu/snb/learning-activity/fd33e234ae",
+                                    "learningActivityType": ["http://data.europa.eu/snb/learning-activity/fd33e234ae"],
                                     "workload": "PT60H",
-                                    "language": [ "http://publications.europa.eu/resource/authority/language/HRV"]
+                                    "language": ["http://publications.europa.eu/resource/authority/language/HRV"]
                                 }
                             },
                             "wasAwardedBy": {
@@ -1662,9 +1662,9 @@
                                 "specifiedBy": {
                                     "id": "urn:epass:learningactivityspec:18",
                                     "title": "Diploma work",
-                                    "type": "http://data.europa.eu/snb/learning-activity/fd33e234ae",
+                                    "learningActivityType": ["http://data.europa.eu/snb/learning-activity/fd33e234ae"],
                                     "workload": "PT360H",
-                                    "language": [ "http://publications.europa.eu/resource/authority/language/HRV"]
+                                    "language": ["http://publications.europa.eu/resource/authority/language/HRV"]
                                 }
                             },
                             "wasAwardedBy": {
@@ -1693,7 +1693,7 @@
                     "specifiedBy": {
                         "id": "urn:epass:entitlementspec:1",
                         "title": "Postgraduate doctoral study",
-                        "type": "http://data.europa.eu/snb/entitlement/64aad92881",
+                        "entitlementType": "http://data.europa.eu/snb/entitlement/64aad92881",
                         "status": "http://data.europa.eu/snb/entitlement-status/5b8d6b34fb",
                         "limitOrganisation": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                         "limitJurisdiction": {"uri": "http://publications.europa.eu/resource/authority/country/HRV"}
@@ -1730,9 +1730,9 @@
                 "specifiedBy": {
                     "id": "urn:epass:learningactivityspec:1",
                     "title": "Applied mathematics",
-                    "type": "http://data.europa.eu/snb/learning-activity/fd33e234ae",
+                    "learningActivityType": ["http://data.europa.eu/snb/learning-activity/fd33e234ae"],
                     "workload": "PT60H",
-                    "language": [ "http://publications.europa.eu/resource/authority/language/HRV"]
+                    "language": ["http://publications.europa.eu/resource/authority/language/HRV"]
                 }
             },
             {
@@ -1752,9 +1752,9 @@
                 "specifiedBy": {
                     "id": "urn:epass:learningactivityspec:2",
                     "title": "Concrete structures I",
-                    "type": "http://data.europa.eu/snb/learning-activity/fd33e234ae",
+                    "learningActivityType": ["http://data.europa.eu/snb/learning-activity/fd33e234ae"],
                     "workload": "PT60H",
-                    "language": [ "http://publications.europa.eu/resource/authority/language/HRV"]
+                    "language": ["http://publications.europa.eu/resource/authority/language/HRV"]
                 }
             },
             {
@@ -1773,9 +1773,9 @@
                 "specifiedBy": {
                     "id": "urn:epass:learningactivityspec:3",
                     "title": "Dynamics of structures and earthquake engineering",
-                    "type": "http://data.europa.eu/snb/learning-activity/fd33e234ae",
+                    "learningActivityType": ["http://data.europa.eu/snb/learning-activity/fd33e234ae"],
                     "workload": "PT45H",
-                    "language": [ "http://publications.europa.eu/resource/authority/language/HRV"]
+                    "language": ["http://publications.europa.eu/resource/authority/language/HRV"]
                 }
             },
             {
@@ -1795,9 +1795,9 @@
                 "specifiedBy": {
                     "id": "urn:epass:learningactivityspec:4",
                     "title": "Geotechnical engineering",
-                    "type": "http://data.europa.eu/snb/learning-activity/fd33e234ae",
+                    "learningActivityType": ["http://data.europa.eu/snb/learning-activity/fd33e234ae"],
                     "workload": "PT60H",
-                    "language": [ "http://publications.europa.eu/resource/authority/language/HRV"]
+                    "language": ["http://publications.europa.eu/resource/authority/language/HRV"]
                 }
             },
             {
@@ -1817,9 +1817,9 @@
                 "specifiedBy": {
                     "id": "urn:epass:learningactivityspec:5",
                     "title": "Stability of structures",
-                    "type": "http://data.europa.eu/snb/learning-activity/fd33e234ae",
+                    "learningActivityType": ["http://data.europa.eu/snb/learning-activity/fd33e234ae"],
                     "workload": "PT60H",
-                    "language": [ "http://publications.europa.eu/resource/authority/language/HRV"]
+                    "language": ["http://publications.europa.eu/resource/authority/language/HRV"]
                 }
             },
             {
@@ -1839,7 +1839,7 @@
                 "specifiedBy": {
                     "id": "urn:epass:learningactivityspec:6",
                     "title": "Metal structures I",
-                    "type": "http://data.europa.eu/snb/learning-activity/fd33e234ae",
+                    "learningActivityType": ["http://data.europa.eu/snb/learning-activity/fd33e234ae"],
                     "workload": "PT75H",
                     "language": ["http://publications.europa.eu/resource/authority/language/HRV"]
                 }
@@ -1861,9 +1861,9 @@
                 "specifiedBy": {
                     "id": "urn:epass:learningactivityspec:7",
                     "title": "Masonry structures",
-                    "type": "http://data.europa.eu/snb/learning-activity/fd33e234ae",
+                    "learningActivityType": ["http://data.europa.eu/snb/learning-activity/fd33e234ae"],
                     "workload": "PT60H",
-                    "language": [ "http://publications.europa.eu/resource/authority/language/HRV"]
+                    "language": ["http://publications.europa.eu/resource/authority/language/HRV"]
                 }
             },
             {
@@ -1883,9 +1883,9 @@
                 "specifiedBy": {
                     "id": "urn:epass:learningactivityspec:8",
                     "title": "Prestressed concrete",
-                    "type": "http://data.europa.eu/snb/learning-activity/fd33e234ae",
+                    "learningActivityType": ["http://data.europa.eu/snb/learning-activity/fd33e234ae"],
                     "workload": "PT60H",
-                   "language": [ "http://publications.europa.eu/resource/authority/language/HRV"]
+                    "language": ["http://publications.europa.eu/resource/authority/language/HRV"]
                 }
             },
             {
@@ -1905,9 +1905,9 @@
                 "specifiedBy": {
                     "id": "urn:epass:learningactivityspec:9",
                     "title": "Concrete structures II",
-                    "type": "http://data.europa.eu/snb/learning-activity/fd33e234ae",
+                    "learningActivityType": ["http://data.europa.eu/snb/learning-activity/fd33e234ae"],
                     "workload": "PT60H",
-                   "language": [ "http://publications.europa.eu/resource/authority/language/HRV"]
+                    "language": ["http://publications.europa.eu/resource/authority/language/HRV"]
                 }
             },
             {
@@ -1927,9 +1927,9 @@
                 "specifiedBy": {
                     "id": "urn:epass:learningactivityspec:10",
                     "title": "Structure reliability",
-                    "type": "http://data.europa.eu/snb/learning-activity/fd33e234ae",
+                    "learningActivityType": ["http://data.europa.eu/snb/learning-activity/fd33e234ae"],
                     "workload": "PT60H",
-                   "language": [ "http://publications.europa.eu/resource/authority/language/HRV"]
+                    "language": ["http://publications.europa.eu/resource/authority/language/HRV"]
                 }
             },
             {
@@ -1949,9 +1949,9 @@
                 "specifiedBy": {
                     "id": "urn:epass:learningactivityspec:11",
                     "title": "Composite structures",
-                    "type": "http://data.europa.eu/snb/learning-activity/fd33e234ae",
+                    "learningActivityType": ["http://data.europa.eu/snb/learning-activity/fd33e234ae"],
                     "workload": "PT60H",
-                   "language": [ "http://publications.europa.eu/resource/authority/language/HRV"]
+                    "language": ["http://publications.europa.eu/resource/authority/language/HRV"]
                 }
             },
             {
@@ -1971,9 +1971,9 @@
                 "specifiedBy": {
                     "id": "urn:epass:learningactivityspec:12",
                     "title": "Construction of concrete structures",
-                    "type": "http://data.europa.eu/snb/learning-activity/fd33e234ae",
+                    "learningActivityType": ["http://data.europa.eu/snb/learning-activity/fd33e234ae"],
                     "workload": "PT60H",
-                   "language": [ "http://publications.europa.eu/resource/authority/language/HRV"]
+                    "language": ["http://publications.europa.eu/resource/authority/language/HRV"]
                 }
             },
             {
@@ -1993,9 +1993,9 @@
                 "specifiedBy": {
                     "id": "urn:epass:learningactivityspec:13",
                     "title": "Housing installations",
-                    "type": "http://data.europa.eu/snb/learning-activity/fd33e234ae",
+                    "learningActivityType": ["http://data.europa.eu/snb/learning-activity/fd33e234ae"],
                     "workload": "PT60H",
-                   "language": [ "http://publications.europa.eu/resource/authority/language/HRV"]
+                    "language": ["http://publications.europa.eu/resource/authority/language/HRV"]
                 }
             },
             {
@@ -2015,9 +2015,9 @@
                 "specifiedBy": {
                     "id": "urn:epass:learningactivityspec:14",
                     "title": "Numerical modelling of concrete structures",
-                    "type": "http://data.europa.eu/snb/learning-activity/fd33e234ae",
+                    "learningActivityType": ["http://data.europa.eu/snb/learning-activity/fd33e234ae"],
                     "workload": "PT60H",
-                   "language": [ "http://publications.europa.eu/resource/authority/language/HRV"]
+                    "language": ["http://publications.europa.eu/resource/authority/language/HRV"]
                 }
             },
             {
@@ -2037,9 +2037,9 @@
                 "specifiedBy": {
                     "id": "urn:epass:learningactivityspec:15",
                     "title": "Business and investments in civil engineering",
-                    "type": "http://data.europa.eu/snb/learning-activity/fd33e234ae",
+                    "learningActivityType": ["http://data.europa.eu/snb/learning-activity/fd33e234ae"],
                     "workload": "PT60H",
-                   "language": [ "http://publications.europa.eu/resource/authority/language/HRV"]
+                    "language": ["http://publications.europa.eu/resource/authority/language/HRV"]
                 }
             },
             {
@@ -2059,9 +2059,9 @@
                 "specifiedBy": {
                     "id": "urn:epass:learningactivityspec:16",
                     "title": "Concrete bridges",
-                    "type": "http://data.europa.eu/snb/learning-activity/fd33e234ae",
+                    "learningActivityType": ["http://data.europa.eu/snb/learning-activity/fd33e234ae"],
                     "workload": "PT60H",
-                   "language": [ "http://publications.europa.eu/resource/authority/language/HRV"]
+                    "language": ["http://publications.europa.eu/resource/authority/language/HRV"]
                 }
             },
             {
@@ -2081,9 +2081,9 @@
                 "specifiedBy": {
                     "id": "urn:epass:learningactivityspec:17",
                     "title": "Metal bridges",
-                    "type": "http://data.europa.eu/snb/learning-activity/fd33e234ae",
+                    "learningActivityType": ["http://data.europa.eu/snb/learning-activity/fd33e234ae"],
                     "workload": "PT60H",
-                   "language": [ "http://publications.europa.eu/resource/authority/language/HRV"]
+                    "language": ["http://publications.europa.eu/resource/authority/language/HRV"]
                 }
             },
             {
@@ -2103,7 +2103,7 @@
                 "specifiedBy": {
                     "id": "urn:epass:learningactivityspec:18",
                     "title": "Diploma work",
-                    "type": "http://data.europa.eu/snb/learning-activity/fd33e234ae",
+                    "learningActivityType": ["http://data.europa.eu/snb/learning-activity/fd33e234ae"],
                     "workload": "PT360H",
                     "language": ["http://publications.europa.eu/resource/authority/language/HRV"]
                 }
@@ -2117,7 +2117,7 @@
             "specifiedBy": {
                 "id": "urn:epass:entitlementspec:1",
                 "title": "Postgraduate doctoral study",
-                "type": "http://data.europa.eu/snb/entitlement/64aad92881",
+                "entitlementType": "http://data.europa.eu/snb/entitlement/64aad92881",
                 "status": "http://data.europa.eu/snb/entitlement-status/5b8d6b34fb",
                 "limitOrganisation": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                 "limitJurisdiction": {"uri": "http://publications.europa.eu/resource/authority/country/HRV"}
