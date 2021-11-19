@@ -754,7 +754,7 @@
             "type": "object",
             "properties": {
                 "id": {
-                    "description": "Defines a portable and unique identifier of the Grading Scheme",
+                    "description": "Defines a portable and unique identifier of the learning achievement",
                     "type": "string",
                     "format": "uri"
                 },
