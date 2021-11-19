@@ -494,7 +494,7 @@
                                     }
                                 }
                             ],
-                            "wasInfluencedBy": {
+                            "wasInfluencedBy": [{
                                 "id": "urn:epass:activity:1",
                                 "identifier": [
                                     {
@@ -515,7 +515,7 @@
                                     "workload": "PT60H",
                                     "language": ["http://publications.europa.eu/resource/authority/language/HRV"]
                                 }
-                            },
+                            }],
                             "wasAwardedBy": {
                                 "id": "urn:epass:awardingProcess:2",
                                 "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
@@ -558,7 +558,7 @@
                                     }
                                 }
                             ],
-                            "wasInfluencedBy": {
+                            "wasInfluencedBy": [{
                                 "id": "urn:epass:activity:2",
                                 "identifier": [
                                     {
@@ -579,7 +579,7 @@
                                     "workload": "PT60H",
                                     "language": ["http://publications.europa.eu/resource/authority/language/HRV"]
                                 }
-                            },
+                            }],
                             "wasAwardedBy": {
                                 "id": "urn:epass:awardingProcess:3",
                                 "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
@@ -622,7 +622,7 @@
                                     }
                                 }
                             ],
-                            "wasInfluencedBy": {
+                            "wasInfluencedBy": [{
                                 "id": "urn:epass:activity:3",
                                 "identifier": [
                                     {
@@ -643,7 +643,7 @@
                                     "workload": "PT45H",
                                     "language": ["http://publications.europa.eu/resource/authority/language/HRV"]
                                 }
-                            },
+                            }],
                             "wasAwardedBy": {
                                 "id": "urn:epass:awardingProcess:4",
                                 "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
@@ -686,7 +686,7 @@
                                     }
                                 }
                             ],
-                            "wasInfluencedBy": {
+                            "wasInfluencedBy": [{
                                 "id": "urn:epass:activity:4",
                                 "identifier": [
                                     {
@@ -707,7 +707,7 @@
                                     "workload": "PT60H",
                                     "language": ["http://publications.europa.eu/resource/authority/language/HRV"]
                                 }
-                            },
+                            }],
                             "wasAwardedBy": {
                                 "id": "urn:epass:awardingProcess:5",
                                 "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
@@ -750,7 +750,7 @@
                                     }
                                 }
                             ],
-                            "wasInfluencedBy": {
+                            "wasInfluencedBy": [{
                                 "id": "urn:epass:activity:5",
                                 "identifier": [
                                     {
@@ -771,7 +771,7 @@
                                     "workload": "PT60H",
                                     "language": ["http://publications.europa.eu/resource/authority/language/HRV"]
                                 }
-                            },
+                            }],
                             "wasAwardedBy": {
                                 "id": "urn:epass:awardingProcess:6",
                                 "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
@@ -814,7 +814,7 @@
                                     }
                                 }
                             ],
-                            "wasInfluencedBy": {
+                            "wasInfluencedBy": [{
                                 "id": "urn:epass:activity:6",
                                 "identifier": [
                                     {
@@ -835,7 +835,7 @@
                                     "workload": "PT75H",
                                     "language": ["http://publications.europa.eu/resource/authority/language/HRV"]
                                 }
-                            },
+                            }],
                             "wasAwardedBy": {
                                 "id": "urn:epass:awardingProcess:7",
                                 "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
@@ -878,7 +878,7 @@
                                     }
                                 }
                             ],
-                            "wasInfluencedBy": {
+                            "wasInfluencedBy": [{
                                 "id": "urn:epass:activity:7",
                                 "identifier": [
                                     {
@@ -899,7 +899,7 @@
                                     "workload": "PT60H",
                                     "language": ["http://publications.europa.eu/resource/authority/language/HRV"]
                                 }
-                            },
+                            }],
                             "wasAwardedBy": {
                                 "id": "urn:epass:awardingProcess:8",
                                 "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
@@ -942,7 +942,7 @@
                                     }
                                 }
                             ],
-                            "wasInfluencedBy": {
+                            "wasInfluencedBy": [{
                                 "id": "urn:epass:activity:8",
                                 "identifier": [
                                     {
@@ -963,7 +963,7 @@
                                     "workload": "PT60H",
                                     "language": ["http://publications.europa.eu/resource/authority/language/HRV"]
                                 }
-                            },
+                            }],
                             "wasAwardedBy": {
                                 "id": "urn:epass:awardingProcess:9",
                                 "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
@@ -1006,7 +1006,7 @@
                                     }
                                 }
                             ],
-                            "wasInfluencedBy": {
+                            "wasInfluencedBy": [{
                                 "id": "urn:epass:activity:9",
                                 "identifier": [
                                     {
@@ -1027,7 +1027,7 @@
                                     "workload": "PT60H",
                                     "language": ["http://publications.europa.eu/resource/authority/language/HRV"]
                                 }
-                            },
+                            }],
                             "wasAwardedBy": {
                                 "id": "urn:epass:awardingProcess:10",
                                 "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
@@ -1070,7 +1070,7 @@
                                     }
                                 }
                             ],
-                            "wasInfluencedBy": {
+                            "wasInfluencedBy": [{
                                 "id": "urn:epass:activity:19",
                                 "identifier": [
                                     {
@@ -1091,7 +1091,7 @@
                                     "workload": "PT60H",
                                     "language": ["http://publications.europa.eu/resource/authority/language/HRV"]
                                 }
-                            },
+                            }],
                             "wasAwardedBy": {
                                 "id": "urn:epass:awardingProcess:11",
                                 "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
@@ -1134,7 +1134,7 @@
                                     }
                                 }
                             ],
-                            "wasInfluencedBy": {
+                            "wasInfluencedBy": [{
                                 "id": "urn:epass:activity:10",
                                 "identifier": [
                                     {
@@ -1155,7 +1155,7 @@
                                     "workload": "PT60H",
                                     "language": ["http://publications.europa.eu/resource/authority/language/HRV"]
                                 }
-                            },
+                            }],
                             "wasAwardedBy": {
                                 "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                                 "awardingDate": "2019-09-20T00:00:00+02:00"
@@ -1197,7 +1197,7 @@
                                     }
                                 }
                             ],
-                            "wasInfluencedBy": {
+                            "wasInfluencedBy": [{
                                 "id": "urn:epass:activity:11",
                                 "identifier": [
                                     {
@@ -1218,7 +1218,7 @@
                                     "workload": "PT60H",
                                     "language": ["http://publications.europa.eu/resource/authority/language/HRV"]
                                 }
-                            },
+                            }],
                             "wasAwardedBy": {
                                 "id": "urn:epass:awardingProcess:13",
                                 "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
@@ -1261,7 +1261,7 @@
                                     }
                                 }
                             ],
-                            "wasInfluencedBy": {
+                            "wasInfluencedBy": [{
                                 "id": "urn:epass:activity:12",
                                 "identifier": [
                                     {
@@ -1282,7 +1282,7 @@
                                     "workload": "PT60H",
                                     "language": ["http://publications.europa.eu/resource/authority/language/HRV"]
                                 }
-                            },
+                            }],
                             "wasAwardedBy": {
                                 "id": "urn:epass:awardingProcess:14",
                                 "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
@@ -1325,7 +1325,7 @@
                                     }
                                 }
                             ],
-                            "wasInfluencedBy": {
+                            "wasInfluencedBy": [{
                                 "id": "urn:epass:activity:13",
                                 "identifier": [
                                     {
@@ -1346,7 +1346,7 @@
                                     "workload": "PT60H",
                                     "language": ["http://publications.europa.eu/resource/authority/language/HRV"]
                                 }
-                            },
+                            }],
                             "wasAwardedBy": {
                                 "id": "urn:epass:awardingProcess:15",
                                 "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
@@ -1389,7 +1389,7 @@
                                     }
                                 }
                             ],
-                            "wasInfluencedBy": {
+                            "wasInfluencedBy": [{
                                 "id": "urn:epass:activity:14",
                                 "identifier": [
                                     {
@@ -1410,7 +1410,7 @@
                                     "workload": "PT60H",
                                     "language": ["http://publications.europa.eu/resource/authority/language/HRV"]
                                 }
-                            },
+                            }],
                             "wasAwardedBy": {
                                 "id": "urn:epass:awardingProcess:16",
                                 "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
@@ -1453,7 +1453,7 @@
                                     }
                                 }
                             ],
-                            "wasInfluencedBy": {
+                            "wasInfluencedBy": [{
                                 "id": "urn:epass:activity:15",
                                 "identifier": [
                                     {
@@ -1474,7 +1474,7 @@
                                     "workload": "PT60H",
                                     "language": ["http://publications.europa.eu/resource/authority/language/HRV"]
                                 }
-                            },
+                            }],
                             "wasAwardedBy": {
                                 "id": "urn:epass:awardingProcess:17",
                                 "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
@@ -1517,7 +1517,7 @@
                                     }
                                 }
                             ],
-                            "wasInfluencedBy": {
+                            "wasInfluencedBy":[ {
                                 "id": "urn:epass:activity:16",
                                 "identifier": [
                                     {
@@ -1538,7 +1538,7 @@
                                     "workload": "PT60H",
                                     "language": ["http://publications.europa.eu/resource/authority/language/HRV"]
                                 }
-                            },
+                            }],
                             "wasAwardedBy": {
                                 "id": "urn:epass:awardingProcess:18",
                                 "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
@@ -1581,7 +1581,7 @@
                                     }
                                 }
                             ],
-                            "wasInfluencedBy": {
+                            "wasInfluencedBy": [{
                                 "id": "urn:epass:activity:17",
                                 "identifier": [
                                     {
@@ -1602,7 +1602,7 @@
                                     "workload": "PT60H",
                                     "language": ["http://publications.europa.eu/resource/authority/language/HRV"]
                                 }
-                            },
+                            }],
                             "wasAwardedBy": {
                                 "id": "urn:epass:awardingProcess:19",
                                 "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
@@ -1695,8 +1695,8 @@
                         "title": "Postgraduate doctoral study",
                         "entitlementType": "http://data.europa.eu/snb/entitlement/64aad92881",
                         "status": "http://data.europa.eu/snb/entitlement-status/5b8d6b34fb",
-                        "limitOrganisation": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                        "limitJurisdiction": {"uri": "http://publications.europa.eu/resource/authority/country/HRV"}
+                        "limitOrganisation": ["did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1"],
+                        "limitJurisdiction": ["http://publications.europa.eu/resource/authority/country/HRV"]
                     }
                 },
                 "specifiedBy": {
@@ -2119,8 +2119,8 @@
                 "title": "Postgraduate doctoral study",
                 "entitlementType": "http://data.europa.eu/snb/entitlement/64aad92881",
                 "status": "http://data.europa.eu/snb/entitlement-status/5b8d6b34fb",
-                "limitOrganisation": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                "limitJurisdiction": {"uri": "http://publications.europa.eu/resource/authority/country/HRV"}
+                "limitOrganisation": ["did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1"],
+                "limitJurisdiction": ["http://publications.europa.eu/resource/authority/country/HRV"]
             }
         }
     },
