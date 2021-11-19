@@ -793,10 +793,18 @@
                     "type": "object",
                     "$ref": "#/$defs/awardingProcess"
                     },
-                "hasPart": {
-                    "description": "Define smaller units of achievement, which when combined make up this achievement. Association learningAchievement ",
-                    "type": "array",
-                    "items": {"$ref": "#/$defs/learningAchievement"}
+               
+                 "hasPart": {
+                    "description": "Define smaller units of achievement, which when combined make up this achievement. ",
+                    "type": "object",
+                    "properties": {
+                        "learningAchievements": {
+                            "description": "Define smaller units of achievement, which when combined make up this achievement. Association learningAchievement ",
+                            "type": "array",
+                            "items": {"$ref": "#/$defs/learningAchievement"}
+                        }
+                    },
+                    "required": ["learningAchievements"]
                 },
                 "entitlesTo": {
                     "description": "Define Entitlements the owner has received as a result of this achievement. Association Entitlement ",

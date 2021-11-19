@@ -23,7 +23,7 @@
             "title": "Master of Science in Civil Engineering",
             "wasDerivedFrom": {
                 "id": "urn:epass:assessment:1",
-                 "title": "Overall Diploma Assessment",
+                "title": "Overall Diploma Assessment",
                 "grade": "excellent (5)",
                 "assessedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                 "specifiedBy": {
@@ -68,7 +68,7 @@
                     "startedAtTime": "2017-09-04T00:00:00+02:00",
                     "endedAtTime": "2018-01-14T00:00:00+01:00",
                     "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                    "location":  "urn:epass:location:5",
+                    "location": "urn:epass:location:5",
                     "specifiedBy": {
                         "id": "urn:epass:learningactivityspec:2",
                         "title": "Concrete structures I",
@@ -88,7 +88,7 @@
                     "startedAtTime": "2017-09-04T00:00:00+02:00",
                     "endedAtTime": "2018-01-14T00:00:00+01:00",
                     "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                    "location":  "urn:epass:location:6",
+                    "location": "urn:epass:location:6",
                     "specifiedBy": {
                         "id": "urn:epass:learningactivityspec:3",
                         "title": "Dynamics of structures and earthquake engineering",
@@ -128,7 +128,7 @@
                     "startedAtTime": "2017-09-04T00:00:00+02:00",
                     "endedAtTime": "2018-01-14T00:00:00+01:00",
                     "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                    "location":  "urn:epass:location:8",
+                    "location": "urn:epass:location:8",
                     "specifiedBy": {
                         "id": "urn:epass:learningactivityspec:5",
                         "title": "Stability of structures",
@@ -148,7 +148,7 @@
                     "startedAtTime": "2017-09-04T00:00:00+02:00",
                     "endedAtTime": "2018-01-14T00:00:00+01:00",
                     "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                    "location":  "urn:epass:location:9",
+                    "location": "urn:epass:location:9",
                     "specifiedBy": {
                         "id": "urn:epass:learningactivityspec:6",
                         "title": "Metal structures I",
@@ -168,7 +168,7 @@
                     "startedAtTime": "2018-01-15T00:00:00+01:00",
                     "endedAtTime": "2018-06-24T00:00:00+02:00",
                     "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                    "location":  "urn:epass:location:10",
+                    "location": "urn:epass:location:10",
                     "specifiedBy": {
                         "id": "urn:epass:learningactivityspec:7",
                         "title": "Masonry structures",
@@ -188,7 +188,7 @@
                     "startedAtTime": "2018-01-15T00:00:00+01:00",
                     "endedAtTime": "2018-06-24T00:00:00+02:00",
                     "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                    "location":  "urn:epass:location:11",
+                    "location": "urn:epass:location:11",
                     "specifiedBy": {
                         "id": "urn:epass:learningactivityspec:8",
                         "title": "Prestressed concrete",
@@ -208,7 +208,7 @@
                     "startedAtTime": "2018-01-15T00:00:00+01:00",
                     "endedAtTime": "2018-06-24T00:00:00+02:00",
                     "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                    "location":  "urn:epass:location:12",
+                    "location": "urn:epass:location:12",
                     "specifiedBy": {
                         "id": "urn:epass:learningactivityspec:9",
                         "title": "Concrete structures II",
@@ -228,7 +228,7 @@
                     "startedAtTime": "2018-01-15T00:00:00+01:00",
                     "endedAtTime": "2018-06-24T00:00:00+02:00",
                     "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                    "location":  "urn:epass:location:22",
+                    "location": "urn:epass:location:22",
                     "specifiedBy": {
                         "id": "urn:epass:learningactivityspec:19",
                         "title": "Metal structures II",
@@ -248,7 +248,7 @@
                     "startedAtTime": "2018-01-15T00:00:00+01:00",
                     "endedAtTime": "2018-06-24T00:00:00+02:00",
                     "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                    "location":  "urn:epass:location:13",
+                    "location": "urn:epass:location:13",
                     "specifiedBy": {
                         "id": "urn:epass:learningactivityspec:10",
                         "title": "Structure reliability",
@@ -268,7 +268,7 @@
                     "startedAtTime": "2018-01-15T00:00:00+01:00",
                     "endedAtTime": "2018-06-24T00:00:00+02:00",
                     "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                    "location":  "urn:epass:location:14",
+                    "location": "urn:epass:location:14",
                     "specifiedBy": {
                         "id": "urn:epass:learningactivityspec:11",
                         "title": "Composite structures",
@@ -288,7 +288,7 @@
                     "startedAtTime": "2018-09-03T00:00:00+02:00",
                     "endedAtTime": "2019-01-13T00:00:00+01:00",
                     "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                    "location":  "urn:epass:location:15",
+                    "location": "urn:epass:location:15",
                     "specifiedBy": {
                         "id": "urn:epass:learningactivityspec:12",
                         "title": "Construction of concrete structures",
@@ -308,7 +308,7 @@
                     "startedAtTime": "2018-09-03T00:00:00+02:00",
                     "endedAtTime": "2019-01-13T00:00:00+01:00",
                     "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                    "location":  "urn:epass:location:16",
+                    "location": "urn:epass:location:16",
                     "specifiedBy": {
                         "id": "urn:epass:learningactivityspec:13",
                         "title": "Housing installations",
@@ -328,7 +328,7 @@
                     "startedAtTime": "2018-09-03T00:00:00+02:00",
                     "endedAtTime": "2019-01-13T00:00:00+01:00",
                     "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                    "location":  "urn:epass:location:17",
+                    "location": "urn:epass:location:17",
                     "specifiedBy": {
                         "id": "urn:epass:learningactivityspec:14",
                         "title": "Numerical modelling of concrete structures",
@@ -348,7 +348,7 @@
                     "startedAtTime": "2018-09-03T00:00:00+02:00",
                     "endedAtTime": "2019-01-13T00:00:00+01:00",
                     "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                    "location":  "urn:epass:location:18",
+                    "location": "urn:epass:location:18",
                     "specifiedBy": {
                         "id": "urn:epass:learningactivityspec:15",
                         "title": "Business and investments in civil engineering",
@@ -368,7 +368,7 @@
                     "startedAtTime": "2018-09-03T00:00:00+02:00",
                     "endedAtTime": "2019-01-13T00:00:00+01:00",
                     "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                    "location":  "urn:epass:location:19",
+                    "location": "urn:epass:location:19",
                     "specifiedBy": {
                         "id": "urn:epass:learningactivityspec:16",
                         "title": "Concrete bridges",
@@ -408,7 +408,7 @@
                     "startedAtTime": "2019-01-14T00:00:00+01:00",
                     "endedAtTime": "2019-09-20T00:00:00+02:00",
                     "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                    "location":  "urn:epass:location:21",
+                    "location": "urn:epass:location:21",
                     "specifiedBy": {
                         "id": "urn:epass:learningactivityspec:18",
                         "title": "Diploma work",
@@ -424,7 +424,7 @@
                 "awardingDate": "2019-09-20T00:00:00+02:00"
             },
             "hasPart": {
-                "learningAchievement": [
+                "learningAchievements": [
                     {
                         "id": "urn:epass:learningAchievement:2",
                         "identifier": {
@@ -458,7 +458,7 @@
                             "startedAtTime": "2017-09-04T00:00:00+02:00",
                             "endedAtTime": "2018-01-14T00:00:00+01:00",
                             "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                            "location":  "urn:epass:location:4",
+                            "location": "urn:epass:location:4",
                             "specifiedBy": {
                                 "id": "urn:epass:learningactivityspec:1",
                                 "title": "Applied mathematics",
@@ -527,8 +527,8 @@
                         },
                         "wasAwardedBy": {
                             "id": "urn:epass:awardingProcess:3",
-                              "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                "awardingDate": "2019-09-20T00:00:00+02:00"
+                            "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                            "awardingDate": "2019-09-20T00:00:00+02:00"
                         },
                         "specifiedBy": {
                             "id": "urn:epass:qualification:2",
@@ -574,7 +574,7 @@
                             "startedAtTime": "2017-09-04T00:00:00+02:00",
                             "endedAtTime": "2018-01-14T00:00:00+01:00",
                             "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                            "location":  "urn:epass:location:6",
+                            "location": "urn:epass:location:6",
                             "specifiedBy": {
                                 "id": "urn:epass:learningactivityspec:3",
                                 "title": "Dynamics of structures and earthquake engineering",
@@ -585,8 +585,8 @@
                         },
                         "wasAwardedBy": {
                             "id": "urn:epass:awardingProcess:4",
-                           "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                "awardingDate": "2019-09-20T00:00:00+02:00"
+                            "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                            "awardingDate": "2019-09-20T00:00:00+02:00"
                         },
                         "specifiedBy": {
                             "id": "urn:epass:qualification:3",
@@ -608,7 +608,7 @@
                         "title": "Geotechnical engineering",
                         "wasDerivedFrom": {
                             "id": "urn:epass:assessment:5",
-                           "title": "Geotechnical engineering",
+                            "title": "Geotechnical engineering",
                             "grade": "good (3)",
                             "assessedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                             "specifiedBy": {
@@ -643,8 +643,8 @@
                         },
                         "wasAwardedBy": {
                             "id": "urn:epass:awardingProcess:5",
-                              "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                "awardingDate": "2019-09-20T00:00:00+02:00"
+                            "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                            "awardingDate": "2019-09-20T00:00:00+02:00"
                         },
                         "specifiedBy": {
                             "id": "urn:epass:qualification:4",
@@ -666,7 +666,7 @@
                         "title": "Stability of structures",
                         "wasDerivedFrom": {
                             "id": "urn:epass:assessment:6",
-                           "title": "Stability of structures",
+                            "title": "Stability of structures",
                             "grade": "excellent (5)",
                             "assessedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                             "specifiedBy": {
@@ -690,7 +690,7 @@
                             "startedAtTime": "2017-09-04T00:00:00+02:00",
                             "endedAtTime": "2018-01-14T00:00:00+01:00",
                             "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                            "location":  "urn:epass:location:8",
+                            "location": "urn:epass:location:8",
                             "specifiedBy": {
                                 "id": "urn:epass:learningactivityspec:5",
                                 "title": "Stability of structures",
@@ -701,8 +701,8 @@
                         },
                         "wasAwardedBy": {
                             "id": "urn:epass:awardingProcess:6",
-                              "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                "awardingDate": "2019-09-20T00:00:00+02:00"
+                            "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                            "awardingDate": "2019-09-20T00:00:00+02:00"
                         },
                         "specifiedBy": {
                             "id": "urn:epass:qualification:5",
@@ -724,7 +724,7 @@
                         "title": "Metal structures I",
                         "wasDerivedFrom": {
                             "id": "urn:epass:assessment:7",
-                          "title": "Metal structures I",
+                            "title": "Metal structures I",
                             "grade": "very good (4)",
                             "assessedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                             "specifiedBy": {
@@ -748,7 +748,7 @@
                             "startedAtTime": "2017-09-04T00:00:00+02:00",
                             "endedAtTime": "2018-01-14T00:00:00+01:00",
                             "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                            "location":  "urn:epass:location:9",
+                            "location": "urn:epass:location:9",
                             "specifiedBy": {
                                 "id": "urn:epass:learningactivityspec:6",
                                 "title": "Metal structures I",
@@ -759,8 +759,8 @@
                         },
                         "wasAwardedBy": {
                             "id": "urn:epass:awardingProcess:7",
-                              "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                "awardingDate": "2019-09-20T00:00:00+02:00"
+                            "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                            "awardingDate": "2019-09-20T00:00:00+02:00"
                         },
                         "specifiedBy": {
                             "id": "urn:epass:qualification:6",
@@ -782,7 +782,7 @@
                         "title": "Masonry structures",
                         "wasDerivedFrom": {
                             "id": "urn:epass:assessment:8",
-                           "title": "Masonry structures",
+                            "title": "Masonry structures",
                             "grade": "excellent (5)",
                             "assessedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                             "specifiedBy": {
@@ -806,7 +806,7 @@
                             "startedAtTime": "2018-01-15T00:00:00+01:00",
                             "endedAtTime": "2018-06-24T00:00:00+02:00",
                             "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                            "location":  "urn:epass:location:10",
+                            "location": "urn:epass:location:10",
                             "specifiedBy": {
                                 "id": "urn:epass:learningactivityspec:7",
                                 "title": "Masonry structures",
@@ -817,8 +817,8 @@
                         },
                         "wasAwardedBy": {
                             "id": "urn:epass:awardingProcess:8",
-                              "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                "awardingDate": "2019-09-20T00:00:00+02:00"
+                            "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                            "awardingDate": "2019-09-20T00:00:00+02:00"
                         },
                         "specifiedBy": {
                             "id": "urn:epass:qualification:7",
@@ -840,7 +840,7 @@
                         "title": "Prestressed concrete",
                         "wasDerivedFrom": {
                             "id": "urn:epass:assessment:9",
-                           "title": "Prestressed concrete",
+                            "title": "Prestressed concrete",
                             "grade": "excellent (5)",
                             "assessedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                             "specifiedBy": {
@@ -875,8 +875,8 @@
                         },
                         "wasAwardedBy": {
                             "id": "urn:epass:awardingProcess:9",
-                             "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                "awardingDate": "2019-09-20T00:00:00+02:00"
+                            "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                            "awardingDate": "2019-09-20T00:00:00+02:00"
                         },
                         "specifiedBy": {
                             "id": "urn:epass:qualification:8",
@@ -898,7 +898,7 @@
                         "title": "Concrete structures II",
                         "wasDerivedFrom": {
                             "id": "urn:epass:assessment:10",
-                           "title": "Concrete structures II",
+                            "title": "Concrete structures II",
                             "grade": "very good (4)",
                             "assessedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                             "specifiedBy": {
@@ -922,7 +922,7 @@
                             "startedAtTime": "2018-01-15T00:00:00+01:00",
                             "endedAtTime": "2018-06-24T00:00:00+02:00",
                             "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                            "location":  "urn:epass:location:12",
+                            "location": "urn:epass:location:12",
                             "specifiedBy": {
                                 "id": "urn:epass:learningactivityspec:9",
                                 "title": "Concrete structures II",
@@ -934,7 +934,7 @@
                         "wasAwardedBy": {
                             "id": "urn:epass:awardingProcess:10",
                             "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                "awardingDate": "2019-09-20T00:00:00+02:00"
+                            "awardingDate": "2019-09-20T00:00:00+02:00"
                         },
                         "specifiedBy": {
                             "id": "urn:epass:qualification:9",
@@ -980,7 +980,7 @@
                             "startedAtTime": "2018-01-15T00:00:00+01:00",
                             "endedAtTime": "2018-06-24T00:00:00+02:00",
                             "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                            "location":  "urn:epass:location:22",
+                            "location": "urn:epass:location:22",
                             "specifiedBy": {
                                 "id": "urn:epass:learningactivityspec:19",
                                 "title": "Metal structures II",
@@ -991,8 +991,8 @@
                         },
                         "wasAwardedBy": {
                             "id": "urn:epass:awardingProcess:11",
-                             "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                "awardingDate": "2019-09-20T00:00:00+02:00"
+                            "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                            "awardingDate": "2019-09-20T00:00:00+02:00"
                         },
                         "specifiedBy": {
                             "id": "urn:epass:qualification:10",
@@ -1014,7 +1014,7 @@
                         "title": "Structure reliability",
                         "wasDerivedFrom": {
                             "id": "urn:epass:assessment:12",
-                           "title": "Structure reliability",
+                            "title": "Structure reliability",
                             "grade": "very good (4)",
                             "assessedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                             "specifiedBy": {
@@ -1048,8 +1048,8 @@
                             }
                         },
                         "wasAwardedBy": {
-                             "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                "awardingDate": "2019-09-20T00:00:00+02:00"
+                            "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                            "awardingDate": "2019-09-20T00:00:00+02:00"
                         },
                         "specifiedBy": {
                             "id": "urn:epass:qualification:11",
@@ -1071,7 +1071,7 @@
                         "title": "Composite structures",
                         "wasDerivedFrom": {
                             "id": "urn:epass:assessment:13",
-                           "title": "Composite structures",
+                            "title": "Composite structures",
                             "grade": "excellent (5)",
                             "assessedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                             "specifiedBy": {
@@ -1095,7 +1095,7 @@
                             "startedAtTime": "2018-01-15T00:00:00+01:00",
                             "endedAtTime": "2018-06-24T00:00:00+02:00",
                             "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                            "location":  "urn:epass:location:14",
+                            "location": "urn:epass:location:14",
                             "specifiedBy": {
                                 "id": "urn:epass:learningactivityspec:11",
                                 "title": "Composite structures",
@@ -1106,8 +1106,8 @@
                         },
                         "wasAwardedBy": {
                             "id": "urn:epass:awardingProcess:13",
-                             "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                "awardingDate": "2019-09-20T00:00:00+02:00"
+                            "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                            "awardingDate": "2019-09-20T00:00:00+02:00"
                         },
                         "specifiedBy": {
                             "id": "urn:epass:qualification:12",
@@ -1129,7 +1129,7 @@
                         "title": "Construction of concrete structures",
                         "wasDerivedFrom": {
                             "id": "urn:epass:assessment:14",
-                           "title": "Construction of concrete structures",
+                            "title": "Construction of concrete structures",
                             "grade": "excellent (5)",
                             "assessedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                             "specifiedBy": {
@@ -1164,8 +1164,8 @@
                         },
                         "wasAwardedBy": {
                             "id": "urn:epass:awardingProcess:14",
-                              "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                "awardingDate": "2019-09-20T00:00:00+02:00"
+                            "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                            "awardingDate": "2019-09-20T00:00:00+02:00"
                         },
                         "specifiedBy": {
                             "id": "urn:epass:qualification:13",
@@ -1187,7 +1187,7 @@
                         "title": "Housing installations",
                         "wasDerivedFrom": {
                             "id": "urn:epass:assessment:15",
-                           "title": "Housing installations",
+                            "title": "Housing installations",
                             "grade": "very good (4)",
                             "assessedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                             "specifiedBy": {
@@ -1211,7 +1211,7 @@
                             "startedAtTime": "2018-09-03T00:00:00+02:00",
                             "endedAtTime": "2019-01-13T00:00:00+01:00",
                             "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                            "location":  "urn:epass:location:16",
+                            "location": "urn:epass:location:16",
                             "specifiedBy": {
                                 "id": "urn:epass:learningactivityspec:13",
                                 "title": "Housing installations",
@@ -1222,8 +1222,8 @@
                         },
                         "wasAwardedBy": {
                             "id": "urn:epass:awardingProcess:15",
-                             "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                "awardingDate": "2019-09-20T00:00:00+02:00"
+                            "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                            "awardingDate": "2019-09-20T00:00:00+02:00"
                         },
                         "specifiedBy": {
                             "id": "urn:epass:qualification:14",
@@ -1245,7 +1245,7 @@
                         "title": "Numerical modelling of concrete structures",
                         "wasDerivedFrom": {
                             "id": "urn:epass:assessment:16",
-                           "title": "Numerical modelling of concrete structures",
+                            "title": "Numerical modelling of concrete structures",
                             "grade": "excellent (5)",
                             "assessedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                             "specifiedBy": {
@@ -1269,7 +1269,7 @@
                             "startedAtTime": "2018-09-03T00:00:00+02:00",
                             "endedAtTime": "2019-01-13T00:00:00+01:00",
                             "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                            "location":  "urn:epass:location:17",
+                            "location": "urn:epass:location:17",
                             "specifiedBy": {
                                 "id": "urn:epass:learningactivityspec:14",
                                 "title": "Numerical modelling of concrete structures",
@@ -1280,8 +1280,8 @@
                         },
                         "wasAwardedBy": {
                             "id": "urn:epass:awardingProcess:16",
-                             "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                "awardingDate": "2019-09-20T00:00:00+02:00"
+                            "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                            "awardingDate": "2019-09-20T00:00:00+02:00"
                         },
                         "specifiedBy": {
                             "id": "urn:epass:qualification:15",
@@ -1303,7 +1303,7 @@
                         "title": "Business and investments in civil engineering",
                         "wasDerivedFrom": {
                             "id": "urn:epass:assessment:17",
-                           "title": "Business and investments in civil engineering",
+                            "title": "Business and investments in civil engineering",
                             "grade": "excellent (5)",
                             "assessedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                             "specifiedBy": {
@@ -1327,7 +1327,7 @@
                             "startedAtTime": "2018-09-03T00:00:00+02:00",
                             "endedAtTime": "2019-01-13T00:00:00+01:00",
                             "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                            "location":  "urn:epass:location:18",
+                            "location": "urn:epass:location:18",
                             "specifiedBy": {
                                 "id": "urn:epass:learningactivityspec:15",
                                 "title": "Business and investments in civil engineering",
@@ -1338,8 +1338,8 @@
                         },
                         "wasAwardedBy": {
                             "id": "urn:epass:awardingProcess:17",
-                             "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                "awardingDate": "2019-09-20T00:00:00+02:00"
+                            "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                            "awardingDate": "2019-09-20T00:00:00+02:00"
                         },
                         "specifiedBy": {
                             "id": "urn:epass:qualification:16",
@@ -1361,7 +1361,7 @@
                         "title": "Concrete bridges",
                         "wasDerivedFrom": {
                             "id": "urn:epass:assessment:18",
-                           "title": "Concrete bridges",
+                            "title": "Concrete bridges",
                             "grade": "very good (4)",
                             "assessedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                             "specifiedBy": {
@@ -1385,7 +1385,7 @@
                             "startedAtTime": "2018-09-03T00:00:00+02:00",
                             "endedAtTime": "2019-01-13T00:00:00+01:00",
                             "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                            "location":  "urn:epass:location:19",
+                            "location": "urn:epass:location:19",
                             "specifiedBy": {
                                 "id": "urn:epass:learningactivityspec:16",
                                 "title": "Concrete bridges",
@@ -1396,8 +1396,8 @@
                         },
                         "wasAwardedBy": {
                             "id": "urn:epass:awardingProcess:18",
-                              "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                "awardingDate": "2019-09-20T00:00:00+02:00"
+                            "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                            "awardingDate": "2019-09-20T00:00:00+02:00"
                         },
                         "specifiedBy": {
                             "id": "urn:epass:qualification:17",
@@ -1419,7 +1419,7 @@
                         "title": "Metal bridges",
                         "wasDerivedFrom": {
                             "id": "urn:epass:assessment:19",
-                           "title": "Metal bridges",
+                            "title": "Metal bridges",
                             "grade": "excellent (5)",
                             "assessedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                             "specifiedBy": {
@@ -1454,8 +1454,8 @@
                         },
                         "wasAwardedBy": {
                             "id": "urn:epass:awardingProcess:19",
-                             "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                "awardingDate": "2019-09-20T00:00:00+02:00"
+                            "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                            "awardingDate": "2019-09-20T00:00:00+02:00"
                         },
                         "specifiedBy": {
                             "id": "urn:epass:qualification:18",
@@ -1477,7 +1477,7 @@
                         "title": "Diploma work",
                         "wasDerivedFrom": {
                             "id": "urn:epass:assessment:20",
-                           "title": "Diploma work",
+                            "title": "Diploma work",
                             "grade": "excellent (5)",
                             "assessedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
                             "specifiedBy": {
@@ -1501,7 +1501,7 @@
                             "startedAtTime": "2019-01-14T00:00:00+01:00",
                             "endedAtTime": "2019-09-20T00:00:00+02:00",
                             "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                            "location":  "urn:epass:location:21",
+                            "location": "urn:epass:location:21",
                             "specifiedBy": {
                                 "id": "urn:epass:learningactivityspec:18",
                                 "title": "Diploma work",
@@ -1512,8 +1512,8 @@
                         },
                         "wasAwardedBy": {
                             "id": "urn:epass:awardingProcess:20",
-                              "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                "awardingDate": "2019-09-20T00:00:00+02:00"
+                            "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                            "awardingDate": "2019-09-20T00:00:00+02:00"
                         },
                         "specifiedBy": {
                             "id": "urn:epass:qualification:19",
@@ -1566,7 +1566,7 @@
                 "startedAtTime": "2017-09-04T00:00:00+02:00",
                 "endedAtTime": "2018-01-14T00:00:00+01:00",
                 "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                "location":  "urn:epass:location:4",
+                "location": "urn:epass:location:4",
                 "specifiedBy": {
                     "id": "urn:epass:learningactivityspec:1",
                     "title": "Applied mathematics",
@@ -1586,7 +1586,7 @@
                 "startedAtTime": "2017-09-04T00:00:00+02:00",
                 "endedAtTime": "2018-01-14T00:00:00+01:00",
                 "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                "location":  "urn:epass:location:5",
+                "location": "urn:epass:location:5",
                 "specifiedBy": {
                     "id": "urn:epass:learningactivityspec:2",
                     "title": "Concrete structures I",
@@ -1605,7 +1605,7 @@
                 "workload": "PT45H",
                 "startedAtTime": "2017-09-04T00:00:00+02:00",
                 "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                "location":  "urn:epass:location:6",
+                "location": "urn:epass:location:6",
                 "specifiedBy": {
                     "id": "urn:epass:learningactivityspec:3",
                     "title": "Dynamics of structures and earthquake engineering",
@@ -1685,7 +1685,7 @@
                 "startedAtTime": "2018-01-15T00:00:00+01:00",
                 "endedAtTime": "2018-06-24T00:00:00+02:00",
                 "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                "location":  "urn:epass:location:10",
+                "location": "urn:epass:location:10",
                 "specifiedBy": {
                     "id": "urn:epass:learningactivityspec:7",
                     "title": "Masonry structures",
@@ -1705,7 +1705,7 @@
                 "startedAtTime": "2018-01-15T00:00:00+01:00",
                 "endedAtTime": "2018-06-24T00:00:00+02:00",
                 "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                "location":  "urn:epass:location:11",
+                "location": "urn:epass:location:11",
                 "specifiedBy": {
                     "id": "urn:epass:learningactivityspec:8",
                     "title": "Prestressed concrete",
@@ -1725,7 +1725,7 @@
                 "startedAtTime": "2018-01-15T00:00:00+01:00",
                 "endedAtTime": "2018-06-24T00:00:00+02:00",
                 "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                "location":  "urn:epass:location:12",
+                "location": "urn:epass:location:12",
                 "specifiedBy": {
                     "id": "urn:epass:learningactivityspec:9",
                     "title": "Concrete structures II",
@@ -1745,7 +1745,7 @@
                 "startedAtTime": "2018-01-15T00:00:00+01:00",
                 "endedAtTime": "2018-06-24T00:00:00+02:00",
                 "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                "location":  "urn:epass:location:13",
+                "location": "urn:epass:location:13",
                 "specifiedBy": {
                     "id": "urn:epass:learningactivityspec:10",
                     "title": "Structure reliability",
@@ -1765,7 +1765,7 @@
                 "startedAtTime": "2018-01-15T00:00:00+01:00",
                 "endedAtTime": "2018-06-24T00:00:00+02:00",
                 "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                "location":  "urn:epass:location:14",
+                "location": "urn:epass:location:14",
                 "specifiedBy": {
                     "id": "urn:epass:learningactivityspec:11",
                     "title": "Composite structures",
@@ -1785,7 +1785,7 @@
                 "startedAtTime": "2018-09-03T00:00:00+02:00",
                 "endedAtTime": "2019-01-13T00:00:00+01:00",
                 "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                "location":  "urn:epass:location:15",
+                "location": "urn:epass:location:15",
                 "specifiedBy": {
                     "id": "urn:epass:learningactivityspec:12",
                     "title": "Construction of concrete structures",
@@ -1805,7 +1805,7 @@
                 "startedAtTime": "2018-09-03T00:00:00+02:00",
                 "endedAtTime": "2019-01-13T00:00:00+01:00",
                 "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                "location":  "urn:epass:location:16",
+                "location": "urn:epass:location:16",
                 "specifiedBy": {
                     "id": "urn:epass:learningactivityspec:13",
                     "title": "Housing installations",
@@ -1825,7 +1825,7 @@
                 "startedAtTime": "2018-09-03T00:00:00+02:00",
                 "endedAtTime": "2019-01-13T00:00:00+01:00",
                 "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                "location":  "urn:epass:location:17",
+                "location": "urn:epass:location:17",
                 "specifiedBy": {
                     "id": "urn:epass:learningactivityspec:14",
                     "title": "Numerical modelling of concrete structures",
@@ -1845,7 +1845,7 @@
                 "startedAtTime": "2018-09-03T00:00:00+02:00",
                 "endedAtTime": "2019-01-13T00:00:00+01:00",
                 "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                "location":  "urn:epass:location:18",
+                "location": "urn:epass:location:18",
                 "specifiedBy": {
                     "id": "urn:epass:learningactivityspec:15",
                     "title": "Business and investments in civil engineering",
@@ -1885,7 +1885,7 @@
                 "startedAtTime": "2018-09-03T00:00:00+02:00",
                 "endedAtTime": "2019-01-13T00:00:00+01:00",
                 "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                "location":  "urn:epass:location:20",
+                "location": "urn:epass:location:20",
                 "specifiedBy": {
                     "id": "urn:epass:learningactivityspec:17",
                     "title": "Metal bridges",
@@ -1905,7 +1905,7 @@
                 "startedAtTime": "2019-01-14T00:00:00+01:00",
                 "endedAtTime": "2019-09-20T00:00:00+02:00",
                 "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
-                "location":  "urn:epass:location:21",
+                "location": "urn:epass:location:21",
                 "specifiedBy": {
                     "id": "urn:epass:learningactivityspec:18",
                     "title": "Diploma work",
