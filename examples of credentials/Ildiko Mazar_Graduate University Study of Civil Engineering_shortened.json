@@ -526,7 +526,7 @@
                                 "title": "Applied mathematics",
                                 "volumeOfLearning": "PT60H",
                                 "eCTSCreditPoints": 5,
-                                "duration": "P6M",
+                                "maximumDuration": "P6M",
                                 "isPartialQualification": true,
                                 "eqfLevel": "http://data.europa.eu/snb/eqf/4",
                                 "nqfLevel": "http://data.europa.eu/snb/qdr/c_49672c5a"
@@ -590,7 +590,7 @@
                                 "title": "Concrete structures I",
                                 "volumeOfLearning": "PT60H",
                                 "eCTSCreditPoints": 5,
-                                "duration": "P6M",
+                                "maximumDuration": "P6M",
                                 "isPartialQualification": true,
                                 "eqfLevel": "http://data.europa.eu/snb/eqf/4",
                                 "nqfLevel": "http://data.europa.eu/snb/qdr/c_49672c5a"
@@ -654,7 +654,7 @@
                                 "title": "Dynamics of structures and earthquake engineering",
                                 "volumeOfLearning": "PT45H",
                                 "eCTSCreditPoints": 4,
-                                "duration": "P6M",
+                                "maximumDuration": "P6M",
                                 "isPartialQualification": true,
                                 "eqfLevel": "http://data.europa.eu/snb/eqf/4",
                                 "nqfLevel": "http://data.europa.eu/snb/qdr/c_49672c5a"
@@ -718,7 +718,7 @@
                                 "title": "Geotechnical engineering",
                                 "volumeOfLearning": "PT60H",
                                 "eCTSCreditPoints": 5,
-                                "duration": "P6M",
+                                "maximumDuration": "P6M",
                                 "isPartialQualification": true,
                                 "eqfLevel": "http://data.europa.eu/snb/eqf/4",
                                 "nqfLevel": "http://data.europa.eu/snb/qdr/c_49672c5a"
@@ -782,7 +782,7 @@
                                 "title": "Stability of structures",
                                 "volumeOfLearning": "PT60H",
                                 "eCTSCreditPoints": 5,
-                                "duration": "P6M",
+                                "maximumDuration": "P6M",
                                 "isPartialQualification": true,
                                 "eqfLevel": "http://data.europa.eu/snb/eqf/4",
                                 "nqfLevel": "http://data.europa.eu/snb/qdr/c_49672c5a"
@@ -846,7 +846,7 @@
                                 "title": "Metal structures I",
                                 "volumeOfLearning": "PT75H",
                                 "eCTSCreditPoints": 6,
-                                "duration": "P6M",
+                                "maximumDuration": "P6M",
                                 "isPartialQualification": true,
                                 "eqfLevel": "http://data.europa.eu/snb/eqf/4",
                                 "nqfLevel": "http://data.europa.eu/snb/qdr/c_49672c5a"
@@ -910,7 +910,7 @@
                                 "title": "Masonry structures",
                                 "volumeOfLearning": "PT60H",
                                 "eCTSCreditPoints": 5,
-                                "duration": "P6M",
+                                "maximumDuration": "P6M",
                                 "isPartialQualification": true,
                                 "eqfLevel": "http://data.europa.eu/snb/eqf/4",
                                 "nqfLevel": "http://data.europa.eu/snb/qdr/c_49672c5a"
@@ -974,7 +974,7 @@
                                 "title": "Prestressed concrete",
                                 "volumeOfLearning": "PT60H",
                                 "eCTSCreditPoints": 5,
-                                "duration": "P6M",
+                                "maximumDuration": "P6M",
                                 "isPartialQualification": true,
                                 "eqfLevel": "http://data.europa.eu/snb/eqf/4",
                                 "nqfLevel": "http://data.europa.eu/snb/qdr/c_49672c5a"
@@ -1038,7 +1038,7 @@
                                 "title": "Concrete structures II",
                                 "volumeOfLearning": "PT60H",
                                 "eCTSCreditPoints": 5,
-                                "duration": "P6M",
+                                "maximumDuration": "P6M",
                                 "isPartialQualification": true,
                                 "eqfLevel": "http://data.europa.eu/snb/eqf/4",
                                 "nqfLevel": "http://data.europa.eu/snb/qdr/c_49672c5a"
@@ -1102,7 +1102,7 @@
                                 "title": "Metal structures II",
                                 "volumeOfLearning": "PT60H",
                                 "eCTSCreditPoints": 5,
-                                "duration": "P6M",
+                                "maximumDuration": "P6M",
                                 "isPartialQualification": true,
                                 "eqfLevel": "http://data.europa.eu/snb/eqf/4",
                                 "nqfLevel": "http://data.europa.eu/snb/qdr/c_49672c5a"
@@ -1165,7 +1165,7 @@
                                 "title": "Structure reliability",
                                 "volumeOfLearning": "PT60H",
                                 "eCTSCreditPoints": 5,
-                                "duration": "P6M",
+                                "maximumDuration": "P6M",
                                 "isPartialQualification": true,
                                 "eqfLevel": "http://data.europa.eu/snb/eqf/4",
                                 "nqfLevel": "http://data.europa.eu/snb/qdr/c_49672c5a"
@@ -1229,7 +1229,7 @@
                                 "title": "Composite structures",
                                 "volumeOfLearning": "PT60H",
                                 "eCTSCreditPoints": 5,
-                                "duration": "P6M",
+                                "maximumDuration": "P6M",
                                 "isPartialQualification": true,
                                 "eqfLevel": "http://data.europa.eu/snb/eqf/5",
                                 "nqfLevel": "http://data.europa.eu/snb/qdr/c_dcc9aca1"
@@ -1293,7 +1293,7 @@
                                 "title": "Construction of concrete structures",
                                 "volumeOfLearning": "PT60H",
                                 "eCTSCreditPoints": 5,
-                                "duration": "P6M",
+                                "maximumDuration": "P6M",
                                 "isPartialQualification": true,
                                 "eqfLevel": "http://data.europa.eu/snb/eqf/5",
                                 "nqfLevel": "http://data.europa.eu/snb/qdr/c_dcc9aca1"
@@ -1357,7 +1357,7 @@
                                 "title": "Housing installations",
                                 "volumeOfLearning": "PT60H",
                                 "eCTSCreditPoints": 5,
-                                "duration": "P6M",
+                                "maximumDuration": "P6M",
                                 "isPartialQualification": true,
                                 "eqfLevel": "http://data.europa.eu/snb/eqf/5",
                                 "nqfLevel": "http://data.europa.eu/snb/qdr/c_dcc9aca1"
@@ -1421,7 +1421,7 @@
                                 "title": "Numerical modelling of concrete structures",
                                 "volumeOfLearning": "PT60H",
                                 "eCTSCreditPoints": 5,
-                                "duration": "P6M",
+                                "maximumDuration": "P6M",
                                 "isPartialQualification": true,
                                 "eqfLevel": "http://data.europa.eu/snb/eqf/5",
                                 "nqfLevel": "http://data.europa.eu/snb/qdr/c_dcc9aca1"
@@ -1485,7 +1485,7 @@
                                 "title": "Business and investments in civil engineering",
                                 "volumeOfLearning": "PT60H",
                                 "eCTSCreditPoints": 5,
-                                "duration": "P6M",
+                                "maximumDuration": "P6M",
                                 "isPartialQualification": true,
                                 "eqfLevel": "http://data.europa.eu/snb/eqf/5",
                                 "nqfLevel": "http://data.europa.eu/snb/qdr/c_dcc9aca1"
@@ -1549,7 +1549,7 @@
                                 "title": "Concrete bridges",
                                 "volumeOfLearning": "PT60H",
                                 "eCTSCreditPoints": 5,
-                                "duration": "P6M",
+                                "maximumDuration": "P6M",
                                 "isPartialQualification": true,
                                 "eqfLevel": "http://data.europa.eu/snb/eqf/5",
                                 "nqfLevel": "http://data.europa.eu/snb/qdr/c_dcc9aca1"
@@ -1613,7 +1613,7 @@
                                 "title": "Metal bridges",
                                 "volumeOfLearning": "PT60H",
                                 "eCTSCreditPoints": 5,
-                                "duration": "P6M",
+                                "maximumDuration": "P6M",
                                 "isPartialQualification": true,
                                 "eqfLevel": "http://data.europa.eu/snb/eqf/5",
                                 "nqfLevel": "http://data.europa.eu/snb/qdr/c_dcc9aca1"
@@ -1677,7 +1677,7 @@
                                 "title": "Diploma work",
                                 "volumeOfLearning": "PT360H",
                                 "eCTSCreditPoints": 30,
-                                "duration": "P6M",
+                                "maximumDuration": "P6M",
                                 "isPartialQualification": true,
                                 "eqfLevel": "http://data.europa.eu/snb/eqf/5",
                                 "nqfLevel": "http://data.europa.eu/snb/qdr/c_dcc9aca1"
@@ -1704,7 +1704,7 @@
                     "title": "Master of Science in Civil Engineering",
                     "volumeOfLearning": "PT1440H",
                     "eCTSCreditPoints": 120,
-                    "duration": "P21M",
+                    "maximumDuration": "P21M",
                     "entryRequirementsNote": "The minimum educational requirement for enrolment into graduate university programmes is the completion of an undergraduate university programme. The university can allow students who have completed a professional programme to also enrol graduate university programmes, but they are allowed to set special requirements in these cases.\nThe minimum educational requirement for enrolment into specialist graduate professional programmes is the completion of an undergraduate university programme or a professional programme (first cycle).",
                     "isPartialQualification": false,
                     "eqfLevel": "http://data.europa.eu/snb/eqf/5",
