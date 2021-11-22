@@ -46,7 +46,7 @@
             "description": "Defines an alternative Identifier object ",
             "type": "object",
             "properties": {
-                "schemaID": {
+                "schemeID": {
                     "description": "Defines the schema used to define alternative identification",
                     "type": "string"
                 },
@@ -56,7 +56,7 @@
                 }
             },
             "required": [
-                "schemaID",
+                "schemeID",
                 "value"
             ]
         },
@@ -130,7 +130,7 @@
                 "educationSubject": {
                     "description": "An associated field of education from another semantic framework than the ISCED classification. Association EducationSubject??",
                     "type": "array",
-                    "items": {"type": "string"}
+                    "items": {"type": "string", "format": "uri"}
                 },
                 "volumeOfLearning": {
                     "description": "The estimated number of hours the learner is expected to spend engaged in learning to earn the award. This would include the notional number of hours in class, in group work, in practicals, as well as hours engaged in self-motivated study",
@@ -549,7 +549,7 @@
                 "gradingscheme": {
                     "description": "A description of the specification of which learning outcomes are or have been proven. Association to ScoringScheme/GradingScheme",
                      "type": "object",
-                     "$ref": "#/$defs/gradingscheme"
+                     "$ref": "#/$defs/gradingScheme"
                                       
                 },
                 "proves": {
@@ -622,12 +622,13 @@
                 },
                 "idVerification": {
                     "description": "Defines the method of assessment supervision and id verification",
-                    "type": "string"
+                    "type": "string",
+                    "format":"uri"
                 },
                 "assessedBy": {
                     "description": "Defines competent body that awarded the grade. Association Agent??",
                     "type": "array",
-                    "items": {"type": "string"}
+                    "items": {"type": "string", "format": "uri"}
                 },
                 "specifiedBy": {
                     "description": "The specification of this assessment. Association AssessmentSpecification??",
@@ -958,7 +959,7 @@
                     "description": "Defines the title of the entitlement.",
                     "type": "string"
                 },
-                "descriptiopn1": {
+                "description1": {
                     "description": " Includes a free text description of the specific rights the holder of the credential has acquired",
                     "type": "string"
                 },
@@ -990,7 +991,7 @@
                 "hasPart": {
                     "description": "Defines the learning achievement (and related learning outcomes) which gave rise to this entitlement. Association LearningAchievement",
                     "type": "array",
-                    "items": {"$ref": "#/$defs/learningAchievement"}
+                    "items": {"$ref": "#/$defs/entitlement"}
                 }
             },
             "required": [
@@ -1065,7 +1066,7 @@
                     "type": "array",
                     "items": {"type": "string"}
                 },
-                "limitJurisidiction": {
+                "limitJurisdiction": {
                     "description": "Defines the jurisdiction for which the entitlement is valid (the region or country).",
                     "type": "array",
                     "items": {"type": "string",
@@ -1074,17 +1075,17 @@
                 "limitOccupation": {
                     "description": "Defines a related Occupation: The An ESCO Occupation or Occupational class which the individual may access through the entitlement. Association EscoOccupationAssociation??",
                     "type": "array",
-                    "items": {"type": "string"}
+                    "items": {"type": "string", "format":"uri"}
                 },
                 "limitNationalOccupation": {
                     "description": "Defines a An Occupation or Occupational Category. Association OccupationAssociation??",
                     "type": "array",
-                    "items": {"type": "string"}
+                    "items": {"type": "string", "format":"uri"}
                 },
                 "mayResultFrom": {
                     "description": "Defines the learning specification may influence the Entitlement specification. Association LearningSpecification",
                     "type": "object",
-                    "$ref": "#/$defs/learningActivitySpecification"
+                    "$ref": "#/$defs/learningSpecification"
                     },
                 "hasPart": {
                     "description": "Defines smaller entitlement specifications, which when combined make up this entitlement specification. Association EntitlementSpecification",
