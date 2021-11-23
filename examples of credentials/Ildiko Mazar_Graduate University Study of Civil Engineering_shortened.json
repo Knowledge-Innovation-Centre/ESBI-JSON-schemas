@@ -1645,7 +1645,7 @@
                                     }
                                 }
                             ],
-                            "wasInfluencedBy": {
+                            "wasInfluencedBy": [{
                                 "id": "urn:epass:activity:18",
                                 "identifier": [
                                     {
@@ -1666,7 +1666,7 @@
                                     "workload": "PT360H",
                                     "language": ["http://publications.europa.eu/resource/authority/language/HRV"]
                                 }
-                            },
+                            }],
                             "wasAwardedBy": {
                                 "id": "urn:epass:awardingProcess:20",
                                 "awardingBody": ["did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1"],
