@@ -54,7 +54,7 @@
                         "workload": "PT60H",
                         "startedAtTime": "2017-09-04T00:00:00+02:00",
                         "endedAtTime": "2018-01-14T00:00:00+01:00",
-                        "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                        "directedBy": ["did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1"],
                         "location": ["urn:epass:location:4"],
                         "specifiedBy": {
                             "id": "urn:epass:learningactivityspec:1",
@@ -76,7 +76,7 @@
                         "workload": "PT60H",
                         "startedAtTime": "2017-09-04T00:00:00+02:00",
                         "endedAtTime": "2018-01-14T00:00:00+01:00",
-                        "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                        "directedBy": ["did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1"],
                         "location": ["urn:epass:location:5"],
                         "specifiedBy": {
                             "id": "urn:epass:learningactivityspec:2",
@@ -98,7 +98,7 @@
                         "workload": "PT45H",
                         "startedAtTime": "2017-09-04T00:00:00+02:00",
                         "endedAtTime": "2018-01-14T00:00:00+01:00",
-                        "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                        "directedBy": ["did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1"],
                         "location": ["urn:epass:location:6"],
                         "specifiedBy": {
                             "id": "urn:epass:learningactivityspec:3",
@@ -120,7 +120,7 @@
                         "workload": "PT60H",
                         "startedAtTime": "2017-09-04T00:00:00+02:00",
                         "endedAtTime": "2018-01-14T00:00:00+01:00",
-                        "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                        "directedBy": ["did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1"],
                         "location": ["urn:epass:location:7"],
                         "specifiedBy": {
                             "id": "urn:epass:learningactivityspec:4",
@@ -142,7 +142,7 @@
                         "workload": "PT60H",
                         "startedAtTime": "2017-09-04T00:00:00+02:00",
                         "endedAtTime": "2018-01-14T00:00:00+01:00",
-                        "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                        "directedBy": ["did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1"],
                         "location": ["urn:epass:location:8"],
                         "specifiedBy": {
                             "id": "urn:epass:learningactivityspec:5",
@@ -164,7 +164,7 @@
                         "workload": "PT75H",
                         "startedAtTime": "2017-09-04T00:00:00+02:00",
                         "endedAtTime": "2018-01-14T00:00:00+01:00",
-                        "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                        "directedBy": ["did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1"],
                         "location": ["urn:epass:location:9"],
                         "specifiedBy": {
                             "id": "urn:epass:learningactivityspec:6",
@@ -186,9 +186,9 @@
                         "workload": "PT60H",
                         "startedAtTime": "2018-01-15T00:00:00+01:00",
                         "endedAtTime": "2018-06-24T00:00:00+02:00",
-                        "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                        "directedBy": ["did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1"],
                         "location": ["urn:epass:location:10"],
-                        "specifiedBy": {
+                        "specifiedBy":  {
                             "id": "urn:epass:learningactivityspec:7",
                             "title": "Masonry structures",
                             "learningActivityType": ["http://data.europa.eu/snb/learning-activity/fd33e234ae"],
@@ -208,7 +208,7 @@
                         "workload": "PT60H",
                         "startedAtTime": "2018-01-15T00:00:00+01:00",
                         "endedAtTime": "2018-06-24T00:00:00+02:00",
-                        "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                        "directedBy": ["did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1"],
                         "location": ["urn:epass:location:11"],
                         "specifiedBy": {
                             "id": "urn:epass:learningactivityspec:8",
@@ -230,7 +230,7 @@
                         "workload": "PT60H",
                         "startedAtTime": "2018-01-15T00:00:00+01:00",
                         "endedAtTime": "2018-06-24T00:00:00+02:00",
-                        "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                        "directedBy": ["did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1"],
                         "location": ["urn:epass:location:12"],
                         "specifiedBy": {
                             "id": "urn:epass:learningactivityspec:9",
@@ -252,7 +252,7 @@
                         "workload": "PT60H",
                         "startedAtTime": "2018-01-15T00:00:00+01:00",
                         "endedAtTime": "2018-06-24T00:00:00+02:00",
-                        "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                        "directedBy": ["did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1"],
                         "location": ["urn:epass:location:22"],
                         "specifiedBy": {
                             "id": "urn:epass:learningactivityspec:19",
@@ -274,7 +274,7 @@
                         "workload": "PT60H",
                         "startedAtTime": "2018-01-15T00:00:00+01:00",
                         "endedAtTime": "2018-06-24T00:00:00+02:00",
-                        "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                        "directedBy": ["did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1"],
                         "location": ["urn:epass:location:13"],
                         "specifiedBy": {
                             "id": "urn:epass:learningactivityspec:10",
@@ -296,7 +296,7 @@
                         "workload": "PT60H",
                         "startedAtTime": "2018-01-15T00:00:00+01:00",
                         "endedAtTime": "2018-06-24T00:00:00+02:00",
-                        "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                        "directedBy": ["did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1"],
                         "location": ["urn:epass:location:14"],
                         "specifiedBy": {
                             "id": "urn:epass:learningactivityspec:11",
@@ -318,7 +318,7 @@
                         "workload": "PT60H",
                         "startedAtTime": "2018-09-03T00:00:00+02:00",
                         "endedAtTime": "2019-01-13T00:00:00+01:00",
-                        "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                        "directedBy": ["did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1"],
                         "location": ["urn:epass:location:15"],
                         "specifiedBy": {
                             "id": "urn:epass:learningactivityspec:12",
@@ -340,7 +340,7 @@
                         "workload": "PT60H",
                         "startedAtTime": "2018-09-03T00:00:00+02:00",
                         "endedAtTime": "2019-01-13T00:00:00+01:00",
-                        "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                        "directedBy": ["did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1"],
                         "location": ["urn:epass:location:16"],
                         "specifiedBy": {
                             "id": "urn:epass:learningactivityspec:13",
@@ -362,7 +362,7 @@
                         "workload": "PT60H",
                         "startedAtTime": "2018-09-03T00:00:00+02:00",
                         "endedAtTime": "2019-01-13T00:00:00+01:00",
-                        "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                        "directedBy": ["did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1"],
                         "location": ["urn:epass:location:17"],
                         "specifiedBy": {
                             "id": "urn:epass:learningactivityspec:14",
@@ -384,7 +384,7 @@
                         "workload": "PT60H",
                         "startedAtTime": "2018-09-03T00:00:00+02:00",
                         "endedAtTime": "2019-01-13T00:00:00+01:00",
-                        "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                        "directedBy": ["did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1"],
                         "location": ["urn:epass:location:18"],
                         "specifiedBy": {
                             "id": "urn:epass:learningactivityspec:15",
@@ -406,7 +406,7 @@
                         "workload": "PT60H",
                         "startedAtTime": "2018-09-03T00:00:00+02:00",
                         "endedAtTime": "2019-01-13T00:00:00+01:00",
-                        "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                        "directedBy": ["did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1"],
                         "location": ["urn:epass:location:19"],
                         "specifiedBy": {
                             "id": "urn:epass:learningactivityspec:16",
@@ -428,7 +428,7 @@
                         "workload": "PT60H",
                         "startedAtTime": "2018-09-03T00:00:00+02:00",
                         "endedAtTime": "2019-01-13T00:00:00+01:00",
-                        "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                        "directedBy": ["did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1"],
                         "location": ["urn:epass:location:20"],
                         "specifiedBy": {
                             "id": "urn:epass:learningactivityspec:17",
@@ -450,7 +450,7 @@
                         "workload": "PT360H",
                         "startedAtTime": "2019-01-14T00:00:00+01:00",
                         "endedAtTime": "2019-09-20T00:00:00+02:00",
-                        "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                        "directedBy": ["did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1"],
                         "location": ["urn:epass:location:21"],
                         "specifiedBy": {
                             "id": "urn:epass:learningactivityspec:18",
@@ -463,7 +463,7 @@
                 ],
                 "wasAwardedBy": {
                     "id": "urn:epass:awardingProcess:1",
-                    "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                    "awardingBody": ["did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1"],
                     "awardingDate": "2019-09-20T00:00:00+02:00"
                 },
                 "hasPart": {
@@ -506,7 +506,7 @@
                                 "workload": "PT60H",
                                 "startedAtTime": "2017-09-04T00:00:00+02:00",
                                 "endedAtTime": "2018-01-14T00:00:00+01:00",
-                                "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                                "directedBy": ["did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1"],
                                 "location": ["urn:epass:location:4"],
                                 "specifiedBy": {
                                     "id": "urn:epass:learningactivityspec:1",
@@ -518,7 +518,7 @@
                             }],
                             "wasAwardedBy": {
                                 "id": "urn:epass:awardingProcess:2",
-                                "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                                "awardingBody": ["did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1"],
                                 "awardingDate": "2019-09-20T00:00:00+02:00"
                             },
                             "specifiedBy": {
@@ -570,7 +570,7 @@
                                 "workload": "PT60H",
                                 "startedAtTime": "2017-09-04T00:00:00+02:00",
                                 "endedAtTime": "2018-01-14T00:00:00+01:00",
-                                "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                                "directedBy": ["did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1"],
                                 "location": ["urn:epass:location:5"],
                                 "specifiedBy": {
                                     "id": "urn:epass:learningactivityspec:2",
@@ -582,7 +582,7 @@
                             }],
                             "wasAwardedBy": {
                                 "id": "urn:epass:awardingProcess:3",
-                                "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                                "awardingBody": ["did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1"],
                                 "awardingDate": "2019-09-20T00:00:00+02:00"
                             },
                             "specifiedBy": {
@@ -634,7 +634,7 @@
                                 "workload": "PT45H",
                                 "startedAtTime": "2017-09-04T00:00:00+02:00",
                                 "endedAtTime": "2018-01-14T00:00:00+01:00",
-                                "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                                "directedBy": ["did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1"],
                                 "location": ["urn:epass:location:6"],
                                 "specifiedBy": {
                                     "id": "urn:epass:learningactivityspec:3",
@@ -646,7 +646,7 @@
                             }],
                             "wasAwardedBy": {
                                 "id": "urn:epass:awardingProcess:4",
-                                "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                                "awardingBody": ["did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1"],
                                 "awardingDate": "2019-09-20T00:00:00+02:00"
                             },
                             "specifiedBy": {
@@ -674,7 +674,7 @@
                                     "id": "urn:epass:assessment:5",
                                     "title": "Geotechnical engineering",
                                     "grade": "good (3)",
-                                    "assessedBy": ["did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1"],
+                                    "assessedBy":["did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1"],
                                     "specifiedBy": {
                                         "id": "urn:epass:asssessmentspec:5",
                                         "title": "Geotechnical engineering",
@@ -698,7 +698,7 @@
                                 "workload": "PT60H",
                                 "startedAtTime": "2017-09-04T00:00:00+02:00",
                                 "endedAtTime": "2018-01-14T00:00:00+01:00",
-                                "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                                "directedBy": ["did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1"],
                                 "location": ["urn:epass:location:7"],
                                 "specifiedBy": {
                                     "id": "urn:epass:learningactivityspec:4",
@@ -710,7 +710,7 @@
                             }],
                             "wasAwardedBy": {
                                 "id": "urn:epass:awardingProcess:5",
-                                "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                                "awardingBody": ["did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1"],
                                 "awardingDate": "2019-09-20T00:00:00+02:00"
                             },
                             "specifiedBy": {
@@ -762,7 +762,7 @@
                                 "workload": "PT60H",
                                 "startedAtTime": "2017-09-04T00:00:00+02:00",
                                 "endedAtTime": "2018-01-14T00:00:00+01:00",
-                                "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                                "directedBy": ["did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1"],
                                 "location": ["urn:epass:location:8"],
                                 "specifiedBy": {
                                     "id": "urn:epass:learningactivityspec:5",
@@ -774,7 +774,7 @@
                             }],
                             "wasAwardedBy": {
                                 "id": "urn:epass:awardingProcess:6",
-                                "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                                "awardingBody": ["did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1"],
                                 "awardingDate": "2019-09-20T00:00:00+02:00"
                             },
                             "specifiedBy": {
@@ -826,7 +826,7 @@
                                 "workload": "PT75H",
                                 "startedAtTime": "2017-09-04T00:00:00+02:00",
                                 "endedAtTime": "2018-01-14T00:00:00+01:00",
-                                "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                                "directedBy": ["did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1"],
                                 "location": ["urn:epass:location:9"],
                                 "specifiedBy": {
                                     "id": "urn:epass:learningactivityspec:6",
@@ -838,7 +838,7 @@
                             }],
                             "wasAwardedBy": {
                                 "id": "urn:epass:awardingProcess:7",
-                                "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                                "awardingBody": ["did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1"],
                                 "awardingDate": "2019-09-20T00:00:00+02:00"
                             },
                             "specifiedBy": {
@@ -890,7 +890,7 @@
                                 "workload": "PT60H",
                                 "startedAtTime": "2018-01-15T00:00:00+01:00",
                                 "endedAtTime": "2018-06-24T00:00:00+02:00",
-                                "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                                "directedBy": ["did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1"],
                                 "location": ["urn:epass:location:10"],
                                 "specifiedBy": {
                                     "id": "urn:epass:learningactivityspec:7",
@@ -902,7 +902,7 @@
                             }],
                             "wasAwardedBy": {
                                 "id": "urn:epass:awardingProcess:8",
-                                "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                                "awardingBody": ["did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1"],
                                 "awardingDate": "2019-09-20T00:00:00+02:00"
                             },
                             "specifiedBy": {
@@ -954,7 +954,7 @@
                                 "workload": "PT60H",
                                 "startedAtTime": "2018-01-15T00:00:00+01:00",
                                 "endedAtTime": "2018-06-24T00:00:00+02:00",
-                                "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                                "directedBy": ["did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1"],
                                 "location": ["urn:epass:location:11"],
                                 "specifiedBy": {
                                     "id": "urn:epass:learningactivityspec:8",
@@ -966,7 +966,7 @@
                             }],
                             "wasAwardedBy": {
                                 "id": "urn:epass:awardingProcess:9",
-                                "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                                "awardingBody": ["did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1"],
                                 "awardingDate": "2019-09-20T00:00:00+02:00"
                             },
                             "specifiedBy": {
@@ -1018,7 +1018,7 @@
                                 "workload": "PT60H",
                                 "startedAtTime": "2018-01-15T00:00:00+01:00",
                                 "endedAtTime": "2018-06-24T00:00:00+02:00",
-                                "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                                "directedBy": ["did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1"],
                                 "location": ["urn:epass:location:12"],
                                 "specifiedBy": {
                                     "id": "urn:epass:learningactivityspec:9",
@@ -1030,7 +1030,7 @@
                             }],
                             "wasAwardedBy": {
                                 "id": "urn:epass:awardingProcess:10",
-                                "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                                "awardingBody": ["did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1"],
                                 "awardingDate": "2019-09-20T00:00:00+02:00"
                             },
                             "specifiedBy": {
@@ -1082,7 +1082,7 @@
                                 "workload": "PT60H",
                                 "startedAtTime": "2018-01-15T00:00:00+01:00",
                                 "endedAtTime": "2018-06-24T00:00:00+02:00",
-                                "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                                "directedBy": ["did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1"],
                                 "location": ["urn:epass:location:22"],
                                 "specifiedBy": {
                                     "id": "urn:epass:learningactivityspec:19",
@@ -1094,7 +1094,7 @@
                             }],
                             "wasAwardedBy": {
                                 "id": "urn:epass:awardingProcess:11",
-                                "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                                "awardingBody": ["did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1"],
                                 "awardingDate": "2019-09-20T00:00:00+02:00"
                             },
                             "specifiedBy": {
@@ -1146,7 +1146,7 @@
                                 "workload": "PT60H",
                                 "startedAtTime": "2018-01-15T00:00:00+01:00",
                                 "endedAtTime": "2018-06-24T00:00:00+02:00",
-                                "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                                "directedBy": ["did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1"],
                                 "location": ["urn:epass:location:13"],
                                 "specifiedBy": {
                                     "id": "urn:epass:learningactivityspec:10",
@@ -1157,7 +1157,7 @@
                                 }
                             }],
                             "wasAwardedBy": {
-                                "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                                "awardingBody": ["did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1"],
                                 "awardingDate": "2019-09-20T00:00:00+02:00"
                             },
                             "specifiedBy": {
@@ -1209,7 +1209,7 @@
                                 "workload": "PT60H",
                                 "startedAtTime": "2018-01-15T00:00:00+01:00",
                                 "endedAtTime": "2018-06-24T00:00:00+02:00",
-                                "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                                "directedBy": ["did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1"],
                                 "location": ["urn:epass:location:14"],
                                 "specifiedBy": {
                                     "id": "urn:epass:learningactivityspec:11",
@@ -1221,7 +1221,7 @@
                             }],
                             "wasAwardedBy": {
                                 "id": "urn:epass:awardingProcess:13",
-                                "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                                "awardingBody": ["did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1"],
                                 "awardingDate": "2019-09-20T00:00:00+02:00"
                             },
                             "specifiedBy": {
@@ -1273,7 +1273,7 @@
                                 "workload": "PT60H",
                                 "startedAtTime": "2018-09-03T00:00:00+02:00",
                                 "endedAtTime": "2019-01-13T00:00:00+01:00",
-                                "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                                "directedBy": ["did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1"],
                                 "location": ["urn:epass:location:15"],
                                 "specifiedBy": {
                                     "id": "urn:epass:learningactivityspec:12",
@@ -1285,7 +1285,7 @@
                             }],
                             "wasAwardedBy": {
                                 "id": "urn:epass:awardingProcess:14",
-                                "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                                "awardingBody": ["did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1"],
                                 "awardingDate": "2019-09-20T00:00:00+02:00"
                             },
                             "specifiedBy": {
@@ -1337,7 +1337,7 @@
                                 "workload": "PT60H",
                                 "startedAtTime": "2018-09-03T00:00:00+02:00",
                                 "endedAtTime": "2019-01-13T00:00:00+01:00",
-                                "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                                "directedBy": ["did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1"],
                                 "location": ["urn:epass:location:16"],
                                 "specifiedBy": {
                                     "id": "urn:epass:learningactivityspec:13",
@@ -1349,7 +1349,7 @@
                             }],
                             "wasAwardedBy": {
                                 "id": "urn:epass:awardingProcess:15",
-                                "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                                "awardingBody": ["did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1"],
                                 "awardingDate": "2019-09-20T00:00:00+02:00"
                             },
                             "specifiedBy": {
@@ -1401,7 +1401,7 @@
                                 "workload": "PT60H",
                                 "startedAtTime": "2018-09-03T00:00:00+02:00",
                                 "endedAtTime": "2019-01-13T00:00:00+01:00",
-                                "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                                "directedBy": ["did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1"],
                                 "location": ["urn:epass:location:17"],
                                 "specifiedBy": {
                                     "id": "urn:epass:learningactivityspec:14",
@@ -1413,7 +1413,7 @@
                             }],
                             "wasAwardedBy": {
                                 "id": "urn:epass:awardingProcess:16",
-                                "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                                "awardingBody": ["did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1"],
                                 "awardingDate": "2019-09-20T00:00:00+02:00"
                             },
                             "specifiedBy": {
@@ -1465,7 +1465,7 @@
                                 "workload": "PT60H",
                                 "startedAtTime": "2018-09-03T00:00:00+02:00",
                                 "endedAtTime": "2019-01-13T00:00:00+01:00",
-                                "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                                "directedBy": ["did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1"],
                                 "location": ["urn:epass:location:18"],
                                 "specifiedBy": {
                                     "id": "urn:epass:learningactivityspec:15",
@@ -1477,7 +1477,7 @@
                             }],
                             "wasAwardedBy": {
                                 "id": "urn:epass:awardingProcess:17",
-                                "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                                "awardingBody": ["did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1"],
                                 "awardingDate": "2019-09-20T00:00:00+02:00"
                             },
                             "specifiedBy": {
@@ -1529,7 +1529,7 @@
                                 "workload": "PT60H",
                                 "startedAtTime": "2018-09-03T00:00:00+02:00",
                                 "endedAtTime": "2019-01-13T00:00:00+01:00",
-                                "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                                "directedBy": ["did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1"],
                                 "location": ["urn:epass:location:19"],
                                 "specifiedBy": {
                                     "id": "urn:epass:learningactivityspec:16",
@@ -1541,7 +1541,7 @@
                             }],
                             "wasAwardedBy": {
                                 "id": "urn:epass:awardingProcess:18",
-                                "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                                "awardingBody": ["did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1"],
                                 "awardingDate": "2019-09-20T00:00:00+02:00"
                             },
                             "specifiedBy": {
@@ -1593,7 +1593,7 @@
                                 "workload": "PT60H",
                                 "startedAtTime": "2018-09-03T00:00:00+02:00",
                                 "endedAtTime": "2019-01-13T00:00:00+01:00",
-                                "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                                "directedBy": ["did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1"],
                                 "location": ["urn:epass:location:20"],
                                 "specifiedBy": {
                                     "id": "urn:epass:learningactivityspec:17",
@@ -1605,7 +1605,7 @@
                             }],
                             "wasAwardedBy": {
                                 "id": "urn:epass:awardingProcess:19",
-                                "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                                "awardingBody": ["did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1"],
                                 "awardingDate": "2019-09-20T00:00:00+02:00"
                             },
                             "specifiedBy": {
@@ -1657,7 +1657,7 @@
                                 "workload": "PT360H",
                                 "startedAtTime": "2019-01-14T00:00:00+01:00",
                                 "endedAtTime": "2019-09-20T00:00:00+02:00",
-                                "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                                "directedBy": ["did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1"],
                                 "location": ["urn:epass:location:21"],
                                 "specifiedBy": {
                                     "id": "urn:epass:learningactivityspec:18",
@@ -1669,7 +1669,7 @@
                             },
                             "wasAwardedBy": {
                                 "id": "urn:epass:awardingProcess:20",
-                                "awardingBody": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                                "awardingBody": ["did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1"],
                                 "awardingDate": "2019-09-20T00:00:00+02:00"
                             },
                             "specifiedBy": {
@@ -1685,7 +1685,7 @@
                         }
                     ]
                 },
-                "entitlesTo": {
+                "entitlesTo": [{
                     "id": "urn:epass:entitlement:1",
                     "title": "Postgraduate doctoral study",
                     "description1": "Competences the student acquires after the completion of Graduate university study are sufficient conditions for attending the programme of Postgraduate doctoral study at the Faculty of Civil Engineering, Architecture and Geodesy in Split, as well as for attending the same or similar programmes and Postgraduate specialist studies at other faculties of Civil Engineering in Croatia. The acquired learning outcomes enable the student to attend other postgraduate study programmes in the field of technical sciences. ",
@@ -1698,7 +1698,7 @@
                         "limitOrganisation": ["did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1"],
                         "limitJurisdiction": ["http://publications.europa.eu/resource/authority/country/HRV"]
                     }
-                },
+                }],
                 "specifiedBy": {
                     "id": "urn:epass:qualification:20",
                     "title": "Master of Science in Civil Engineering",
@@ -1725,7 +1725,7 @@
                 "workload": "PT60H",
                 "startedAtTime": "2017-09-04T00:00:00+02:00",
                 "endedAtTime": "2018-01-14T00:00:00+01:00",
-                "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                "directedBy": ["did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1"],
                 "location": ["urn:epass:location:4"],
                 "specifiedBy": {
                     "id": "urn:epass:learningactivityspec:1",
@@ -1747,7 +1747,7 @@
                 "workload": "PT60H",
                 "startedAtTime": "2017-09-04T00:00:00+02:00",
                 "endedAtTime": "2018-01-14T00:00:00+01:00",
-                "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                "directedBy": ["did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1"],
                 "location": ["urn:epass:location:5"],
                 "specifiedBy": {
                     "id": "urn:epass:learningactivityspec:2",
@@ -1768,7 +1768,7 @@
                 "title": "Dynamics of structures and earthquake engineering",
                 "workload": "PT45H",
                 "startedAtTime": "2017-09-04T00:00:00+02:00",
-                "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                "directedBy": ["did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1"],
                 "location": ["urn:epass:location:6"],
                 "specifiedBy": {
                     "id": "urn:epass:learningactivityspec:3",
@@ -1790,7 +1790,7 @@
                 "workload": "PT60H",
                 "startedAtTime": "2017-09-04T00:00:00+02:00",
                 "endedAtTime": "2018-01-14T00:00:00+01:00",
-                "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                "directedBy": ["did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1"],
                 "location": ["urn:epass:location:7"],
                 "specifiedBy": {
                     "id": "urn:epass:learningactivityspec:4",
@@ -1812,7 +1812,7 @@
                 "workload": "PT60H",
                 "startedAtTime": "2017-09-04T00:00:00+02:00",
                 "endedAtTime": "2018-01-14T00:00:00+01:00",
-                "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                "directedBy": ["did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1"],
                 "location": ["urn:epass:location:8"],
                 "specifiedBy": {
                     "id": "urn:epass:learningactivityspec:5",
@@ -1834,7 +1834,7 @@
                 "workload": "PT75H",
                 "startedAtTime": "2017-09-04T00:00:00+02:00",
                 "endedAtTime": "2018-01-14T00:00:00+01:00",
-                "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                "directedBy": ["did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1"],
                 "location": ["urn:epass:location:9"],
                 "specifiedBy": {
                     "id": "urn:epass:learningactivityspec:6",
@@ -1856,7 +1856,7 @@
                 "workload": "PT60H",
                 "startedAtTime": "2018-01-15T00:00:00+01:00",
                 "endedAtTime": "2018-06-24T00:00:00+02:00",
-                "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                "directedBy": ["did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1"],
                 "location": ["urn:epass:location:10"],
                 "specifiedBy": {
                     "id": "urn:epass:learningactivityspec:7",
@@ -1878,7 +1878,7 @@
                 "workload": "PT60H",
                 "startedAtTime": "2018-01-15T00:00:00+01:00",
                 "endedAtTime": "2018-06-24T00:00:00+02:00",
-                "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                "directedBy": ["did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1"],
                 "location": ["urn:epass:location:11"],
                 "specifiedBy": {
                     "id": "urn:epass:learningactivityspec:8",
@@ -1900,7 +1900,7 @@
                 "workload": "PT60H",
                 "startedAtTime": "2018-01-15T00:00:00+01:00",
                 "endedAtTime": "2018-06-24T00:00:00+02:00",
-                "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                "directedBy": ["did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1"],
                 "location": ["urn:epass:location:12"],
                 "specifiedBy": {
                     "id": "urn:epass:learningactivityspec:9",
@@ -1922,7 +1922,7 @@
                 "workload": "PT60H",
                 "startedAtTime": "2018-01-15T00:00:00+01:00",
                 "endedAtTime": "2018-06-24T00:00:00+02:00",
-                "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                "directedBy": ["did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1"],
                 "location": ["urn:epass:location:13"],
                 "specifiedBy": {
                     "id": "urn:epass:learningactivityspec:10",
@@ -1944,7 +1944,7 @@
                 "workload": "PT60H",
                 "startedAtTime": "2018-01-15T00:00:00+01:00",
                 "endedAtTime": "2018-06-24T00:00:00+02:00",
-                "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                "directedBy": ["did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1"],
                 "location": ["urn:epass:location:14"],
                 "specifiedBy": {
                     "id": "urn:epass:learningactivityspec:11",
@@ -1966,7 +1966,7 @@
                 "workload": "PT60H",
                 "startedAtTime": "2018-09-03T00:00:00+02:00",
                 "endedAtTime": "2019-01-13T00:00:00+01:00",
-                "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                "directedBy": ["did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1"],
                 "location": ["urn:epass:location:15"],
                 "specifiedBy": {
                     "id": "urn:epass:learningactivityspec:12",
@@ -1988,7 +1988,7 @@
                 "workload": "PT60H",
                 "startedAtTime": "2018-09-03T00:00:00+02:00",
                 "endedAtTime": "2019-01-13T00:00:00+01:00",
-                "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                "directedBy": ["did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1"],
                 "location": ["urn:epass:location:16"],
                 "specifiedBy": {
                     "id": "urn:epass:learningactivityspec:13",
@@ -2010,7 +2010,7 @@
                 "workload": "PT60H",
                 "startedAtTime": "2018-09-03T00:00:00+02:00",
                 "endedAtTime": "2019-01-13T00:00:00+01:00",
-                "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                "directedBy": ["did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1"],
                 "location": ["urn:epass:location:17"],
                 "specifiedBy": {
                     "id": "urn:epass:learningactivityspec:14",
@@ -2032,7 +2032,7 @@
                 "workload": "PT60H",
                 "startedAtTime": "2018-09-03T00:00:00+02:00",
                 "endedAtTime": "2019-01-13T00:00:00+01:00",
-                "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                "directedBy": ["did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1"],
                 "location": ["urn:epass:location:18"],
                 "specifiedBy": {
                     "id": "urn:epass:learningactivityspec:15",
@@ -2054,7 +2054,7 @@
                 "workload": "PT60H",
                 "startedAtTime": "2018-09-03T00:00:00+02:00",
                 "endedAtTime": "2019-01-13T00:00:00+01:00",
-                "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                "directedBy": ["did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1"],
                 "location": ["urn:epass:location:19"],
                 "specifiedBy": {
                     "id": "urn:epass:learningactivityspec:16",
@@ -2076,9 +2076,9 @@
                 "workload": "PT60H",
                 "startedAtTime": "2018-09-03T00:00:00+02:00",
                 "endedAtTime": "2019-01-13T00:00:00+01:00",
-                "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                "directedBy": ["did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1"],
                 "location": ["urn:epass:location:20"],
-                "specifiedBy": {
+                "specifiedBy":{
                     "id": "urn:epass:learningactivityspec:17",
                     "title": "Metal bridges",
                     "learningActivityType": ["http://data.europa.eu/snb/learning-activity/fd33e234ae"],
@@ -2098,7 +2098,7 @@
                 "workload": "PT360H",
                 "startedAtTime": "2019-01-14T00:00:00+01:00",
                 "endedAtTime": "2019-09-20T00:00:00+02:00",
-                "directedBy": "did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1",
+                "directedBy": ["did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1"],
                 "location": ["urn:epass:location:21"],
                 "specifiedBy": {
                     "id": "urn:epass:learningactivityspec:18",
@@ -2109,7 +2109,7 @@
                 }
             }
         ],
-        "entitledTo": {
+        "entitledTo": [{
             "id": "urn:epass:entitlement:1",
             "title": "Postgraduate doctoral study",
             "description1": "Competences the student acquires after the completion of Graduate university study are sufficient conditions for attending the programme of Postgraduate doctoral study at the Faculty of Civil Engineering, Architecture and Geodesy in Split, as well as for attending the same or similar programmes and Postgraduate specialist studies at other faculties of Civil Engineering in Croatia. The acquired learning outcomes enable the student to attend other postgraduate study programmes in the field of technical sciences. ",
@@ -2122,7 +2122,7 @@
                 "limitOrganisation": ["did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1"],
                 "limitJurisdiction": ["http://publications.europa.eu/resource/authority/country/HRV"]
             }
-        }
+        }]
     },
     "credentialStatus": {
         "id": "https://<uri-to-status>",
