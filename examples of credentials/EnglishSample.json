@@ -1,0 +1,56 @@
+{
+	"@context": [
+		"https://www.w3.org/2018/credentials/v1",
+		"https://base.uri.europass/contexts/v1"
+	],
+	"type": [
+		"VerifiableCredential",
+		"VerifiableAttestation",
+		"Europass"
+	],
+	"id": "urn:credential:5a4d5412-27e3-4540-a5e5-f1aa4d55b20c",
+	"issuer": "did:epass:org:1",
+	"issuanceDate": "2020-07-20T13:58:53+02:00",
+	"validFrom": "2019-09-20T00:00:00+02:00",
+	"credentialSubject": {
+		"id": "did:epass:person:1",
+		"achieved": [{
+			"id": "urn:epass:learningAchievement:1",
+			"identifier": [{
+				"schemeID": "University Record Identifier",
+				"value":  "123456"
+			}],
+			"title": "TITLE OF PROGRAMME",
+			"specifiedBy": {
+				"id": "urn:epass:qualification:1",
+				"title": "Title of Achievement"
+			},
+			"wasInfluencedBy": [{
+				"id": "urn:epass:activity:1",
+				"title": "Coursework",
+				"startedAtTime": "2020-07-10 15:00:00.000",
+				"endedAtTime": "2020-09-20 15:00:00.000"
+			}]
+		}]
+		},
+		"credentialStatus": {
+			"id": "https://<uri-to-status>",
+			"type": "TrustedCredentialStatus2021"
+		},
+		"credentialSchema": {
+			"id": "https://<uri-to-schema>",
+			"type": "TrustedJsonSchemaValidator2021"
+		},
+		"proof": {
+			"type": "EcdsaSecp256k1Signature2019",
+			"created": "2019-06-22T14:11:44Z",
+			"proofPurpose": "assertionMethod",
+			"verificationMethod": {
+				"type": "EidasCertificate2019",
+				"CertSerial": "1088321447"
+			},
+			"jws": "eyJhbGciOiJSUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..TCYt5X",
+			"proofValue": "BD21J4fdlnBvBA+y6D...fnC8Y="
+		}
+	
+}
