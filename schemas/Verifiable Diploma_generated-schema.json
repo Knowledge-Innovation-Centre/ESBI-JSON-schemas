@@ -135,7 +135,7 @@
                     }
                 },
                 "educationSubject": {
-                    "description": "An associated field of education from another semantic framework than the ISCED classification. Association EducationSubject??",
+                    "description": "An associated field of education from another semantic framework than the ISCED classification. Association EducationSubject  (URI)",
                     "type": "array",
                     "items": {
                         "type": "string",
@@ -155,7 +155,7 @@
                     "type": "number"
                 },
                 "educationLevel": {
-                    "description": "An associated level of education within a semantic framework describing education levels. Association EducationLevel??",
+                    "description": "An associated level of education within a semantic framework describing education levels. Association EducationLevel (URI)",
                     "type": "array",
                     "items": {
                         "type": "string",
@@ -259,7 +259,7 @@
                     "format": "uri"
                 },
                 "hasAccreditation": {
-                    "description": "The accreditation of a qualification. Association Accreditation?",
+                    "description": "The accreditation of a qualification. Association Accreditation (URI)",
                     "type": "array",
                     "items": {
                         "type": "string",
@@ -443,7 +443,7 @@
                     "format": "uri"
                 },
                 "identifier": {
-                    "description": "Defines an alternative identifier of the learning activity assigned to the assessment by the organisation directing the activity. Association Identifier??",
+                    "description": "Defines an alternative identifier of the learning activity assigned to the assessment by the organisation directing the activity. Association Identifier",
                     "type": "array",
                     "items": {
                         "anyOf": [
@@ -498,12 +498,12 @@
                     "$ref": "#/$defs/learningActivitySpecification"
                 },
                 "usedLearningOpportunity": {
-                    "description": "Defines when is used or taken opportunity to do this learning activity. Association to LearningOpportunity??",
+                    "description": "Defines when is used or taken opportunity to do this learning activity. Association to LearningOpportunity (URI)",
                     "type": "string",
                     "format": "uri"
                 },
                 "influenced": {
-                    "description": "Defines how performing this activity contributed to the acquisition of these related learning achievements. Association to Achievement??",
+                    "description": "Defines how performing this activity contributed to the acquisition of these related learning achievements. Association to Achievement (URI)",
                     "type": "array",
                     "items": {
                         "type": "string",
@@ -610,7 +610,7 @@
                     "items": {"$ref": "#/$defs/assessmentSpecification"}
                 },
                 "specialisationOf": {
-                    "description": "Defines An assessment specification (e.g. a standard) of which this specification is a specialisation. Association toAssessmentSpecification",
+                    "description": "Defines An assessment specification (e.g. a standard) of which this specification is a specialisation. Association to AssessmentSpecification",
                     "type": "array",
                     "items": {"$ref": "#/$defs/assessmentSpecification"}
                 }
@@ -672,7 +672,7 @@
                     "format": "uri"
                 },
                 "assessedBy": {
-                    "description": "Defines competent body that awarded the grade. Association Agent??",
+                    "description": "Defines competent body that awarded the grade. Association Agent (URI)",
                     "type": "array",
                     "items": {
                         "type": "string",
@@ -680,14 +680,14 @@
                     }
                 },
                 "specifiedBy": {
-                    "description": "The specification of this assessment. Association AssessmentSpecification??",
+                    "description": "The specification of this assessment. Association AssessmentSpecification ",
                     "type": "object",
                     "$ref": "#/$defs/assessmentSpecification"
                 },
                 "hasPart": {
-                    "description": "Defines Sub-Assessments; Smaller assessments, which when combined make up and can influence this assessment. Association Assessment??",
+                    "description": "Defines Sub-Assessments; Smaller assessments, which when combined make up and can influence this assessment. Association Assessment",
                     "type": "array",
-                    "items": {"$ref": "#/$defs/assessmentSpecification"}
+                    "items": {"$ref": "#/$defs/assessment"}
                 }
             },
             "required": [
@@ -870,7 +870,7 @@
                     "items": {"$ref": "#/$defs/learningSpecification"}
                 },
                 "associatedLearningOpportunity": {
-                    "description": "Defines The learning opportunity that was taken to obtain the awarded LearningSpecification. Association LearningOpportunity??",
+                    "description": "Defines The learning opportunity that was taken to obtain the awarded LearningSpecification. Association LearningOpportunity (URI)",
                     "type": "string",
                     "format": "uri"
                 }
@@ -935,7 +935,7 @@
                     "items": {"type": "string"}
                 },
                 "awardingLocation": {
-                    "description": "The location where the awarding activity took place (country/region where the qualification was awarded).. Association Location",
+                    "description": "The location where the awarding activity took place (country/region where the qualification was awarded). Association Location (URI)",
                     "type": "array",
                     "items": {
                         "type": "string",
@@ -977,7 +977,7 @@
                     "items": {"type": "string"}
                 },
                 "location": {
-                    "description": "Location where the awarding activity takes place (country/region where the qualification is awarded). Association to Location",
+                    "description": "Location where the awarding activity takes place (country/region where the qualification is awarded). ",
                     "type": "string",
                     "format": "uri"
                 },
@@ -1036,7 +1036,7 @@
                     "items": {"type": "string"}
                 },
                 "specifiedBy": {
-                    "description": "Defines a learning achievement which gave rise to the entitlement. Association EntitlementSpecification??",
+                    "description": "Defines a learning achievement which gave rise to the entitlement. Association EntitlementSpecification",
                     "type": "object",
                     "$ref": "#/$defs/entitlementSpecification"
                 },
@@ -1046,7 +1046,7 @@
                     "items": {"$ref": "#/$defs/learningAchievement"}
                 },
                 "hasPart": {
-                    "description": "Defines the learning achievement (and related learning outcomes) which gave rise to this entitlement. Association LearningAchievement",
+                    "description": "Defines the learning achievement (and related learning outcomes) which gave rise to this entitlement. Association Entitlement",
                     "type": "array",
                     "items": {"$ref": "#/$defs/entitlement"}
                 }
@@ -1123,7 +1123,7 @@
                     "format": "uri"
                 },
                 "limitOrganisation": {
-                    "description": "Defines the DID of the organisation which acknowledges the entitlement (i.e. the organisation offering the learning opportunity, membership or employment opportunity). Association DID?",
+                    "description": "Defines the DID of the organisation which acknowledges the entitlement (i.e. the organisation offering the learning opportunity, membership or employment opportunity).",
                     "type": "array",
                     "items": {"type": "string"}
                 },
@@ -1136,7 +1136,7 @@
                     }
                 },
                 "limitOccupation": {
-                    "description": "Defines a related Occupation: The An ESCO Occupation or Occupational class which the individual may access through the entitlement. Association EscoOccupationAssociation??",
+                    "description": "Defines a related Occupation: The An ESCO Occupation or Occupational class which the individual may access through the entitlement. Association EscoOccupationAssociation (URI)",
                     "type": "array",
                     "items": {
                         "type": "string",
@@ -1144,7 +1144,7 @@
                     }
                 },
                 "limitNationalOccupation": {
-                    "description": "Defines a An Occupation or Occupational Category. Association OccupationAssociation??",
+                    "description": "Defines a An Occupation or Occupational Category. Association OccupationAssociation (URI)",
                     "type": "array",
                     "items": {
                         "type": "string",
