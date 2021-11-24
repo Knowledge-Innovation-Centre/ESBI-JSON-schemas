@@ -1157,6 +1157,7 @@
                                 }
                             }],
                             "wasAwardedBy": {
+                                 "id": "urn:epass:awardingProcess:12",
                                 "awardingBody": ["did:ebsi:zsSgDXeYPhZ3AuKhTFneDf1"],
                                 "awardingDate": "2019-09-20T00:00:00+02:00"
                             },
