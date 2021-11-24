@@ -36,7 +36,7 @@
                             "gradingScheme": {
                                 "id": "urn:epass:scoringschemespec:1",
                                 "title": "General grading scheme in Croatia",
-                                "description1": "The Croatian national grading scheme consists of five grades with numerical equivalents: izvrstan \u2013 5 (outstanding); vrlo dobar \u2013 4 (very good); dobar \u2013 3 (good); dovoljan \u2013 2 (sufficient); nedovoljan \u2013 1 (insufficient - fail). The minimum passing grade is dovoljan \u2013 2."
+                                "definition": "The Croatian national grading scheme consists of five grades with numerical equivalents: izvrstan \u2013 5 (outstanding); vrlo dobar \u2013 4 (very good); dobar \u2013 3 (good); dovoljan \u2013 2 (sufficient); nedovoljan \u2013 1 (insufficient - fail). The minimum passing grade is dovoljan \u2013 2."
                             }
                         }
                     }
@@ -489,7 +489,7 @@
                                         "gradingScheme": {
                                             "id": "urn:epass:scoringschemespec:2",
                                             "title": "General grading scheme in Croatia",
-                                            "description1": "The Croatian national grading scheme consists of five grades with numerical equivalents: izvrstan \u2013 5 (outstanding); vrlo dobar \u2013 4 (very good); dobar \u2013 3 (good); dovoljan \u2013 2 (sufficient); nedovoljan \u2013 1 (insufficient - fail). The minimum passing grade is dovoljan \u2013 2."
+                                            "definition": "The Croatian national grading scheme consists of five grades with numerical equivalents: izvrstan \u2013 5 (outstanding); vrlo dobar \u2013 4 (very good); dobar \u2013 3 (good); dovoljan \u2013 2 (sufficient); nedovoljan \u2013 1 (insufficient - fail). The minimum passing grade is dovoljan \u2013 2."
                                         }
                                     }
                                 }
@@ -553,7 +553,7 @@
                                         "gradingScheme": {
                                             "id": "urn:epass:scoringschemespec:3",
                                             "title": "General grading scheme in Croatia",
-                                            "description1": "The Croatian national grading scheme consists of five grades with numerical equivalents: izvrstan \u2013 5 (outstanding); vrlo dobar \u2013 4 (very good); dobar \u2013 3 (good); dovoljan \u2013 2 (sufficient); nedovoljan \u2013 1 (insufficient - fail). The minimum passing grade is dovoljan \u2013 2."
+                                            "definition": "The Croatian national grading scheme consists of five grades with numerical equivalents: izvrstan \u2013 5 (outstanding); vrlo dobar \u2013 4 (very good); dobar \u2013 3 (good); dovoljan \u2013 2 (sufficient); nedovoljan \u2013 1 (insufficient - fail). The minimum passing grade is dovoljan \u2013 2."
                                         }
                                     }
                                 }
@@ -617,7 +617,7 @@
                                         "gradingScheme": {
                                             "id": "urn:epass:scoringschemespec:4",
                                             "title": "General grading scheme in Croatia",
-                                            "description1": "The Croatian national grading scheme consists of five grades with numerical equivalents: izvrstan \u2013 5 (outstanding); vrlo dobar \u2013 4 (very good); dobar \u2013 3 (good); dovoljan \u2013 2 (sufficient); nedovoljan \u2013 1 (insufficient - fail). The minimum passing grade is dovoljan \u2013 2."
+                                            "definition": "The Croatian national grading scheme consists of five grades with numerical equivalents: izvrstan \u2013 5 (outstanding); vrlo dobar \u2013 4 (very good); dobar \u2013 3 (good); dovoljan \u2013 2 (sufficient); nedovoljan \u2013 1 (insufficient - fail). The minimum passing grade is dovoljan \u2013 2."
                                         }
                                     }
                                 }
@@ -681,7 +681,7 @@
                                         "gradingScheme": {
                                             "id": "urn:epass:scoringschemespec:5",
                                             "title": "General grading scheme in Croatia",
-                                            "description1": "The Croatian national grading scheme consists of five grades with numerical equivalents: izvrstan \u2013 5 (outstanding); vrlo dobar \u2013 4 (very good); dobar \u2013 3 (good); dovoljan \u2013 2 (sufficient); nedovoljan \u2013 1 (insufficient - fail). The minimum passing grade is dovoljan \u2013 2."
+                                            "definition": "The Croatian national grading scheme consists of five grades with numerical equivalents: izvrstan \u2013 5 (outstanding); vrlo dobar \u2013 4 (very good); dobar \u2013 3 (good); dovoljan \u2013 2 (sufficient); nedovoljan \u2013 1 (insufficient - fail). The minimum passing grade is dovoljan \u2013 2."
                                         }
                                     }
                                 }
@@ -745,7 +745,7 @@
                                         "gradingScheme": {
                                             "id": "urn:epass:scoringschemespec:6",
                                             "title": "General grading scheme in Croatia",
-                                            "description1": "The Croatian national grading scheme consists of five grades with numerical equivalents: izvrstan \u2013 5 (outstanding); vrlo dobar \u2013 4 (very good); dobar \u2013 3 (good); dovoljan \u2013 2 (sufficient); nedovoljan \u2013 1 (insufficient - fail). The minimum passing grade is dovoljan \u2013 2."
+                                            "definition": "The Croatian national grading scheme consists of five grades with numerical equivalents: izvrstan \u2013 5 (outstanding); vrlo dobar \u2013 4 (very good); dobar \u2013 3 (good); dovoljan \u2013 2 (sufficient); nedovoljan \u2013 1 (insufficient - fail). The minimum passing grade is dovoljan \u2013 2."
                                         }
                                     }
                                 }
@@ -809,7 +809,7 @@
                                         "gradingScheme": {
                                             "id": "urn:epass:scoringschemespec:7",
                                             "title": "General grading scheme in Croatia",
-                                            "description1": "The Croatian national grading scheme consists of five grades with numerical equivalents: izvrstan \u2013 5 (outstanding); vrlo dobar \u2013 4 (very good); dobar \u2013 3 (good); dovoljan \u2013 2 (sufficient); nedovoljan \u2013 1 (insufficient - fail). The minimum passing grade is dovoljan \u2013 2."
+                                            "definition": "The Croatian national grading scheme consists of five grades with numerical equivalents: izvrstan \u2013 5 (outstanding); vrlo dobar \u2013 4 (very good); dobar \u2013 3 (good); dovoljan \u2013 2 (sufficient); nedovoljan \u2013 1 (insufficient - fail). The minimum passing grade is dovoljan \u2013 2."
                                         }
                                     }
                                 }
@@ -873,7 +873,7 @@
                                         "gradingScheme": {
                                             "id": "urn:epass:scoringschemespec:8",
                                             "title": "General grading scheme in Croatia",
-                                            "description1": "The Croatian national grading scheme consists of five grades with numerical equivalents: izvrstan \u2013 5 (outstanding); vrlo dobar \u2013 4 (very good); dobar \u2013 3 (good); dovoljan \u2013 2 (sufficient); nedovoljan \u2013 1 (insufficient - fail). The minimum passing grade is dovoljan \u2013 2."
+                                            "definition": "The Croatian national grading scheme consists of five grades with numerical equivalents: izvrstan \u2013 5 (outstanding); vrlo dobar \u2013 4 (very good); dobar \u2013 3 (good); dovoljan \u2013 2 (sufficient); nedovoljan \u2013 1 (insufficient - fail). The minimum passing grade is dovoljan \u2013 2."
                                         }
                                     }
                                 }
@@ -937,7 +937,7 @@
                                         "gradingScheme": {
                                             "id": "urn:epass:scoringschemespec:9",
                                             "title": "General grading scheme in Croatia",
-                                            "description1": "The Croatian national grading scheme consists of five grades with numerical equivalents: izvrstan \u2013 5 (outstanding); vrlo dobar \u2013 4 (very good); dobar \u2013 3 (good); dovoljan \u2013 2 (sufficient); nedovoljan \u2013 1 (insufficient - fail). The minimum passing grade is dovoljan \u2013 2."
+                                            "definition": "The Croatian national grading scheme consists of five grades with numerical equivalents: izvrstan \u2013 5 (outstanding); vrlo dobar \u2013 4 (very good); dobar \u2013 3 (good); dovoljan \u2013 2 (sufficient); nedovoljan \u2013 1 (insufficient - fail). The minimum passing grade is dovoljan \u2013 2."
                                         }
                                     }
                                 }
@@ -1001,7 +1001,7 @@
                                         "gradingScheme": {
                                             "id": "urn:epass:scoringschemespec:10",
                                             "title": "General grading scheme in Croatia",
-                                            "description1": "The Croatian national grading scheme consists of five grades with numerical equivalents: izvrstan \u2013 5 (outstanding); vrlo dobar \u2013 4 (very good); dobar \u2013 3 (good); dovoljan \u2013 2 (sufficient); nedovoljan \u2013 1 (insufficient - fail). The minimum passing grade is dovoljan \u2013 2."
+                                            "definition": "The Croatian national grading scheme consists of five grades with numerical equivalents: izvrstan \u2013 5 (outstanding); vrlo dobar \u2013 4 (very good); dobar \u2013 3 (good); dovoljan \u2013 2 (sufficient); nedovoljan \u2013 1 (insufficient - fail). The minimum passing grade is dovoljan \u2013 2."
                                         }
                                     }
                                 }
@@ -1065,7 +1065,7 @@
                                         "gradingScheme": {
                                             "id": "urn:epass:scoringschemespec:11",
                                             "title": "General grading scheme in Croatia",
-                                            "description1": "The Croatian national grading scheme consists of five grades with numerical equivalents: izvrstan \u2013 5 (outstanding); vrlo dobar \u2013 4 (very good); dobar \u2013 3 (good); dovoljan \u2013 2 (sufficient); nedovoljan \u2013 1 (insufficient - fail). The minimum passing grade is dovoljan \u2013 2."
+                                            "definition": "The Croatian national grading scheme consists of five grades with numerical equivalents: izvrstan \u2013 5 (outstanding); vrlo dobar \u2013 4 (very good); dobar \u2013 3 (good); dovoljan \u2013 2 (sufficient); nedovoljan \u2013 1 (insufficient - fail). The minimum passing grade is dovoljan \u2013 2."
                                         }
                                     }
                                 }
@@ -1129,7 +1129,7 @@
                                         "gradingScheme": {
                                             "id": "urn:epass:scoringschemespec:12",
                                             "title": "General grading scheme in Croatia",
-                                            "description1": "The Croatian national grading scheme consists of five grades with numerical equivalents: izvrstan \u2013 5 (outstanding); vrlo dobar \u2013 4 (very good); dobar \u2013 3 (good); dovoljan \u2013 2 (sufficient); nedovoljan \u2013 1 (insufficient - fail). The minimum passing grade is dovoljan \u2013 2."
+                                            "definition": "The Croatian national grading scheme consists of five grades with numerical equivalents: izvrstan \u2013 5 (outstanding); vrlo dobar \u2013 4 (very good); dobar \u2013 3 (good); dovoljan \u2013 2 (sufficient); nedovoljan \u2013 1 (insufficient - fail). The minimum passing grade is dovoljan \u2013 2."
                                         }
                                     }
                                 }
@@ -1193,7 +1193,7 @@
                                         "gradingScheme": {
                                             "id": "urn:epass:scoringschemespec:13",
                                             "title": "General grading scheme in Croatia",
-                                            "description1": "The Croatian national grading scheme consists of five grades with numerical equivalents: izvrstan \u2013 5 (outstanding); vrlo dobar \u2013 4 (very good); dobar \u2013 3 (good); dovoljan \u2013 2 (sufficient); nedovoljan \u2013 1 (insufficient - fail). The minimum passing grade is dovoljan \u2013 2."
+                                            "definition": "The Croatian national grading scheme consists of five grades with numerical equivalents: izvrstan \u2013 5 (outstanding); vrlo dobar \u2013 4 (very good); dobar \u2013 3 (good); dovoljan \u2013 2 (sufficient); nedovoljan \u2013 1 (insufficient - fail). The minimum passing grade is dovoljan \u2013 2."
                                         }
                                     }
                                 }
@@ -1257,7 +1257,7 @@
                                         "gradingScheme": {
                                             "id": "urn:epass:scoringschemespec:14",
                                             "title": "General grading scheme in Croatia",
-                                            "description1": "The Croatian national grading scheme consists of five grades with numerical equivalents: izvrstan \u2013 5 (outstanding); vrlo dobar \u2013 4 (very good); dobar \u2013 3 (good); dovoljan \u2013 2 (sufficient); nedovoljan \u2013 1 (insufficient - fail). The minimum passing grade is dovoljan \u2013 2."
+                                            "definition": "The Croatian national grading scheme consists of five grades with numerical equivalents: izvrstan \u2013 5 (outstanding); vrlo dobar \u2013 4 (very good); dobar \u2013 3 (good); dovoljan \u2013 2 (sufficient); nedovoljan \u2013 1 (insufficient - fail). The minimum passing grade is dovoljan \u2013 2."
                                         }
                                     }
                                 }
@@ -1321,7 +1321,7 @@
                                         "gradingScheme": {
                                             "id": "urn:epass:scoringschemespec:15",
                                             "title": "General grading scheme in Croatia",
-                                            "description1": "The Croatian national grading scheme consists of five grades with numerical equivalents: izvrstan \u2013 5 (outstanding); vrlo dobar \u2013 4 (very good); dobar \u2013 3 (good); dovoljan \u2013 2 (sufficient); nedovoljan \u2013 1 (insufficient - fail). The minimum passing grade is dovoljan \u2013 2."
+                                            "definition": "The Croatian national grading scheme consists of five grades with numerical equivalents: izvrstan \u2013 5 (outstanding); vrlo dobar \u2013 4 (very good); dobar \u2013 3 (good); dovoljan \u2013 2 (sufficient); nedovoljan \u2013 1 (insufficient - fail). The minimum passing grade is dovoljan \u2013 2."
                                         }
                                     }
                                 }
@@ -1385,7 +1385,7 @@
                                         "gradingScheme": {
                                             "id": "urn:epass:scoringschemespec:16",
                                             "title": "General grading scheme in Croatia",
-                                            "description1": "The Croatian national grading scheme consists of five grades with numerical equivalents: izvrstan \u2013 5 (outstanding); vrlo dobar \u2013 4 (very good); dobar \u2013 3 (good); dovoljan \u2013 2 (sufficient); nedovoljan \u2013 1 (insufficient - fail). The minimum passing grade is dovoljan \u2013 2."
+                                            "definition": "The Croatian national grading scheme consists of five grades with numerical equivalents: izvrstan \u2013 5 (outstanding); vrlo dobar \u2013 4 (very good); dobar \u2013 3 (good); dovoljan \u2013 2 (sufficient); nedovoljan \u2013 1 (insufficient - fail). The minimum passing grade is dovoljan \u2013 2."
                                         }
                                     }
                                 }
@@ -1449,7 +1449,7 @@
                                         "gradingScheme": {
                                             "id": "urn:epass:scoringschemespec:17",
                                             "title": "General grading scheme in Croatia",
-                                            "description1": "The Croatian national grading scheme consists of five grades with numerical equivalents: izvrstan \u2013 5 (outstanding); vrlo dobar \u2013 4 (very good); dobar \u2013 3 (good); dovoljan \u2013 2 (sufficient); nedovoljan \u2013 1 (insufficient - fail). The minimum passing grade is dovoljan \u2013 2."
+                                            "definition": "The Croatian national grading scheme consists of five grades with numerical equivalents: izvrstan \u2013 5 (outstanding); vrlo dobar \u2013 4 (very good); dobar \u2013 3 (good); dovoljan \u2013 2 (sufficient); nedovoljan \u2013 1 (insufficient - fail). The minimum passing grade is dovoljan \u2013 2."
                                         }
                                     }
                                 }
@@ -1513,7 +1513,7 @@
                                         "gradingScheme": {
                                             "id": "urn:epass:scoringschemespec:18",
                                             "title": "General grading scheme in Croatia",
-                                            "description1": "The Croatian national grading scheme consists of five grades with numerical equivalents: izvrstan \u2013 5 (outstanding); vrlo dobar \u2013 4 (very good); dobar \u2013 3 (good); dovoljan \u2013 2 (sufficient); nedovoljan \u2013 1 (insufficient - fail). The minimum passing grade is dovoljan \u2013 2."
+                                            "definition": "The Croatian national grading scheme consists of five grades with numerical equivalents: izvrstan \u2013 5 (outstanding); vrlo dobar \u2013 4 (very good); dobar \u2013 3 (good); dovoljan \u2013 2 (sufficient); nedovoljan \u2013 1 (insufficient - fail). The minimum passing grade is dovoljan \u2013 2."
                                         }
                                     }
                                 }
@@ -1577,7 +1577,7 @@
                                         "gradingScheme": {
                                             "id": "urn:epass:scoringschemespec:19",
                                             "title": "General grading scheme in Croatia",
-                                            "description1": "The Croatian national grading scheme consists of five grades with numerical equivalents: izvrstan \u2013 5 (outstanding); vrlo dobar \u2013 4 (very good); dobar \u2013 3 (good); dovoljan \u2013 2 (sufficient); nedovoljan \u2013 1 (insufficient - fail). The minimum passing grade is dovoljan \u2013 2."
+                                            "definition": "The Croatian national grading scheme consists of five grades with numerical equivalents: izvrstan \u2013 5 (outstanding); vrlo dobar \u2013 4 (very good); dobar \u2013 3 (good); dovoljan \u2013 2 (sufficient); nedovoljan \u2013 1 (insufficient - fail). The minimum passing grade is dovoljan \u2013 2."
                                         }
                                     }
                                 }
@@ -1641,7 +1641,7 @@
                                         "gradingScheme": {
                                             "id": "urn:epass:scoringschemespec:20",
                                             "title": "General grading scheme in Croatia",
-                                            "description1": "The Croatian national grading scheme consists of five grades with numerical equivalents: izvrstan \u2013 5 (outstanding); vrlo dobar \u2013 4 (very good); dobar \u2013 3 (good); dovoljan \u2013 2 (sufficient); nedovoljan \u2013 1 (insufficient - fail). The minimum passing grade is dovoljan \u2013 2."
+                                            "definition": "The Croatian national grading scheme consists of five grades with numerical equivalents: izvrstan \u2013 5 (outstanding); vrlo dobar \u2013 4 (very good); dobar \u2013 3 (good); dovoljan \u2013 2 (sufficient); nedovoljan \u2013 1 (insufficient - fail). The minimum passing grade is dovoljan \u2013 2."
                                         }
                                     }
                                 }
@@ -1689,7 +1689,7 @@
                 "entitlesTo": [{
                     "id": "urn:epass:entitlement:1",
                     "title": "Postgraduate doctoral study",
-                    "description1": "Competences the student acquires after the completion of Graduate university study are sufficient conditions for attending the programme of Postgraduate doctoral study at the Faculty of Civil Engineering, Architecture and Geodesy in Split, as well as for attending the same or similar programmes and Postgraduate specialist studies at other faculties of Civil Engineering in Croatia. The acquired learning outcomes enable the student to attend other postgraduate study programmes in the field of technical sciences. ",
+                    "definition": "Competences the student acquires after the completion of Graduate university study are sufficient conditions for attending the programme of Postgraduate doctoral study at the Faculty of Civil Engineering, Architecture and Geodesy in Split, as well as for attending the same or similar programmes and Postgraduate specialist studies at other faculties of Civil Engineering in Croatia. The acquired learning outcomes enable the student to attend other postgraduate study programmes in the field of technical sciences. ",
                     "issuedDate": "2019-09-20",
                     "specifiedBy": {
                         "id": "urn:epass:entitlementspec:1",
@@ -2113,7 +2113,7 @@
         "entitledTo": [{
             "id": "urn:epass:entitlement:1",
             "title": "Postgraduate doctoral study",
-            "description1": "Competences the student acquires after the completion of Graduate university study are sufficient conditions for attending the programme of Postgraduate doctoral study at the Faculty of Civil Engineering, Architecture and Geodesy in Split, as well as for attending the same or similar programmes and Postgraduate specialist studies at other faculties of Civil Engineering in Croatia. The acquired learning outcomes enable the student to attend other postgraduate study programmes in the field of technical sciences. ",
+            "definition": "Competences the student acquires after the completion of Graduate university study are sufficient conditions for attending the programme of Postgraduate doctoral study at the Faculty of Civil Engineering, Architecture and Geodesy in Split, as well as for attending the same or similar programmes and Postgraduate specialist studies at other faculties of Civil Engineering in Croatia. The acquired learning outcomes enable the student to attend other postgraduate study programmes in the field of technical sciences. ",
             "issuedDate": "2019-09-20",
             "specifiedBy": {
                 "id": "urn:epass:entitlementspec:1",

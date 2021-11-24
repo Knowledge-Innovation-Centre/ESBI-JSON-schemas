@@ -290,7 +290,7 @@
                     "description": "Defines a legible, descriptive name for the learning outcome",
                     "type": "string"
                 },
-                "description1": {
+                "definition": {
                     "description": "Defines a free text describing the learning outcome. A detailed learning outcome may include a description of what the student can do as a result of learning, with an indication of the level of achievement, and the conditions or context under which this can be performed (if applicable).",
                     "type": "string"
                 },
@@ -353,7 +353,7 @@
                     "type": "array",
                     "items": {"type": "string"}
                 },
-                "description1": {
+                "definition": {
                     "description": "Defines a free text description of the learning activity specification.",
                     "type": "string"
                 },
@@ -455,7 +455,7 @@
                     "description": "Defines the title of the learning activity.",
                     "type": "string"
                 },
-                "description1": {
+                "definition": {
                     "description": "Defines a free text description of the learning activity",
                     "type": "string"
                 },
@@ -545,7 +545,7 @@
                     "type": "array",
                     "items": {"type": "string"}
                 },
-                "description1": {
+                "definition": {
                     "description": "Defines free text description of the assessment specification",
                     "type": "string"
                 },
@@ -639,7 +639,7 @@
                     "description": "Defines the title of the assessment.",
                     "type": "string"
                 },
-                "description1": {
+                "definition": {
                     "description": "Includes the description of the assessment",
                     "type": "string"
                 },
@@ -728,7 +728,7 @@
                     "type": "array",
                     "items": {"$ref": "#/$defs/resultCategory"}
                 },
-                "description1": {
+                "definition": {
                     "description": " Includes a free text description of the histogram",
                     "type": "string"
                 }
@@ -786,7 +786,7 @@
                     "description": "Defines the title of the scoring scheme.",
                     "type": "string"
                 },
-                "description1": {
+                "definition": {
                     "description": "Includes a free text describing the scoring scheme",
                     "type": "string"
                 },
@@ -823,7 +823,7 @@
                     "description": "The title of the achievement",
                     "type": "string"
                 },
-                "description1": {
+                "definition": {
                     "description": " Includes a description of the achievement",
                     "type": "string"
                 },
@@ -910,7 +910,7 @@
                         ]
                     }
                 },
-                "description1": {
+                "definition": {
                     "description": "A description of the awarding process to the individual",
                     "type": "string"
                 },
@@ -1016,7 +1016,7 @@
                     "description": "Defines the title of the entitlement.",
                     "type": "string"
                 },
-                "description1": {
+                "definition": {
                     "description": " Includes a free text description of the specific rights the holder of the credential has acquired",
                     "type": "string"
                 },
@@ -1083,7 +1083,7 @@
                     "type": "array",
                     "items": {"type": "string"}
                 },
-                "description1": {
+                "definition": {
                     "description": "A free text description of the entitlement specification",
                     "type": "array",
                     "items": {
