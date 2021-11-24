@@ -135,7 +135,7 @@
                     }
                 },
                 "educationSubject": {
-                    "description": "An associated field of education from another semantic framework than the ISCED classification. Association EducationSubject  (URI)",
+                    "description": "An associated field of education from another semantic framework than the ISCED classification. Association EducationSubject  (URI",
                     "type": "array",
                     "items": {
                         "type": "string",
