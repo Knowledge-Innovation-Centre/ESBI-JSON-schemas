@@ -1699,7 +1699,7 @@
                         "limitJurisdiction": ["http://publications.europa.eu/resource/authority/country/HRV"]
                     }
                 }],
-                "specifiedBy": {
+                "specifiedBy": [{
                     "id": "urn:epass:qualification:20",
                     "title": "Master of Science in Civil Engineering",
                     "volumeOfLearning": "PT1440H",
@@ -1709,7 +1709,7 @@
                     "isPartialQualification": false,
                     "eqfLevel": "http://data.europa.eu/snb/eqf/5",
                     "nqfLevel": "http://data.europa.eu/snb/qdr/c_dcc9aca1"
-                }
+                }]
             }
         ],
         "performed": [
