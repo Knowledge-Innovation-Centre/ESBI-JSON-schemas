@@ -3,10 +3,8 @@
     "title": "EBSI Legal Entity Verifiable ID",
     "description": "Schema of an EBSI Verifiable ID for an organization-legal entity participating in the educational use cases",
     "type": "object",
-    "allOf": [
-        {"$ref": "../ebsi-attestation/ebsi-vAttestation-Generic-schema-proposal-01.json#"},
-        {
-            "properties": {
+    "allOf": [{"$ref": "../ebsi-attestation/ebsi-vAttestation-Generic-schema-proposal-01.json#"}],
+         "properties": {
                 "credentialSubject": {
                     "description": "Defines information about the subject that is described by the Verifiable ID",
                     "type": "object",
@@ -71,9 +69,8 @@
                         "legalName"
                     ]
                 }
-            }
-        }
-    ],
+            },
+   
     "$defs": {
         "identifier1": {
             "description": "Defines an alternative Identifier object ",

@@ -12,11 +12,10 @@
                 "format": "uri"
             }
         },
-        "credentialSubject": {"$ref": "/verifiableDiploma_generated-schema"},
+        "credentialSubject": { "anyOf": [{"$ref": "/verifiableAttestation_IndividualID"}, {"$ref": "/verifiableAttestation_OrganisationalID"}]},
         "id": {
             "description": "Defines a unique identifier of the Verifiable attestation",
-            "type": "string",
-            "format": "uri"
+            "type": "string"
         },
         "authorizationClaims": {
             "description": "Defines a list of claims that define/determine the authorization of an Issuer to issue certain types of VCs. Mandatory",

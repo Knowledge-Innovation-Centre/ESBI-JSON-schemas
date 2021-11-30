@@ -3,9 +3,8 @@
     "title": "EBSI Natural Person Verifiable ID",
     "description": "Schema of an EBSI Verifiable ID for a natural person participating in the educational use cases ",
     "type": "object",
-    "allOf": [
-        {"$ref": "../ebsi-attestation/ebsi-vAttestation-Generic-schema-proposal-01.json#"},
-        {
+    "allOf": [{"$ref": "../ebsi-attestation/ebsi-vAttestation-Generic-schema-proposal-01.json#"} ],
+       
             "properties": {
                 "credentialSubject": {
                     "description": "Defines additional properties on credentialSubject to describe IDs that do not have a substantial level of assurance.",
@@ -61,9 +60,9 @@
                     },
                     "required": [ "id" ]
                 }
-            }
-        }
-    ],
+            },
+        
+  
     "$defs": {
         "identifier1": {
             "description": "Defines an alternative Identifier object ",
