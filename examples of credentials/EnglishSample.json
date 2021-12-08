@@ -21,10 +21,10 @@
 				"value":  "123456"
 			}],
 			"title": "TITLE OF PROGRAMME",
-			"specifiedBy": {
+			"specifiedBy": [{
 				"id": "urn:epass:qualification:1",
 				"title": "Title of Achievement"
-			},
+			}],
 			"wasInfluencedBy": [{
 				"id": "urn:epass:activity:1",
 				"title": "Coursework",
