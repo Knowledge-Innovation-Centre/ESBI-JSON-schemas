@@ -1,67 +1,71 @@
 {
-	"@context": [
-		"https://www.w3.org/2018/credentials/v1",
-		"https://essif.europa.eu/schemas/vc/2020/v1"
-	],
-	
-	"type": [
-		"VerifiableCredential",
-		"VerifiableAttestation",
-		"Europass"
-	],
-	"id": "did:ebsi-eth:00000001/credentials/1872",
-	"issuer": "did:ebsi:00000001",
-	"issuanceDate": "2019-06-22T14:11:44Z",
-	"credentialSubject": {
-		"id": "did:essif:123121",
-		"achieved": [{
-			"id": "urn:epass:learningAchievement:1",
-			"identifier": [{
-				"schemeID": "Certificate ID",
-				"value": "1234567"
-			}],
-			"title": "Degree in Biology",
-			"specifiedBy": {
-				"id": "urn:epass:qualification:1",
-				"title": "Degree in Biology",
-				"eqfLevel": "http://data.europa.eu/snb/eqf/7"
-			},
-			"wasAwardedBy": {
-				"id": "urn:epass:awardingProcess:1",
-				"awardingBody": ["did:ebsi:00000001"],
-				"awardingLocation": ["urn:epass:location:4"],
-				"awardingDate": "2005-06-22T00:00:00Z"
-			}
-		}]
-	},
-	"credentialStatus": {
-		"id": "https://essif.europa.eu/status/43",
-		"type": "CredentialsStatusList2020"
-	},
-	"credentialSchema": {
-		"id": "https://essif.europa.eu/tsr-123/verifiableattestation.json",
-		"type": "JsonSchemaValidator2018"
-	},
-	"evidence": {
-		"id": "https://essif.europa.eu/evidence/f2aeec97-fc0d-42bf-8ca7-0548192d4231",
-		"type": [
-			"DocumentVerification, Assessment"
-		],
-		"verifier": "https:// essif.europa.eu /issuers/48",
-		"evidenceDocument": [
-			"Passport",
-			"Assessment"
-		]
-	},
-	"proof": {
-		"type": "EcdsaSecp256k1Signature2019",
-		"created": "2019-06-22T14:11:44Z",
-		"proofPurpose": "assertionMethod",
-		"verificationMethod": {
-			"type": "EidasCertificate2019",
-			"CertSerial": "1088321447"
-		},
-		"jws": "eyJhbGciOiJSUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..TCYt5X",
-		"proofValue": "BD21J4fdlnBvBA+y6D...fnC8Y="
-	}
+    "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://essif.europa.eu/schemas/vc/2020/v1"
+    ],
+    "credentialSchema": {
+        "id": "https://essif.europa.eu/tsr-123/verifiableattestation.json",
+        "type": "TrustedJsonSchemaValidator2021"
+    },
+    "credentialStatus": {
+        "id": "https://essif.europa.eu/status/43",
+        "type": "CredentialsStatusList2020"
+    },
+    "credentialSubject": {
+        "achieved": [
+            {
+                "id": "urn:epass:learningAchievement:1",
+                "identifier": [
+                    {
+                        "schemeID": "Certificate ID",
+                        "value": "1234567"
+                    }
+                ],
+                "specifiedBy": [
+                    {
+                        "eqfLevel": "http://data.europa.eu/snb/eqf/7",
+                        "id": "urn:epass:qualification:1",
+                        "title": "Degree in Biology"
+                    }
+                ],
+                "title": "Degree in Biology",
+                "wasAwardedBy": {
+                    "awardingBody": ["did:ebsi:00000001"],
+                    "awardingDate": "2005-06-22T00:00:00Z",
+                    "awardingLocation": ["urn:epass:location:4"],
+                    "id": "urn:epass:awardingProcess:1"
+                }
+            }
+        ],
+        "id": "did:epass:person:1"
+    },
+    "evidence": {
+        "evidenceDocument": [
+            "Passport",
+            "Assessment"
+        ],
+        "id": "https://essif.europa.eu/evidence/f2aeec97-fc0d-42bf-8ca7-0548192d4231",
+        "type": ["DocumentVerification, Assessment"],
+        "verifier": "https:// essif.europa.eu /issuers/48"
+    },
+    "id": "urn:credential:5a4d5412-27e3-4540-a5e5-f1aa4d55b20c",
+    "issuanceDate": "2020-07-20T13:58:53+02:00",
+    "issuer": "did:epass:org:1",
+    "proof": {
+        "created": "2019-06-22T14:11:44Z",
+        "jws": "eyJhbGciOiJSUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..TCYt5X",
+        "proofPurpose": "assertionMethod",
+        "proofValue": "BD21J4fdlnBvBA+y6D...fnC8Y=",
+        "type": "EcdsaSecp256k1Signature2019",
+        "verificationMethod": {
+            "CertSerial": "1088321447",
+            "type": "EidasCertificate2019"
+        }
+    },
+    "type": [
+        "VerifiableCredential",
+        "VerifiableAttestation",
+        "Europass"
+    ],
+    "validFrom": "2019-09-20T00:00:00+02:00"
 }
