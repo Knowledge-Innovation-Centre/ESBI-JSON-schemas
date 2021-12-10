@@ -1,11 +1,11 @@
 {
   "$schema": "http://json-schema.org/draft/2020-12/schema",
-  "title": "ESBI  Education Accreditation Records",
-  "description": "ESBI Accreditation record schema for educational contexts",
+  "title": "ESBI Education Verifiable Accreditation records",
+  "description": "ESBI Education Verifiable Accreditation record schema for educational contexts",
   "type": "object",
   "allOf": [
     {
-      "$ref": "../ebsi-attestation/ebsi-vAttestation-Generic-schema-proposal-01.json"
+      "$ref": "https://api.preprod.ebsi.eu/trusted-schemas-registry/v1/schemas/0x14b05b9213dbe7d343ec1fe1d3c8c739a3f3dc5a59bae55eb38fa0c295124f49#"
     },
     {
       "properties": {

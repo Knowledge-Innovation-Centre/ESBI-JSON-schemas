@@ -3,8 +3,9 @@
     "title": "EBSI Natural Person Verifiable ID",
     "description": "Schema of an EBSI Verifiable ID for a natural person participating in the educational use cases ",
     "type": "object",
-    "allOf": [{"$ref": "../ebsi-attestation/ebsi-vAttestation-Generic-schema-proposal-01.json#"} ],
-       
+    "allOf": [
+        {"$ref": "../ebsi-attestation/ebsi-vAttestation-Generic-schema-proposal-01.json#"} ,
+        {
             "properties": {
                 "credentialSubject": {
                     "description": "Defines additional properties on credentialSubject to describe IDs that do not have a substantial level of assurance.",
@@ -17,11 +18,7 @@
                         "identifier": {
                             "description": "Defines an alternative identifier for the person ",
                             "type": "array",
-                            "items": {
-                                "anyOf": [
-                                    {"$ref": "#/$defs/identifier1"}
-                                ]
-                            }
+                            "items": {"$ref": "#/$defs/identifier"}
                         },
                         "familyName": {
                             "description": "Defines current family name(s) of the credential subject",
@@ -60,15 +57,15 @@
                     },
                     "required": [ "id" ]
                 }
-            },
-        
-  
+            }
+        }
+    ],
     "$defs": {
-        "identifier1": {
+        "identifier": {
             "description": "Defines an alternative Identifier object ",
             "type": "object",
             "properties": {
-                "schemaID": {
+                "schemeID": {
                     "description": "Defines the schema used to define alternative identification",
                     "type": "string"
                 },
@@ -83,7 +80,7 @@
                 }
             },
             "required": [
-                "schemaID",
+                "schemeID",
                 "value"
             ]
         }
