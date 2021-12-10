@@ -14,9 +14,7 @@
     "validFrom": "2021-03-24T00:00:00+01:00",
     "credentialSubject": {
         "id": "did:epass:person:1",
-        "familyName": "Cruz Argudo",
-        "firstName": "Francisco",
-        "dateOfBirth": "1967-07-13",
+        
         "achieved": [
             {
                 "id": "urn:epass:learningAchievement:1",
