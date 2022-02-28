@@ -8,18 +8,22 @@
         "VerifiableAttestation",
         "DiplomaCredential"
     ],
+    "id": "did:ebsi-eth:00000001/credentials/2072",
     "issuer": "did:ebsi:zuoS6VfnmNLduF2dynhsjBU",
     "issuanceDate": "2021-10-17T12:50:56Z",
     "validFrom": "2021-10-17T12:50:56Z",
     "credentialSubject": {
         "id": "did:key:z6MkqyYXcBQZ5hZ9BFHBiVnmrZ1C1HCpesgZQoTdgjLdU6Ah",
-        "type": ["Student"],
-        "achieved": {
+      "identifier": [{
+			"schemeID": "Student identification number",
+			"value": 66009900
+		}],
+        "achieved": [{
             "id": "urn:epass:learningAchievement:1",
             "title": "Master of Science",
             "dateOfAchievement": "2021-03-18T00:00:00.000Z",
             "EQF Level": "http://data.europa.eu/snb/eqf/7"
-        }
+        }]
     },
     "proof": {
         "type": "EcdsaSecp256k1Signature2019",
