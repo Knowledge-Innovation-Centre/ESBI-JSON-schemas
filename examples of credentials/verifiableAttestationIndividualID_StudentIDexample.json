@@ -1,4 +1,5 @@
-{
+
+	{
    "@context": [
      "https://www.w3.org/2018/credentials/v1",
      "https:/.europa.eu/schemas/v-id/2020/v1",
@@ -10,12 +11,16 @@
      "VerifiableAttestation"
    ],
    "issuer": "did:ebsi:2757945549477fc571663bee12042873fe555b674bd294a3",
-   "issuanceDate": "2019-03-22T14:11:44Z",
-   "validFrom": "2019-03-22T14:11:44Z",
+   "issuanceDate": "2019-06-22T14:11:44Z",
+   "validFrom": "2019-06-22T14:11:44Z",
    "credentialSubject": {
      "id": "did:ebsi:2659b154a445434a39d91149ead3bd993cb99fd5e78281b7",
-     
-     "legalName": "Berlin Charlottenburg High School"
+     "Identifier": [ {
+        "schemaID" : "European Student Identifier",
+        "value" : "urn:schac:personalUniqueCode:int:esi:math.example.edu:xxxxxxxxxx",
+        "id" : "urn:schac:personalUniqueCode:int:esi:math.example.edu:xxxxxxxxxx"
+        }
+        ]
    },
    "credentialStatus": {
      "id": "https:/.europa.eu/status/identity#verifiableID#1dee355d-0432-4910-ac9c-70d89e8d674e",
