@@ -403,16 +403,14 @@
                             }
                         ]
                     }
-                ]
-            },
-            "entitlesTo":
-               [{
-               "id": "urn:entitlement:ID1",
-               "title": " German International Abitur",
-               "definition": " The owner achieved a Higher Education Entrace Qualification for admission to Higher Education instititutions",
-               "issuedDate": "2020-06-24" 
-               }] 
-              
+                ],
+                "entitlesTo": [{
+                    "id": "urn:entitlement:ID1",
+                    "title": "Passed the German International Abitur",
+                     "definition": " The owner completed the Higher Education Entrace Qualification for admission to Higher Education instititutions",
+                     "issuedDate": "2020-06-24"
+                }]
+            }
         ]
     },
     "credentialStatus": {
