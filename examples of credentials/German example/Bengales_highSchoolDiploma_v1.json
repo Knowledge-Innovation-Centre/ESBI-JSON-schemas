@@ -32,6 +32,15 @@
                         "title": "Overall Qualification Q+A ",
                         "additionalNote": ["overallPointsof36semesters 456 + overallPointsoffinalExamination 123 = totalPointsofQualification 579"],
                         "grade": "2.1",
+                        "specifiedBy": {
+                            "id": "urn:epass:asssessmentspec:1",
+                            "title": "Overall Diploma Assessment",
+                            "gradingScheme": {
+                                "id": "urn:epass:scoringschemespec:1",
+                                "title": "Grading scheme in Germany",
+                                "definition": "The Germany national grading scheme for High school consists of  six grade levels with\n                                    numerical equivalents: sehr gut \u2013 1 (very good); gut \u2013 2 (good);\n                                    befriedigend \u2013 3 (satisfatory); ausrcichend \u2013 4 (addequate);\n                                    mangelhalft  \u2013 5 (unsatisfactory- fail); ungenügend \u2013 6\n                                    (insufficient- fail). The minimum passing grade is ausrcichend \u2013\n                                    4. /n Equivalents in points: 15, 14, 13 \u2013 1 (very good); 12, 11,\n                                    10 \u2013 2 (good); 09, 08, 07\u2013 3 (satisfatory); 06, 05, 04\u2013 4\n                                    (addequate); 03, 02, 01\u2013 5 (unsatisfactory- fail); 0\u2013 6\n                                    (insufficient- fail)."
+                            }
+                        },
                         "hasPart": [
                             {
                                 "id": "urn:epass:assessment:2",
@@ -404,12 +413,28 @@
                         ]
                     }
                 ],
-                "entitlesTo": [{
-                    "id": "urn:entitlement:ID1",
-                    "title": "Passed the German International Abitur",
-                     "definition": " The owner completed the Higher Education Entrace Qualification for admission to Higher Education instititutions",
-                     "issuedDate": "2020-06-24"
-                }]
+                "entitlesTo": [
+                    {
+                        "id": "urn:entitlement:ID1",
+                        "title": "Passed the German International Abitur",
+                        "definition": " The owner completed the Higher Education Entrace Qualification for admission to Higher Education instititutions",
+                        "issuedDate": "2020-06-24"
+                    }
+                ],
+                "specifiedBy": [
+                    {
+                        "id": "urn:epass:qualification:1",
+                        "title": "German International Abitur",
+                        "volumeOfLearning": "PT1440H- to update",
+                        "creditPoints": ["TO UPDATE WITH NUMBERi if any"],
+                        "educationLevel": "URI? ISCED code 444 Sufficient for level completion, with direct access to tertiary education",
+                        "maximumDuration": "P21M?",
+                        "entryRequirementsNote": "TO UPDATE-The minimum educational requirement for enrolment into ",
+                        "isPartialQualification": true,
+                        "eqfLevel": "http://data.europa.eu/snb/eqf/4",
+                        "nqfLevel": "http://data.europa.eu/snb/qdr/c_bd9f8e42"
+                    }
+                ]
             }
         ]
     },
