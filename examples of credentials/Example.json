@@ -509,16 +509,5 @@
   "credentialSchema": {
     "id": "https://uri.to.schema",
     "type": "FullJsonSchemaValidator2021"
-  },
-    "proof": {
-        "type": "EcdsaSecp256k1Signature2019",
-        "created": "2019-06-22T14:11:44Z",
-        "proofPurpose": "assertionMethod",
-        "verificationMethod": {
-            "type": "EidasCertificate2019",
-            "CertSerial": "1088321447"
-        },
-        "jws": "eyJhbGciOiJSUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..TCYt5X",
-        "proofValue": "BD21J4fdlnBvBA+y6D...fnC8Y="
-    }
+  }
 }
