@@ -11,7 +11,8 @@
 	"id": "urn:credential:5a4d5412-27e3-4540-a5e5-f1aa4d55b20c",
 	"issuer": "did:epass:org:1",
 	"issuanceDate": "2020-07-20T13:58:53+02:00",
-	"validFrom": "2019-09-20T00:00:00+02:00",
+  "issued": "2020-07-20T13:58:53+02:00",
+  "validFrom": "2019-09-20T00:00:00+02:00",
 	"credentialSubject": {
 		"id": "did:epass:person:1",
 		"achieved": [{
@@ -28,18 +29,18 @@
 			"wasInfluencedBy": [{
 				"id": "urn:epass:activity:1",
 				"title": "Coursework",
-				"startedAtTime": "2020-07-10 15:00:00.000",
-				"endedAtTime": "2020-09-20 15:00:00.000"
+				"startedAtTime": "2020-07-10T15:00:00Z",
+				"endedAtTime": "2020-09-20T15:00:00Z"
 			}]
 		}]
 		},
 		"credentialStatus": {
-			"id": "https://<uri-to-status>",
-			"type": "TrustedCredentialStatus2021"
+			"id": "https://essif.europa.eu/status/43",
+			"type": "CredentialsStatusList2020"
 		},
 		"credentialSchema": {
-			"id": "https://<uri-to-schema>",
-			"type": "TrustedJsonSchemaValidator2021"
+			"id": "https://api.preprod.ebsi.eu/trusted-schemas-registry/v1/schemas/0x928c0ebb5cfc72c70e1273812eb16f67fa492c52ac9c6330f5e94374d2f48502",
+			"type": "FullJsonSchemaValidator2021"
 		},
 		"proof": {
 			"type": "EcdsaSecp256k1Signature2019",
