@@ -11,7 +11,8 @@
     "id": "urn:credential:5a4d5412-27e3-4540-a5e5-f1aa4d55c40d",
     "issuer": "did:epass:org:1",
     "issuanceDate": "2021-03-25T08:21:42+01:00",
-    "validFrom": "2021-03-24T00:00:00+01:00",
+      "issued": "2021-03-25T08:21:42+01:00",
+  "validFrom": "2021-03-24T00:00:00+01:00",
     "credentialSubject": {
         "id": "did:epass:person:1",
         "identifier": [
@@ -57,15 +58,15 @@
         ]
     },
     "credentialStatus": {
-        "id": "https://<uri-to-status>",
-        "type": "TrustedCredentialStatus2021"
+        "id": "https://example.eu",
+        "type": "FullCredentialStatus2021"
     },
     "credentialSchema": {
-        "id": "https://<uri-to-schema>",
-        "type": "TrustedJsonSchemaValidator2021"
+        "id": "https://api.preprod.ebsi.eu/trusted-schemas-registry/v1/schemas/0x6b304591b86b7e5e4c8a713ddfb84ee5810a56334827adda4e741f80b9aa49ed",
+        "type": "FullJsonSchemaValidator2021"
     },
      "proof": {
-        "type": "EcdsaSecp256k1Signature2019",
+        "type": "FullJsonSchemaValidator2021"
         "created": "2021-03-24T00:00:00+01:00",
         "proofPurpose": "assertionMethod",
         "verificationMethod": {
