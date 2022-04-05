@@ -1,0 +1,346 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Schema title",
+    "description": "Description of the schema",
+    "type": "object",
+    "properties": {
+       "id": "did:ebsi:2659b154a445434a39d91149ead3bd993cb99fd5e78281g9",
+       "identifier":
+       [ {
+        "schemaID" : "European Student Identifier",
+        "value" : "urn:schac:personalUniqueCode:int:esi:math.example.edu:xxxxxxxxxx",
+        "id" : "urn:schac:personalUniqueCode:int:esi:math.example.edu:xxxxxxxxxx"
+        }
+        ],
+    
+        "achieved": [ 
+         {
+                "id": "urn:epass:learningAchievement:1",
+                "title": "Higher  Education Entrance Qualification - German International ABITUR School",
+                "wasDerivedFrom": [
+                    {
+                        "id": "urn:epass:assessment:1",
+                        "title": "Overall Qualification Q+A ",
+                        "additionalNote": ["overallPointsof36semesters 456 + overallPointsoffinalExamination 123 = totalPointsofQualification 579"],
+                       "grade":"2.1",
+                        "specifiedBy": {
+                            "id": "urn:epass:asssessmentspec:1",
+                            "title": "Overall Qualification Assessment",
+                            "gradingScheme": {
+                                "id": "urn:epass:scoringschemespec:1",
+                                "title": "General grading scheme in Germany",
+                                "definition": "The German national grading scheme consists of ???five grades with numerical equivalents: izvrstan \u2013 5 (outstanding); vrlo dobar \u2013 4 (very good); dobar \u2013 3 (good); dovoljan \u2013 2 (sufficient); nedovoljan \u2013 1 (insufficient - fail). The minimum passing grade is dovoljan \u2013 2."
+                            },
+                       "hasPart": [
+                       {
+                        "id": "urn:epass:assessment:2",
+                        "title": " Qualification Phase (Q) results",
+                        "additionalNote": ["overallPointsof36semesters 456"],
+                       "grade":"456"},
+                        {
+                        "id": "urn:epass:assessment:3",
+                        "title": "Final Examination results (A)",
+                        "additionalNote": [" overallPointsoffinalExamination 123"],
+                       "grade":"123"}
+                       ]
+                    }
+                   
+                ],
+           
+            "hasPart": [
+                {
+                "id": "achievement:ID",
+                "title": "German",
+                "additionalNote": [" ISCED 0232: Literature and linguistics. Currently no specific code for native language(?) (Aktuell kein spezifischer code für Muttersprache(?))"],
+                "wasDerivedFrom": [ { "id": "assessment#ID11",
+                                        "title": "German semester 1",
+                                        "grade": "15",
+                                        "issuedDate": "2019-06-22"},
+                                        
+                                       { "id": "assessment#ID21",
+                                        "title": "German semester 2",
+                                        "grade": "14",
+                                        "issuedDate": "2019-11-22"},
+                                       
+                                       { "id": "assessment#ID31",
+                                        "title": "German semester 3",
+                                        "grade": "13",
+                                        "issuedDate": "2020-06-22"},
+                                        
+                                        { "id": "assessment#ID41",
+                                        "title": "German semester 4",
+                                        "grade": "12",
+                                        "issuedDate": "2020-11-22"}
+                                      ]
+                                        },
+                {
+                "id": "achievement:ID2",
+                "title": "English",
+                "additionalNote": [" ISCED 0232: Literature and linguistics. Currently no specific code for native language(?) (Aktuell kein spezifischer code für Muttersprache(?))"],
+                "wasDerivedFrom": [ { "id": "assessment#ID12",
+                                        "title": "English semester 1",
+                                        "grade": "11",
+                                        "issuedDate": "2019-06-22"},
+                                        
+                                       { "id": "assessment#ID22",
+                                        "title": "English semester 2",
+                                        "grade": "10",
+                                        "issuedDate": "2019-11-22"},
+                                       
+                                       { "id": "assessment#ID32",
+                                        "title": "English semester 3",
+                                        "grade": "12",
+                                        "issuedDate": "2020-06-22"},
+                                        
+                                        { "id": "assessment#ID42",
+                                        "title": "English semester 4",
+                                        "grade": "13",
+                                        "issuedDate": "2020-11-22"}
+                                      ]
+                                        },
+                                        
+                   {
+                "id": "achievement:ID3",
+                "title": "Art",
+                "additionalNote": [" ISCED 0232: Literature and linguistics. Currently no specific code for native language(?) (Aktuell kein spezifischer code für Muttersprache(?))"],
+                "wasDerivedFrom": [ { "id": "assessment#ID13",
+                                        "title": "Art semester 1",
+                                        "grade": "11",
+                                        "issuedDate": "2019-06-22"},
+                                        
+                                       { "id": "assessment#ID23",
+                                        "title": "Art semester 2",
+                                        "grade": "11",
+                                        "issuedDate": "2019-11-22"},
+                                       
+                                       { "id": "assessment#ID33",
+                                        "title": "Art semester 3",
+                                        "grade": "11",
+                                        "issuedDate": "2020-06-22"},
+                                        
+                                        { "id": "assessment#ID43",
+                                        "title": "Art semester 4",
+                                        "grade": "11",
+                                        "issuedDate": "2020-11-22"}
+                                      ]
+                                        },                      
+                                         {
+                "id": "achievement:ID4",
+                "title": "History",
+                "additionalNote": [" ISCED 0232: Literature and linguistics. Currently no specific code for native language(?) (Aktuell kein spezifischer code für Muttersprache(?))"],
+                "wasDerivedFrom": [ { "id": "assessment#ID14",
+                                        "title": "History semester 1",
+                                        "grade": "12",
+                                        "issuedDate": "2019-06-22"},
+                                        
+                                       { "id": "assessment#ID24",
+                                        "title": "History semester 2",
+                                        "grade": "12",
+                                        "issuedDate": "2019-11-22"},
+                                       
+                                       { "id": "assessment#ID34",
+                                        "title": "History semester 3",
+                                        "grade": "12",
+                                        "issuedDate": "2020-06-22"},
+                                        
+                                        { "id": "assessment#ID44",
+                                        "title": "History semester 4",
+                                        "grade": "12",
+                                        "issuedDate": "2020-11-22"}
+                                      ]
+                                        },
+                                        {
+                "id": "achievement:ID5",
+                "title": "Religion",
+                "additionalNote": [" ISCED 0232: Literature and linguistics. Currently no specific code for native language(?) (Aktuell kein spezifischer code für Muttersprache(?))"],
+                "wasDerivedFrom": [ { "id": "assessment#ID15",
+                                        "title": "Religion semester 1",
+                                        "grade": "14",
+                                        "issuedDate": "2019-06-22"},
+                                        
+                                       { "id": "assessment#ID25",
+                                        "title": "Religion semester 2",
+                                        "grade": "14",
+                                        "issuedDate": "2019-11-22"},
+                                       
+                                       { "id": "assessment#ID35",
+                                        "title": "Religion semester 3",
+                                        "grade": "13",
+                                        "issuedDate": "2020-06-22"},
+                                        
+                                        { "id": "assessment#ID45",
+                                        "title": "Religion semester 4",
+                                        "grade": "12",
+                                        "issuedDate": "2020-11-22"}
+                                      ]
+                                        },
+                   {
+                "id": "achievement:ID6",
+                "title": "Mathematics",
+                "additionalNote": [" ISCED 0500 - Natural sciences, mathematics and statisticsn.f.d. "],
+                "wasDerivedFrom": [ { "id": "assessment#ID16",
+                                        "title": "Mathematics semester 1",
+                                        "grade": "14",
+                                        "issuedDate": "2019-06-22"},
+                                        
+                                       { "id": "assessment#ID26",
+                                        "title": "Mathematics semester 2",
+                                        "grade": "13",
+                                        "issuedDate": "2019-11-22"},
+                                       
+                                       { "id": "assessment#ID36",
+                                        "title": "Mathematics semester 3",
+                                        "grade": "12",
+                                        "issuedDate": "2020-06-22"},
+                                        
+                                        { "id": "assessment#ID46",
+                                        "title": "Mathematics semester 4",
+                                        "grade": "11",
+                                        "issuedDate": "2020-11-22"}
+                                      ]
+                                        },
+                                         {
+                "id": "achievement:ID7",
+                "title": "Physics",
+                "additionalNote": [" ISCED 0500 - Natural sciences, mathematics and statisticsn.f.d. "],
+                "wasDerivedFrom": [ { "id": "assessment#ID17",
+                                        "title": "Physics semester 1",
+                                        "grade": "13",
+                                        "issuedDate": "2019-06-22"},
+                                        
+                                       { "id": "assessment#ID27",
+                                        "title": "Physics semester 2",
+                                        "grade": "12",
+                                        "issuedDate": "2019-11-22"},
+                                       
+                                       { "id": "assessment#ID37",
+                                        "title": "Physics semester 3",
+                                        "grade": "11",
+                                        "issuedDate": "2020-06-22"},
+                                        
+                                        { "id": "assessment#ID47",
+                                        "title": "Physics semester 4",
+                                        "grade": "10",
+                                        "issuedDate": "2020-11-22"}
+                                      ]
+                                        }, 
+                                        {
+                "id": "achievement:ID8",
+                "title": "Biology",
+                "additionalNote": [" ISCED 0500 - Natural sciences, mathematics and statisticsn.f.d. "],
+                "wasDerivedFrom": [ { "id": "assessment#ID18",
+                                        "title": "Biology semester 1",
+                                        "grade": "10",
+                                        "issuedDate": "2019-06-22"},
+                                        
+                                       { "id": "assessment#ID28",
+                                        "title": "Biology semester 2",
+                                        "grade": "10",
+                                        "issuedDate": "2019-11-22"},
+                                       
+                                       { "id": "assessment#ID38",
+                                        "title": "Biology semester 3",
+                                        "grade": "10",
+                                        "issuedDate": "2020-06-22"},
+                                        
+                                        { "id": "assessment#ID48",
+                                        "title": "Biology semester 4",
+                                        "grade": "10",
+                                        "issuedDate": "2020-11-22"}
+                                      ]
+                                        },
+                {
+                "id": "achievement:ID9",
+                "title": "Chemestry",
+                "additionalNote": [" ISCED 00531 - Chemistry"],
+                "wasDerivedFrom": [ { "id": "assessment#ID19",
+                                        "title": "Chemestry semester 1",
+                                        "grade": "9",
+                                        "issuedDate": "2019-06-22"},
+                                        
+                                       { "id": "assessment#ID29",
+                                        "title": "Chemestry semester 2",
+                                        "grade": "9",
+                                        "issuedDate": "2019-11-22"}
+                                      ]
+                                        },
+                                        {
+                "id": "achievement:ID10",
+                "title": "Physical Education",
+                "additionalNote": [" ISCED 0500 - Natural sciences, mathematics and statisticsn.f.d. "],
+                "wasDerivedFrom": [ { "id": "assessment#ID19",
+                                        "title": "Physical Education semester 1",
+                                        "grade": "10",
+                                        "issuedDate": "2019-06-22"},
+                                        
+                                       { "id": "assessment#ID29",
+                                        "title": "Physical Education semester 2",
+                                        "grade": "9",
+                                        "issuedDate": "2019-11-22"},
+                                       
+                                       { "id": "assessment#ID39",
+                                        "title": "Physical Education semester 3",
+                                        "grade": "11",
+                                        "issuedDate": "2020-06-22"},
+                                        
+                                        { "id": "assessment#ID49",
+                                        "title": "Physical Education semester 4",
+                                        "grade": "10",
+                                        "issuedDate": "2020-11-22"}
+                                      ]
+                                        },
+                                        {
+                "id": "achievement:ID11",
+                "title": "Mathematics",
+                "additionalNote": [" ISCED 0500 - Natural sciences, mathematics and statisticsn.f.d. "],
+                "wasDerivedFrom": [ { "id": "assessment#ID111",
+                                        "title": "Mathematics written examen ",
+                                        "grade": "14",
+                                        "issuedDate": "2020-06-22"},
+                                        
+                                       { "id": "assessment#ID211",
+                                        "title": "Mathematics oral exam",
+                                        "grade": "11",
+                                        "issuedDate": "2020-06-22"}
+                                      ]
+                                        },
+                                        {
+                "id": "achievement:ID12",
+                "title": "Physics",
+                "additionalNote": [" ISCED 0500 - Natural sciences, mathematics and statisticsn.f.d. "],
+                "wasDerivedFrom": [ { "id": "assessment#ID112",
+                                        "title": "Physics written examen ",
+                                        "grade": "14",
+                                        "issuedDate": "2020-06-22"}
+                                      ]
+                                        },
+                                      {
+                "id": "achievement:ID13",
+                "title": "English",
+                "additionalNote": [" ISCED 0023 - Languages "],
+                "wasDerivedFrom": [ { "id": "assessment#ID113",
+                                        "title": "English proficiency ",
+                                        "grade": "C1"}
+                                      ]
+                                        }, 
+                                       {
+                "id": "achievement:ID14",
+                "title": "English",
+                "additionalNote": [" ISCED 0023 - Languages "],
+                "wasDerivedFrom": [ { "id": "assessment#ID114",
+                                        "title": "French proficiency ",
+                                        "grade": "B1/B2"}
+                                      ]
+                                        }  
+                                     
+                                        ],
+               "entitlesTo": [{ 
+               "id": "urn:entitlement:ID1",
+               "title": "Passed the German International Abitur",
+               "definition": " The owner completed the Higher Education Entrace Qualification for admission to Higher Education instititutions",
+               "issuedDate": "2020-06-24"
+                 
+               }] 
+               
+    }
+}

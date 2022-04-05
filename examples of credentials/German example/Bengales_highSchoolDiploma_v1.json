@@ -61,6 +61,7 @@
                     {
                         "id": "achievement:ID",
                         "title": "German",
+                        "definition": "Individual results achieved during the Qualilification phase Q",
                         "additionalNote": [" ISCED 0232: Literature and linguistics. Currently no specific code for native language(?) (Aktuell kein spezifischer code für Muttersprache(?))"],
                         "wasDerivedFrom": [
                             {
@@ -92,6 +93,7 @@
                     {
                         "id": "achievement:ID2",
                         "title": "English",
+                        "definition": "Individual results achieved during the Qualilification phase Q",
                         "additionalNote": [" ISCED 0232: Literature and linguistics. Currently no specific code for native language(?) (Aktuell kein spezifischer code für Muttersprache(?))"],
                         "wasDerivedFrom": [
                             {
@@ -123,6 +125,7 @@
                     {
                         "id": "achievement:ID3",
                         "title": "Art",
+                        "definition": "Individual results achieved during the Qualilification phase Q",
                         "additionalNote": [" ISCED 0232: Literature and linguistics. Currently no specific code for native language(?) (Aktuell kein spezifischer code für Muttersprache(?))"],
                         "wasDerivedFrom": [
                             {
@@ -154,6 +157,7 @@
                     {
                         "id": "achievement:ID4",
                         "title": "History",
+                        "definition": "Individual results achieved during the Qualilification phase Q",
                         "additionalNote": [" ISCED 0232: Literature and linguistics. Currently no specific code for native language(?) (Aktuell kein spezifischer code für Muttersprache(?))"],
                         "wasDerivedFrom": [
                             {
@@ -185,6 +189,7 @@
                     {
                         "id": "achievement:ID5",
                         "title": "Religion",
+                        "definition": "Individual results achieved during the Qualilification phase Q",
                         "additionalNote": [" ISCED 0232: Literature and linguistics. Currently no specific code for native language(?) (Aktuell kein spezifischer code für Muttersprache(?))"],
                         "wasDerivedFrom": [
                             {
@@ -216,6 +221,7 @@
                     {
                         "id": "achievement:ID6",
                         "title": "Mathematics",
+                        "definition": "Individual results achieved during the Qualilification phase Q",
                         "additionalNote": [" ISCED 0500 - Natural sciences, mathematics and statisticsn.f.d. "],
                         "wasDerivedFrom": [
                             {
@@ -247,6 +253,7 @@
                     {
                         "id": "achievement:ID7",
                         "title": "Physics",
+                        "definition": "Individual results achieved during the Qualilification phase Q",
                         "additionalNote": [" ISCED 0500 - Natural sciences, mathematics and statisticsn.f.d. "],
                         "wasDerivedFrom": [
                             {
@@ -278,6 +285,7 @@
                     {
                         "id": "achievement:ID8",
                         "title": "Biology",
+                        "definition": "Individual results achieved during the Qualilification phase Q",
                         "additionalNote": [" ISCED 0500 - Natural sciences, mathematics and statisticsn.f.d. "],
                         "wasDerivedFrom": [
                             {
@@ -309,6 +317,7 @@
                     {
                         "id": "achievement:ID9",
                         "title": "Chemestry",
+                        "definition": "Individual results achieved during the Qualilification phase Q",
                         "additionalNote": [" ISCED 00531 - Chemistry"],
                         "wasDerivedFrom": [
                             {
@@ -328,6 +337,7 @@
                     {
                         "id": "achievement:ID10",
                         "title": "Physical Education",
+                        "definition": "Individual results achieved during the Qualilification phase Q",
                         "additionalNote": [" ISCED 0500 - Natural sciences, mathematics and statisticsn.f.d. "],
                         "wasDerivedFrom": [
                             {
@@ -359,6 +369,7 @@
                     {
                         "id": "achievement:ID11",
                         "title": "Mathematics",
+                        "definition": "Results in the final examination A",
                         "additionalNote": [" ISCED 0500 - Natural sciences, mathematics and statisticsn.f.d. "],
                         "wasDerivedFrom": [
                             {
@@ -378,6 +389,7 @@
                     {
                         "id": "achievement:ID12",
                         "title": "Physics",
+                        "definition": "Results in the final examination A",
                         "additionalNote": [" ISCED 0500 - Natural sciences, mathematics and statisticsn.f.d. "],
                         "wasDerivedFrom": [
                             {
@@ -391,6 +403,7 @@
                     {
                         "id": "achievement:ID13",
                         "title": "English",
+                        "definition": "Results for Foreign languages",
                         "additionalNote": [" ISCED 0023 - Languages "],
                         "wasDerivedFrom": [
                             {
@@ -402,13 +415,40 @@
                     },
                     {
                         "id": "achievement:ID14",
-                        "title": "English",
+                        "title": "French",
+                        "definition": "Results for Foreign languages",
                         "additionalNote": [" ISCED 0023 - Languages "],
                         "wasDerivedFrom": [
                             {
                                 "id": "assessment#ID114",
                                 "title": "French proficiency ",
                                 "grade": "B1/B2"
+                            }
+                        ]
+                    },
+                     {
+                        "id": "achievement:ID15",
+                        "title": "French",
+                        "definition": "Results for Subject tauch bilingually",
+                        "additionalNote": [" ISCED 0023 - Languages "],
+                        "wasDerivedFrom": [
+                            {
+                                "id": "assessment#ID115",
+                                "title": " ",
+                                "grade": ""
+                            }
+                        ]
+                    },
+                     {
+                        "id": "achievement:ID16",
+                        "title": "Graduation work",
+                        "definition": "Results for Foreign languages",
+                        "additionalNote": [" Topic:  Test work for Digital Zertificates"],
+                        "wasDerivedFrom": [
+                            {
+                                "id": "assessment#ID116",
+                                "title": " ",
+                                "grade": ""
                             }
                         ]
                     }

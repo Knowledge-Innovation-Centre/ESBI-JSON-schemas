@@ -1,0 +1,8 @@
+{
+    "awardingProcess": {
+        "id": "urn:epass:awardingProcess:1",
+        "awardingBody": "urn:epass:org:1",
+        "comment": "awardingBody is an array of one 1 object",
+        "awardingDate": "2021-03-24T00:00:00+01:00"
+    }
+}

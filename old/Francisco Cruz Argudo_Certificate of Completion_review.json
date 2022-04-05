@@ -1,0 +1,82 @@
+{
+    "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://base.uri.europass/contexts/v1"
+    ],
+    "type": [
+        "VerifiableCredential",
+        "VerifiableAttestation",
+        "Europass"
+    ],
+    "id": "urn:credential:5a4d5412-27e3-4540-a5e5-f1aa4d55c40d",
+    "issuer": "did:epass:org:1",
+    "issuanceDate": "2021-03-25T08:21:42+01:00",
+    "validFrom": "2021-03-24T00:00:00+01:00",
+    "credentialSubject": {
+        "id": "did:epass:person:1",
+        "identifier": [
+            {
+                "schemeID": "Student identification number",
+                "value": 99009900
+            }
+        ],
+     "comments_start": "here- Those are the initial values but we should use the alternative id above to link it to a verifiableAttestation for Individual", 
+     "familyName": "Cruz Argudo",
+     "firstName": "Francisco",
+      "dateOfBirth": "1967-07-13",
+      "comments_ends": "here", 
+      
+      "achieved": [
+            {
+                "id": "urn:epass:learningAchievement:1",
+                "title": "Certificate of Completion",
+                "definition": "has attended the Europass Digital Credentials Live Webinar",
+                "wasInfluencedBy": [
+                    {"id": "urn:epass:activity:1",
+                     "title": "Watching presentations and EDC demo during the webinar",
+                        "workload": "PT1H",
+                        "startedAtTime": "2021-03-24T00:00:00+01:00",
+                        "endedAtTime": "2021-03-24T00:00:00+01:00",
+                        "directedBy": ["did:epass:org:1" ],
+                         "specifiedBy": {
+                            "id": "urn:epass:learningactivityspec:1",
+                            "title": "Watching presentations and EDC demo during the webinar",
+                            "learningActivityType": ["http://data.europa.eu/snb/learning-activity/efff75e10a"],
+                            "workload": "PT1H",
+                            "language": ["http://publications.europa.eu/resource/authority/language/ENG"],
+                            "mode":["http://data.europa.eu/snb/learning-assessment/920fbb3cbe"],
+                            "learningSetting": "http://data.europa.eu/snb/learning-setting/e207a81fc7"
+                             }
+                    }
+                ],
+                 "wasAwardedBy": {
+                    "id": "urn:epass:awardingProcess:1",
+                    "awardingBody": ["urn:epass:org:1"],
+                    "awardingDate": "2021-03-24T00:00:00+01:00"
+                }
+                
+               
+                
+            }
+        ]
+    },
+    "credentialStatus": {
+        "id": "https://<uri-to-status>",
+        "type": "TrustedCredentialStatus2021"
+    },
+    "credentialSchema": {
+        "id": "https://<uri-to-schema>",
+        "type": "TrustedJsonSchemaValidator2021"
+    },
+     "proof": {
+        "type": "EcdsaSecp256k1Signature2019",
+        "created": "2021-03-24T00:00:00+01:00",
+        "proofPurpose": "assertionMethod",
+        "verificationMethod": {
+            "type": "EidasCertificate2019",
+            "CertSerial": "1088321449"
+        },
+        "jws": "eyJhbGciOiJSUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..TCYt5X",
+        "proofValue": "BD21J4fdlnBvBA+y6D...fnC8Y="
+    }
+}

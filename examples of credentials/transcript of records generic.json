@@ -1,0 +1,98 @@
+{
+	"@context": [
+		"https://www.w3.org/2018/credentials/v1",
+		"https://base.uri.europass/contexts/v1"
+	],
+	"type": [
+		"VerifiableCredential",
+		"VerifiableAttestation",
+		"Europass"
+	],
+	"id": "urn:credential:5a4d5412-27e3-4540-a5e5-f1aa4d55b20c",
+	"issuer": "did:epass:org:1",
+	"issuanceDate": "2020-07-20T13:58:53+02:00",
+	"validFrom": "2019-09-20T00:00:00+02:00",
+	"credentialSubject": {
+		"id": "did:epass:person:1",
+		"identifier": [{
+			"schemeID": "Student identification number",
+			"value": 99009900
+		}],
+		"achieved": [{
+			"id": "urn:epass:learningAchievement:1",
+			"title": "TITLE OF PROGRAMME",
+			"identifier": {
+				"schemeID": "Certificate ID",
+				"value": "1234567"
+			},
+			"wasDerivedFrom": {
+				"id": "urn:epass:assessment:1",
+				"title": "Overall Diploma Assessment",
+				"grade": "excellent (5)"
+			},
+			"specifiedBy": {
+				"id": "urn:epass:qualification:1",
+				"title": "Title of Achievement",
+				"volumeOfLearning": "30",
+				"ECTSCreditPoints": "1"
+			},
+			"wasInfluencedBy": {
+				"id": "urn:epass:activity:1",
+				"title": "Coursework",
+				"startedAtTime": "2020-07-10 15:00:00.000",
+				"endedAtTime": "2020-09-20 15:00:00.000"
+			},
+			"hasPart": {
+				"learningAchievements": [
+					{
+						"id": "urn:epass:learningAchievement:2",
+						"title": "Topic #1",
+						"wasDerivedFrom": [{
+							"id": "urn:epass:assessment:2",
+							"title": "Topic 1 assessment",
+							"grade": "85%"
+						}],
+						"specifiedBy": {
+							"id": "urn:epass:qualification:2",
+							"title": "Topic #1",
+							"volumeOfLearning": "5"
+						}
+					},
+					{
+						"id": "urn:epass:learningAchievement:3",
+						"title": "Topic #2",
+						"wasDerivedFrom": [{
+							"id": "urn:epass:assessment:3",
+							"title": "Topic 2 assessment",
+							"grade": "85%"
+						}],
+						"specifiedBy": {
+							"id": "urn:epass:qualification:3",
+							"title": "Topic #2",
+							"volumeOfLearning": "5"
+						}
+					}
+				]
+			}
+		}],
+		"credentialStatus": {
+			"id": "https://<uri-to-status>",
+			"type": "TrustedCredentialStatus2021"
+		},
+		"credentialSchema": {
+			"id": "https://<uri-to-schema>",
+			"type": "TrustedJsonSchemaValidator2021"
+		},
+		"proof": {
+			"type": "EcdsaSecp256k1Signature2019",
+			"created": "2019-06-22T14:11:44Z",
+			"proofPurpose": "assertionMethod",
+			"verificationMethod": {
+				"type": "EidasCertificate2019",
+				"CertSerial": "1088321447"
+			},
+			"jws": "eyJhbGciOiJSUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..TCYt5X",
+			"proofValue": "BD21J4fdlnBvBA+y6D...fnC8Y="
+		}
+	}
+}
