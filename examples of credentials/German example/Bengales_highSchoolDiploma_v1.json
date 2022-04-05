@@ -26,6 +26,7 @@
             {
                 "id": "urn:epass:learningAchievement:1",
                 "title": "Higher  Education Entrance Qualification - German International ABITUR School",
+                "definition":" Here you can add the type of qualification provided by specific HEI which uses this certification",
                 "wasDerivedFrom": [
                     {
                         "id": "urn:epass:assessment:1",
