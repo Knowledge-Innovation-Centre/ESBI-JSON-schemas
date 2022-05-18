@@ -1708,8 +1708,8 @@
                     "maximumDuration": "P21M",
                     "entryRequirementsNote": "The minimum educational requirement for enrolment into graduate university programmes is the completion of an undergraduate university programme. The university can allow students who have completed a professional programme to also enrol graduate university programmes, but they are allowed to set special requirements in these cases.\nThe minimum educational requirement for enrolment into specialist graduate professional programmes is the completion of an undergraduate university programme or a professional programme (first cycle).",
                     "isPartialQualification": false,
-                    "eqfLevel": "http://data.europa.eu/snb/eqf/5",
-                    "nqfLevel": "http://data.europa.eu/snb/qdr/c_dcc9aca1"
+                    "eqfLevel": "http://data.europa.eu/snb/eqf/4",
+                    "nqfLevel": "http://data.europa.eu/snb/qdr/c_bd9f8e42"
                 }]
             }
         ],
