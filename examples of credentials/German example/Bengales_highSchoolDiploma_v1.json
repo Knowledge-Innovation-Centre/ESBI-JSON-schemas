@@ -89,7 +89,8 @@
                   "id": "urn:assessment:ID41",
                   "title": "German semester 4",
                   "grade": "12",
-                  "issuedDate": "2020-11-22"
+                  "issuedDate": "2020-11-22",
+                  "additionalNote": ["This assessment does not contribute to the overall qualitification"]
                 }
               ]
             },
